@@ -1,0 +1,31 @@
+lastAccountName: THEricoZENEK
+socialspy: false
+timestamps:
+  login: 1588615807097
+  logout: 1588622492305
+  lastteleport: 1588620753163
+  kits:
+    starter: 1588620629403
+ipAddress: 194.152.47.9
+lastlocation:
+  world: world
+  x: 6.817712833988399
+  y: 64.0
+  z: 520.5325413030105
+  yaw: -81.293465
+  pitch: 8.249798
+logoutlocation:
+  world: world
+  x: 6.161434607064847
+  y: 64.0
+  z: 527.424969760305
+  yaw: -2.5431008
+  pitch: 75.89978
+homes:
+  home:
+    world: world
+    x: 2111.5
+    y: 73.0
+    z: -4766.5
+    yaw: 80.77835
+    pitch: 0.0

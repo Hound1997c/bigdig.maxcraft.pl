@@ -1,0 +1,34 @@
+lastAccountName: TheNitroPower
+socialspy: false
+timestamps:
+  login: 1588803194890
+  lastteleport: 1588790819701
+  logout: 1588803997679
+  kits:
+    graczplus: 1588274920295
+    starter: 1587485091874
+    narzedzia: 1587560054440
+    provip: 1588780099579
+    jedzenie: 1588782559500
+    vip: 1587561524971
+    elitevip: 1588780088076
+    tools: 1587390885593
+  lastheal: 1587411386530
+ipAddress: 83.26.154.33
+lastlocation:
+  world: world
+  x: -2792.375131603312
+  y: 69.0
+  z: 3569.5116641381182
+  yaw: 8.849426
+  pitch: 15.300031
+logoutlocation:
+  world: world
+  x: 12.147144535365994
+  y: 69.11035031413297
+  z: 566.5408039453713
+  yaw: -332.9134
+  pitch: 28.181286
+nickname: §9§lNitroPower
+afk: false
+godmode: false

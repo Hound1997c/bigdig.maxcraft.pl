@@ -1,0 +1,21 @@
+lastAccountName: atori
+timestamps:
+  login: 1588422635222
+  lastteleport: 1588422615480
+  logout: 1588422692009
+socialspy: false
+ipAddress: 109.231.49.76
+lastlocation:
+  world: world
+  x: -11.237037472488172
+  y: 66.0
+  z: 689.6048379320074
+  yaw: -222.59412
+  pitch: 24.599794
+logoutlocation:
+  world: world
+  x: 5.5
+  y: 65.0
+  z: 528.5
+  yaw: 92.40695
+  pitch: 17.399998

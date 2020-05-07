@@ -1,0 +1,20 @@
+lastAccountName: zebra_com
+timestamps:
+  login: 1587152411118
+  logout: 1587152424992
+ipAddress: 5.184.124.219
+socialspy: false
+lastlocation:
+  world: world
+  x: -51.5
+  y: 67.0
+  z: 43.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 27.346678043548014
+  y: 67.0
+  z: 504.4775817147739
+  yaw: -87.60114
+  pitch: 18.450394

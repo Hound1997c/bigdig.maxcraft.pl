@@ -1,0 +1,31 @@
+socialspy: false
+lastAccountName: Lenka1113
+timestamps:
+  login: 1588775698823
+  logout: 1588775715121
+  lastteleport: 1588678516103
+  kits:
+    jedzenie: 1588601891885
+ipAddress: 89.67.22.66
+lastlocation:
+  world: world
+  x: -2019.7914381535159
+  y: 75.0
+  z: 4760.2022873516125
+  yaw: 308.9729
+  pitch: 19.199944
+logoutlocation:
+  world: world
+  x: -2001.2762552240818
+  y: 80.0
+  z: 4736.460095531537
+  yaw: 36.725185
+  pitch: 21.15007
+homes:
+  home:
+    world: world
+    x: 962.6048710951754
+    y: 70.0
+    z: -2531.3928963861854
+    yaw: 182.40967
+    pitch: 7.799945

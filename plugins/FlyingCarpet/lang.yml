@@ -1,0 +1,30 @@
+message:
+  reload: '&7The flying carpet config has been reloaded'
+  carpet-on: '&7Your flying carpet has been toggled &a&lOn'
+  carpet-off: '&7Your flying carpet has been toggled &c&lOff'
+  tools-on: '&7Tools for your flying carpet has been toggled &a&lOn'
+  tools-off: '&7Tools for your flying carpet has been toggled &c&lOff'
+  light-on: '&7Light for your flying carpet has been toggled &a&lOn'
+  light-off: '&7Light for your flying carpet has been toggled &c&lOff'
+  teleport-remove: '&cYour carpet has been removed because you teleported'
+  region-remove: '&7Your flying carpet has been toggled &c&lOff &7as you entered a
+    no-fly zone'
+  wg:
+    add: '&7Added the region &6%region% &7to the no-fly zone'
+    remove: '&7Removed the region &6%region% &7from the no-fly zones'
+    list-header: '&6Blacklisted WorldGuard regions:'
+    list-line: '&7- %region%'
+    list-none: '&cThere are no blacklisted WorldGuard regions'
+error:
+  nocarpet-region: '&4Error > &cYou cannot use your carpet in this area'
+  must-be-player: '&4Error > &cYou must be a player to run this command'
+  no-permissions:
+    carpet: '&4Error > &cYou do not have permission to use a flying carpet'
+    tools: '&4Error > &cYou do not have permission to use tools on your flying carpet'
+    light: '&4Error > &cYou do not have permission to use a light on your flying carpet'
+    reload: '&4Error > &cYou do not have permission to reload the flying carpet config'
+    worldguard: '&4Error > &cYou do not have permission to manage blacklisted WorldGuard
+      regions'
+  invalid-arguments: '&4Invalid Arguments > &c%valid%'
+  worldguard-not-hooked: '&4Error > &cWorldGuard is not currently hooked'
+  region-blocked: '&4Error > &cYou can not use your carpet in this area'

@@ -1,0 +1,20 @@
+socialspy: false
+lastAccountName: odmi123456789
+timestamps:
+  login: 1588084501842
+  logout: 1588084631990
+ipAddress: 5.172.239.99
+lastlocation:
+  world: world
+  x: -51.5
+  y: 67.0
+  z: 43.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -4214.605210376414
+  y: 61.0
+  z: -1343.7748353708444
+  yaw: 314.5557
+  pitch: 12.986522

@@ -1,0 +1,24 @@
+lastAccountName: antonnnyyy
+timestamps:
+  login: 1588164870443
+  lastteleport: 1588107148719
+  logout: 1588167616680
+  kits:
+    starter: 1588105980786
+    narzedzia: 1588106013883
+ipAddress: 92.14.23.142
+socialspy: false
+lastlocation:
+  world: world
+  x: 5.551753738826874
+  y: 65.0
+  z: 528.2869661929418
+  yaw: -130.19408
+  pitch: 51.29985
+logoutlocation:
+  world: world
+  x: -3006.525480024023
+  y: 64.0
+  z: 3134.868440831603
+  yaw: -75.507904
+  pitch: 2.8496413

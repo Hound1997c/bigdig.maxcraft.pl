@@ -1,0 +1,24 @@
+lastAccountName: VikinQ3
+socialspy: false
+timestamps:
+  login: 1587818032745
+  logout: 1587818085425
+  kits:
+    starter: 1587750392220
+    narzedzia: 1587751522449
+  lastteleport: 1587751528754
+ipAddress: 95.40.222.135
+lastlocation:
+  world: world
+  x: 5.513295089031924
+  y: 65.0
+  z: 528.5280735967704
+  yaw: -101.105934
+  pitch: 9.775551
+logoutlocation:
+  world: world
+  x: -857.5618535747911
+  y: 61.0
+  z: -4393.480068401466
+  yaw: 102.008835
+  pitch: 89.99999

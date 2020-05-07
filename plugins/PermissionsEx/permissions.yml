@@ -1,0 +1,376 @@
+groups:
+  member:
+    options:
+      default: true
+      prefix: '&2[Gracz]&7'
+    permissions:
+    - realcigaret.use
+    - chestcommands.open.startmenu.yml
+    - chestcommands.open.pomocwalka.yml
+    - chestcommands.open.pomocfrakcje.yml
+    - chestcommands.open.pomocmarry.yml
+    - chestcommands.open.pomocvip.yml
+    - chestcommands.open.pomocdrop.yml
+    - chestcommands.open.pomocsklep.yml
+    - essentials.warp.list
+    - warp.list
+    - warp
+    - essentials.help
+    - jobs.item.pickaxe
+    - ChestShop.shop.sell
+    - ChestShop.shop.buy
+    - ChestShop.shop.create
+    - residence.select
+    - essentials.warp.minigames
+    - essentials.warp
+    - essentials.home
+    - essentials.signs.use.*
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - authme.player.*
+    - choptree.chop
+    - iConomy.holdings
+    - iConomy.holdings.others
+    - iConomy.help
+    - iConomy.accounts.create
+    - iConomy.accounts.remove
+    - iConomy.payment
+    - multiverse.access.*
+    - essentials.kit
+    - essentials.kits.narzedzia
+    - essentials.kits.starter
+    - essentials.kits.jedzenie
+    - essentials.spawn
+    - essentials.time
+    - essentials.sethome
+    - essentials.delhome
+    - essentials.back
+    - essentials.msg
+    - mcmmo.defaults
+    - creativegates.use
+    - lwc.protect
+    - residence.create
+    - residence.group.member
+    - wild.wildtp.world.world
+    - silkspawners.place.*
+    - silkspawners.silkdrop.*
+    - mycommand.cmd.vipinfo
+    - mycommand.cmd.provipinfo
+    - mycommand.cmd.supervipinfo
+    - mycommand.cmd.elitevipinfo
+  vip:
+    options:
+      default: false
+      prefix: '&6[VIP]&7'
+    permissions:
+    - skinsrestorer.playercmds
+    - flyingcarpet.use
+    - flyingcarpet.tools
+    - flyingcarpet.light
+    - essentials.chat.color
+    - essentials.chat.format
+    - essentials.chat.magic
+    - essentials.signs.color
+    - essentials.signs.format
+    - essentials.signs.magic
+    - essentials.tpahere
+    - essentials.hat
+    - essentials.back.ondeath
+    - essentials.kits.vip
+    - essentials.enderchest
+    - essentials.workbench
+    - essentials.compass
+    - otherdrops.custom.othervip
+    - essentials.sethome.multiple.vip
+    inheritance:
+    - member
+  supervip:
+    options:
+      default: false
+      prefix: '&6[&eSuper&6VIP]&7'
+    permissions:
+    - essentials.repair
+    - essentials.fix
+    - essentials.kits.supervip
+    - essentials.compass
+    - essentials.sethome.multiple.supervip
+    - essentials.feed
+    - essentials.joinfullserver
+    - essentials.keepexp
+    - residence.group.vip
+    - essentials.fly
+    inheritance:
+    - vip
+  elitevip:
+    options:
+      default: false
+      prefix: '&6[&eElite&5VIP&6]&7'
+    permissions:
+    - essentials.repair.all
+    - essentials.kits.elitevip
+    - essentials.sethome.multiple.elitevip
+    - essentials.spawner
+    - essentials.heal
+    - essentials.near
+    inheritance:
+    - supervip
+  provip:
+    options:
+      default: false
+      prefix: '&6[&dPro&5VIP&6]&7'
+    permissions:
+    - essentials.gamemode.*
+    - essentials.gamemode.creative
+    - essentials.gamemode.survival
+    - essentials.kits.provip
+    - essentials.sethome.multiple.provip
+    - otherdrops.custom.otherprovip
+    - essentials.nick
+    inheritance:
+    - elitevip
+  youtuberjunior:
+    options:
+      default: false
+      prefix: '&f[&0Y&cT &ajunior&f]&7'
+    permissions:
+    - essentials.time.set
+    inheritance:
+    - vip
+  youtuberjuniorplus:
+    options:
+      default: false
+      prefix: '&f[&0Y&cT &ajunior&f]&7'
+    permissions:
+    - essentials.gamemode
+    - essentials.gamemode.creative
+    - essentials.gamemode.survival
+    inheritance:
+    - youtuberjunior
+  youtuber:
+    options:
+      default: false
+      prefix: '&f[&0You&4Tuber&f]&7'
+    inheritance:
+    - elitevip
+  kidmod:
+    options:
+      default: false
+      prefix: '&b&l[&lKidMod]&7'
+    permissions:
+    - essentials.kick
+    - essentials.broadcast
+    - essentials.gamemode.*
+    - essentials.gamemode.creative
+    - essentials.gamemode.survival
+    - essentials.nick
+    - worldguard.notify.*
+    - worldguard.region.*
+    - essentials.invsee
+    - factions.kit.rank1
+    inheritance:
+    - member
+  moderator:
+    options:
+      default: false
+      prefix: '&1&l[Mod]&7'
+    permissions:
+    - chestshop.mod
+    - essentials.mute
+    - essentials.invsee
+    - worldguard.region.bypass.world
+    - worldguard.notify.*
+    - worldguard.region.*
+    - worldedit.*
+    inheritance:
+    - kidmod
+  admin:
+    options:
+      default: false
+      prefix: '&c&l[Admin]&7'
+    permissions:
+    - '*'
+    inheritance:
+    - member
+  Owner:
+    options:
+      default: false
+      prefix: '&4&l[Owner]&7'
+    permissions:
+    - residence.select
+    - '*'
+    inheritance:
+    - provip
+  HeadAdmin:
+    options:
+      default: false
+      prefix: '&4&l[HeadAdmin]&7'
+    permissions:
+    - residence.select
+    - '*'
+    inheritance:
+    - member
+  Hound:
+    options:
+      default: false
+      prefix: '&e[Hound]&7'
+    permissions:
+    - permissions.manage.membership.owner
+    inheritance:
+    - provip
+  kidtech:
+    options:
+      default: false
+      prefix: '&4[&dKid&cTe#]&7'
+    permissions:
+    - residence.select
+    - '*'
+    inheritance:
+    - member
+  user:
+    permissions:
+    - warp
+schema-version: 1
+users:
+  9f34164d-0c1a-417d-90dd-4dccc1eb9845:
+    group:
+    - provip
+    permissions: []
+    options:
+      name: rKainee
+  a7f2b3d1-48c6-3778-9960-0ab4b2292682:
+    group:
+    - admin
+    options:
+      name: AshleyHeinrich
+  ca4fc2f1-f26e-3899-8e1d-42be6ceb7e77:
+    options:
+      name: rasi
+    permissions:
+    - essentials.back
+    - essentials.back.ondeath
+    group:
+    - admin
+    - moderator
+    - provip
+  82c89370-bb85-3a6e-9141-90d78d0406bf:
+    group:
+    - admin
+    options:
+      name: rKainee
+  506837cf-7eb4-3c4f-98d6-8de3e8d17216:
+    group: []
+    options:
+      name: krzys_Koks_951
+  3afa7ea0-3ded-3f4a-92de-b29c44ae658c:
+    group:
+    - admin
+    options:
+      name: TheNitroPower
+    permissions:
+    - essentials.tpa
+    - allow.potion
+    - cc.allow.potion
+  aa077988-653b-37ee-a3a1-8ccac031b639:
+    group:
+    - Owner
+    options:
+      name: Hound1997c
+    permissions:
+    - essentials.tpa
+    - allow.potion
+    - cc.allow.potion
+  7ddb8351-e07e-339b-89b8-824f8607a365:
+    group: []
+    options:
+      name: Dzejkii
+  f7eda7f9-5b1f-3885-9c27-23ff7cbd1af1:
+    group: []
+    options:
+      name: konradziox5
+  1fcf0985-75cc-316d-a33e-1f1ee76b1a5b:
+    group: []
+    options:
+      name: stefek
+  90181a89-a3c4-3980-8bd7-f0b0090cc766:
+    worlds:
+      '''''':
+        group: []
+        options: {}
+      '''''"':
+        group: []
+        options: {}
+    options:
+      name: xxerwoss
+    group: []
+  6fd09caa-9d99-3b52-830a-cd0293a89dd1:
+    group: []
+    options:
+      name: montjaksi
+  3d4c6123-ca3d-3300-a3fc-7d6163dfe18d:
+    worlds:
+      '''''"':
+        group: []
+        options: {}
+    options:
+      name: xxxBlackPearlxxx
+    group: []
+  8b3ced14-78eb-3314-b806-7a68874b4aab:
+    group: []
+    options:
+      name: DamPej
+  9cc773bb-daa1-3fe4-9b4f-05283995a790:
+    group:
+    - Owner
+    options:
+      name: cypo
+  c6f78d81-7723-3e0f-9876-528ddda7c838:
+    group:
+    - provip
+    options:
+      name: RevengerLP
+  c2a283e1-0afe-3172-b5ce-216f7e9bc3c8:
+    group:
+    - youtuber
+    options:
+      name: Kamnikaze
+      group-youtuber-until: '1590959364'
+    permissions: []
+  ec9c6ab3-59b4-3467-aa7a-51d151a11ecf:
+    worlds:
+      '""21600':
+        group:
+        - vip
+    options:
+      name: Domi_Q
+      group-youtuberjuniorplus-until: '1588930290'
+    group:
+    - youtuberjuniorplus
+    - youtuberjunior
+    permissions: []
+  d562191d-bb71-3f54-a7f3-f26cc1900d32:
+    group:
+    - kidmod
+    permissions: []
+    options:
+      name: Kamnipanzer
+  d7718077-874e-3cbf-8cb2-ecad1f464014:
+    group:
+    - supervip
+    options:
+      name: kryha2710
+  2efe6f9d-9f7e-3864-9485-73f881f98c83:
+    options:
+      name: LunaQ
+  1c892666-c973-3cbf-9359-89536f27a48c:
+    options:
+      name: Tylerpider1
+  3259fc42-2a64-3944-99c5-ba3d454bb4d9:
+    options:
+      name: MegaXavi
+  61a8c12f-3b20-3fbf-a495-44b1d0f772d5:
+    options:
+      name: miki
+  a32acf9e-cbd3-3c6f-9974-d34bccb08748:
+    options:
+      name: Miuzore

@@ -1,0 +1,31 @@
+lastAccountName: kooksik0301
+socialspy: false
+timestamps:
+  login: 1587836321682
+  logout: 1587836494017
+  lastteleport: 1587831801441
+  kits:
+    tools: 1587376524013
+ipAddress: 94.240.3.60
+lastlocation:
+  world: world
+  x: 5.513295089031924
+  y: 65.0
+  z: 528.5280735967704
+  yaw: -326.2563
+  pitch: 5.6963058
+logoutlocation:
+  world: world
+  x: 3.1904713198086627
+  y: 64.0
+  z: 497.3593721663773
+  yaw: -296.8685
+  pitch: 8.263314
+homes:
+  home:
+    world: world
+    x: 198.45030481006896
+    y: 26.0
+    z: 1089.7568056049317
+    yaw: 93.35866
+    pitch: 15.191035

@@ -1,0 +1,20 @@
+lastAccountName: '00260'
+timestamps:
+  login: 1587305829456
+  logout: 1587305859546
+ipAddress: 37.120.203.86
+socialspy: false
+lastlocation:
+  world: world
+  x: -51.5
+  y: 67.0
+  z: 43.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -26.004836575291506
+  y: 75.0625
+  z: 528.9275767787607
+  yaw: 269.39832
+  pitch: 44.550526

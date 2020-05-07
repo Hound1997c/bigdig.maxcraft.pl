@@ -1,0 +1,243 @@
+# MobArena v0.98 - Config-file
+# Read the Wiki for details on how to set up this file: http://goo.gl/F5TTc
+# Note: You -must- use spaces instead of tabs!
+global-settings:
+  enabled: true
+  allowed-commands: /list, /pl
+  update-notification: true
+  prefix: '&a[MobArena] '
+classes:
+  Knight:
+    items: iron_sword, potion:8197:3, shield:3
+    armor: 306,307,308,309
+  Tank:
+    items: stone_sword durability:3, potion:8229:2, shield:3
+    armor: 310,311,312,313
+  Archer:
+    items: wood_sword, wood_sword, bow, arrow:256, potion:8197:3, bone
+    armor: 298,299,300,301
+  Chemist:
+    items: stone_sword, potion:16428:30, potion:16388:8, potion:16389:20, potion:8197:3, potion:8226:1
+    armor: 314,315,316,317
+  Oddjob:
+    items: stone_sword, flint_and_steel, netherrack:2, tnt:4, potion:8197:3
+    armor: 298,299,300,301
+  VIP:
+    items: diamond_sword, diamond_axe, bow, arrow:256, potion:8197:3, shield, bone
+    armor: 302 protection:4,303 protection:4,304 protection:4,305 protection:4
+arenas:
+  default:
+    settings:
+      prefix: ''
+      world: world
+      enabled: true
+      protect: true
+      entry-fee: ''
+      default-class: ''
+      clear-wave-before-next: false
+      clear-boss-before-next: false
+      clear-wave-before-boss: false
+      soft-restore: false
+      soft-restore-drops: false
+      require-empty-inv-join: false
+      require-empty-inv-spec: false
+      hellhounds: false
+      pvp-enabled: false
+      monster-infight: false
+      allow-teleporting: false
+      spectate-on-death: true
+      auto-respawn: true
+      share-items-in-arena: true
+      min-players: 0
+      max-players: 0
+      max-join-distance: 0
+      first-wave-delay: 5
+      wave-interval: 15
+      final-wave: 0
+      monster-limit: 100
+      monster-exp: false
+      keep-exp: true
+      food-regen: false
+      lock-food-level: true
+      player-time-in-arena: world
+      auto-ignite-tnt: false
+      auto-start-timer: 0
+      start-delay-timer: 0
+      auto-ready: false
+      use-class-chests: false
+      display-waves-as-level: false
+      display-timer-as-level: false
+      use-scoreboards: true
+      isolated-chat: false
+      global-join-announce: false
+      global-end-announce: false
+      show-death-messages: true
+    waves:
+      recurrent:
+        def1:
+          type: default
+          priority: 1
+          frequency: 1
+          monsters:
+            zombies: 10
+            skeletons: 10
+            spiders: 10
+            creepers: 10
+            wolves: 10
+        spec1:
+          type: special
+          priority: 2
+          frequency: 4
+          monsters:
+            powered-creepers: 10
+            zombie-pigmen: 10
+            angry-wolves: 10
+            blazes: 10
+      single:
+        swarm1:
+          type: swarm
+          wave: 6
+          monster: slime
+          amount: low
+        boss1:
+          type: boss
+          wave: 10
+          monster: cave_spider
+          health: high
+          abilities: arrows, root-target, throw-nearby
+    rewards:
+      waves:
+        every:
+          '3': feather, bone, stick
+          '5': dirt:4, gravel:4, stone:4
+          '10': iron_ingot:10, gold_ingot:8
+        after:
+          '7': minecart, storage_minecart, powered_minecart
+          '13': iron_sword, iron_pickaxe, iron_spade
+          '16': diamond_sword
+    coords:
+      spawnpoints: {}
+      containers: {}
+    class-limits:
+      Oddjob: -1
+      Knight: -1
+      Archer: -1
+      My Items: -1
+      Tank: -1
+      Chemist: -1
+  mobing:
+    settings:
+      prefix: ''
+      world: world
+      enabled: true
+      protect: true
+      entry-fee: ''
+      default-class: knight
+      clear-wave-before-next: false
+      clear-boss-before-next: false
+      clear-wave-before-boss: false
+      soft-restore: false
+      soft-restore-drops: false
+      require-empty-inv-join: false
+      require-empty-inv-spec: false
+      hellhounds: true
+      pvp-enabled: false
+      monster-infight: false
+      allow-teleporting: false
+      spectate-on-death: true
+      auto-respawn: true
+      share-items-in-arena: true
+      min-players: 0
+      max-players: 0
+      max-join-distance: 0
+      first-wave-delay: 5
+      wave-interval: 15
+      final-wave: 0
+      monster-limit: 100
+      monster-exp: true
+      keep-exp: true
+      food-regen: false
+      lock-food-level: true
+      player-time-in-arena: world
+      auto-ignite-tnt: false
+      auto-start-timer: 0
+      start-delay-timer: 0
+      auto-ready: false
+      use-class-chests: false
+      display-waves-as-level: false
+      display-timer-as-level: false
+      use-scoreboards: true
+      isolated-chat: false
+      global-join-announce: false
+      global-end-announce: false
+      show-death-messages: true
+    waves:
+      recurrent:
+        def1:
+          type: default
+          priority: 1
+          frequency: 1
+          monsters:
+            zombies: 10
+            skeletons: 10
+            spiders: 10
+            creepers: 10
+            wolves: 10
+        spec1:
+          type: special
+          priority: 2
+          frequency: 4
+          monsters:
+            powered-creepers: 10
+            zombie-pigmen: 10
+            angry-wolves: 10
+            blazes: 10
+      single:
+        swarm1:
+          type: swarm
+          wave: 6
+          monster: slime
+          amount: low
+        boss1:
+          type: boss
+          wave: 10
+          monster: cave_spider
+          health: high
+          abilities: arrows, root-target, throw-nearby
+    rewards:
+      waves:
+        every:
+          '3': feather, bone, stick
+          '5': grass:4, emerald:1, stone:4
+          '10': iron_ingot:10, gold_ingot:8
+        after:
+          '7': minecart, storage_minecart, powered_minecart
+          '13': iron_sword, iron_pickaxe, iron_spade
+          '16': diamond_sword
+    coords:
+      spawnpoints:
+        s1: -23,233,758,0.0,0.0,world
+        s2: -23,233,778,0.0,0.0,world
+        s3: -3,233,758,0.0,0.0,world
+        s4: -3,233,778,0.0,0.0,world
+        -25,232,756: -24.5,232,756.5,0.0,0.0,world
+        -1,232,756: -0.5,232,756.5,0.0,0.0,world
+        -1,232,780: -0.5,232,780.5,0.0,0.0,world
+        -25,232,780: -24.5,232,780.5,0.0,0.0,world
+        -23,226,756: -22.5,226,756.5,0.0,0.0,world
+      containers: {}
+      p1: -25,231,755,0.0,0.0,world
+      p2: -1,238,780,0.0,0.0,world
+      arena: -13.98,232,768.92,0.0,0.0,world
+      lobby: -24,226,757,0.0,0.0,world
+      spectator: -24.5,240,780.5,-331.79,0.0,world
+      l1: -26,225,755,0.0,0.0,world
+      l2: -17,229,761,0.0,0.0,world
+      exit: 6.5,64,529.5,-102.26,0.0,world
+    class-limits:
+      Oddjob: -1
+      Knight: -1
+      Archer: -1
+      My Items: -1
+      Tank: -1
+      Chemist: -1

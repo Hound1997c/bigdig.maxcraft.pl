@@ -1,0 +1,32 @@
+socialspy: false
+lastAccountName: LunaQ
+timestamps:
+  login: 1588784602383
+  logout: 1588784609098
+  lastteleport: 1588783870668
+  kits:
+    starter: 1588777090004
+    jedzenie: 1588782549752
+ipAddress: 94.42.45.133
+lastlocation:
+  world: world
+  x: 5.551753738826874
+  y: 64.0
+  z: 528.2869661929418
+  yaw: -2.3931007
+  pitch: 76.04978
+logoutlocation:
+  world: world
+  x: 5.551753738826874
+  y: 64.0
+  z: 528.2869661929418
+  yaw: -2.9931011
+  pitch: 72.74976
+homes:
+  home:
+    world: world
+    x: -4264.624164332843
+    y: 70.0
+    z: -2750.669409144533
+    yaw: 77.10162
+    pitch: 39.9001

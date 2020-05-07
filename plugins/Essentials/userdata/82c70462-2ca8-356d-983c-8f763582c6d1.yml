@@ -1,0 +1,21 @@
+lastAccountName: kredka
+timestamps:
+  login: 1588105601495
+  lastteleport: 1588106847112
+  logout: 1588108246798
+ipAddress: 217.96.166.124
+socialspy: false
+lastlocation:
+  world: world
+  x: 16.81072184226921
+  y: 43.0
+  z: 628.9700806461797
+  yaw: 145.85822
+  pitch: 1.7450515
+logoutlocation:
+  world: world
+  x: -18.69999998807907
+  y: 66.0
+  z: 564.0307520187181
+  yaw: 80.92813
+  pitch: 2.425743

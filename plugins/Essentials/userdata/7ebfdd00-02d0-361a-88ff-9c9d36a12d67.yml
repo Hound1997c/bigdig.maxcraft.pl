@@ -1,0 +1,21 @@
+socialspy: false
+lastAccountName: mlode_pierozki
+timestamps:
+  login: 1588158037205
+  lastteleport: 1587982157683
+  logout: 1588158223926
+ipAddress: 31.41.82.68
+lastlocation:
+  world: world
+  x: -3616.858383402292
+  y: 64.0
+  z: -1967.7628485644204
+  yaw: -345.48386
+  pitch: 8.250005
+logoutlocation:
+  world: world
+  x: 101.41295078337629
+  y: 61.0
+  z: 544.393601515065
+  yaw: 181.80359
+  pitch: 25.050005

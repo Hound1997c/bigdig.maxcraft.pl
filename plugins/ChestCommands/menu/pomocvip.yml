@@ -1,0 +1,115 @@
+######################
+#+                  +#
+#   Przydatne Set    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&1pomoc sklep'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'pomoc rangi'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'tell: &eOtworzyles Pomoc Rangi'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+vip-vip:
+  COMMAND: 'vipinfo'
+  NAME: '&6&lVIP'
+  LORE:
+    - 'wszystko o vipie'
+    - 'sprawdzisz tez /vipinfo'
+  ID: 283
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 1
+  POSITION-Y: 1
+vip-svip:
+  COMMAND: 'supervipinfo'
+  NAME: '&e&lSuper&6&lVIP'
+  LORE:
+    - 'wszystko o supervipie'
+    - 'sprawdzisz tez /supervipinfo'
+  ID: 272
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 2
+  POSITION-Y: 1
+vip-evip:
+  COMMAND: 'elitevipinfo'
+  NAME: '&e&lElite&5&lVIP'
+  LORE:
+    - 'wszystko o eliteVipie'
+    - 'sprawdzisz tez /elitevipinfo'
+  ID: 267
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 3
+  POSITION-Y: 1
+vip-provip:
+  COMMAND: 'provipinfo'
+  NAME: '&d&lPRO&5&lVIP'
+  LORE:
+     - 'wszystko o provipie'
+     - 'sprawdzisz tez /provipinfo'
+  ID: 276
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 4
+  POSITION-Y: 1
+
+
+vip-kup:
+  COMMAND: 'tell: &b http://itemshop.pl/784502.html'
+  NAME: '&2&lITEM&l&dSHOP'
+  LORE:
+     - 'wejdz na strone'
+     - 'http://itemshop.pl/784502.html'
+  ID: emerald block
+  POSITION-X: 1
+  POSITION-Y: 3
+vip-taniej:
+  COMMAND: 'buy'
+  NAME: '&aKup taniej'
+  LORE:
+     - 'komenda /buy'
+     - 'podozaj zgodnie z informacjami na ekranie'
+  ID: emerald
+  POSITION-X: 2
+  POSITION-Y: 3
+  
+vip-back:
+  COMMAND: 'open: startmenu.yml'
+  NAME: '&4&lWSTECZ'
+  LORE:
+    - 'do startmenu'
+  ID: wool
+  DATA-VALUE: 14
+  POSITION-X: 8
+  POSITION-Y: 3
+vip-zamknij:
+  NAME: '&4&lWYJDZ'
+  ID: redstone lamp
+  LORE:
+    - 'Zamkniecie menu'
+  POSITION-X: 9
+  POSITION-Y: 3

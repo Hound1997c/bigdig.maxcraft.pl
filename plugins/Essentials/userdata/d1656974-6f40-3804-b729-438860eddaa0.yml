@@ -1,0 +1,23 @@
+lastAccountName: Doknes
+socialspy: false
+timestamps:
+  login: 1588696724400
+  logout: 1588697368899
+  lastteleport: 1588697282413
+  kits:
+    starter: 1588425623391
+ipAddress: 46.186.4.186
+lastlocation:
+  world: world
+  x: 4.774368616371267
+  y: 66.0
+  z: 305.2734319749415
+  yaw: -178.64307
+  pitch: 29.249783
+logoutlocation:
+  world: world
+  x: -65.33726895138653
+  y: 66.0
+  z: 666.855571816123
+  yaw: -57.743187
+  pitch: 28.799774

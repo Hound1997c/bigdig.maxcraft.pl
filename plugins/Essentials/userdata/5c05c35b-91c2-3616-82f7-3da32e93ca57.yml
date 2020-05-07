@@ -1,0 +1,20 @@
+lastAccountName: DomiQ
+socialspy: false
+timestamps:
+  login: 1588694876880
+  logout: 1588694882380
+ipAddress: 83.28.234.48
+lastlocation:
+  world: world
+  x: -51.5
+  y: 67.0
+  z: 43.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 5.5
+  y: 64.0
+  z: 528.5
+  yaw: -1.193106
+  pitch: 2.3997688

@@ -1,0 +1,21 @@
+lastAccountName: BoBek
+timestamps:
+  login: 1587552789483
+  logout: 1587554382061
+  lastteleport: 1587554009556
+socialspy: false
+ipAddress: 176.115.15.103
+lastlocation:
+  world: world
+  x: 573.6999999880791
+  y: 71.0
+  z: 568.3000000119209
+  yaw: -57.635498
+  pitch: 7.2003813
+logoutlocation:
+  world: world
+  x: 380.26151308866815
+  y: 63.0
+  z: 800.2847449678258
+  yaw: 61.67798
+  pitch: 21.599682

@@ -1,0 +1,24 @@
+lastAccountName: Skrzypa99
+timestamps:
+  login: 1588198188094
+  kits:
+    starter: 1588198210973
+    narzedzia: 1588198206672
+  lastteleport: 1588198399715
+  logout: 1588198840776
+ipAddress: 83.11.255.188
+socialspy: false
+lastlocation:
+  world: world
+  x: -3.8850644963574448
+  y: 64.0
+  z: 528.7604189214294
+  yaw: 278.5517
+  pitch: -22.799896
+logoutlocation:
+  world: world
+  x: -70.24263654686631
+  y: 63.0
+  z: 965.6824999315885
+  yaw: -157.95457
+  pitch: 10.199688

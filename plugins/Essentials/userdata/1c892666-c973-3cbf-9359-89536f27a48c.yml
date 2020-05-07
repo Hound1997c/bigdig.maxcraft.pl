@@ -1,0 +1,21 @@
+socialspy: false
+lastAccountName: Tylerpider1
+timestamps:
+  login: 1588783262369
+  lastteleport: 1588784101170
+  logout: 1588784165608
+ipAddress: 84.15.181.36
+lastlocation:
+  world: world
+  x: 7.153821955128827
+  y: 64.0
+  z: 590.5832049411737
+  yaw: -1.4931
+  pitch: 9.600011
+logoutlocation:
+  world: world
+  x: 22.300000011920925
+  y: 64.0
+  z: 545.7747498132461
+  yaw: 339.30734
+  pitch: 15.449832

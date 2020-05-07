@@ -1,0 +1,20 @@
+socialspy: false
+lastAccountName: Poprostuadam
+timestamps:
+  login: 1588772921986
+  logout: 1588773022705
+ipAddress: 185.186.152.80
+lastlocation:
+  world: world
+  x: 8.5
+  y: 64.0
+  z: 525.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 0.7913882224775319
+  y: 64.0
+  z: 730.7569706843755
+  yaw: 11.250634
+  pitch: -66.377304

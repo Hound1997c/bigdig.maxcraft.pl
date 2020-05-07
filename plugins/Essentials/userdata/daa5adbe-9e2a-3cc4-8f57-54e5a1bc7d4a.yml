@@ -1,0 +1,23 @@
+socialspy: false
+lastAccountName: AlFleay
+timestamps:
+  login: 1588758483585
+  kits:
+    starter: 1588758647394
+    jedzenie: 1588758640043
+  logout: 1588758840464
+ipAddress: 5.173.232.149
+lastlocation:
+  world: world
+  x: 1.5
+  y: 64.0
+  z: 523.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -31.62039569847339
+  y: 66.0
+  z: 644.6255866859767
+  yaw: 171.505
+  pitch: 28.199795

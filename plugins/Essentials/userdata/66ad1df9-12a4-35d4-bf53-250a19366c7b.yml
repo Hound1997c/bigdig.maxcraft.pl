@@ -1,0 +1,29 @@
+socialspy: false
+lastAccountName: KittyKorka
+timestamps:
+  login: 1588353009385
+  logout: 1588353178858
+  lastteleport: 1588264377952
+ipAddress: 188.147.34.176
+lastlocation:
+  world: world
+  x: 1582.2831365550992
+  y: 68.0
+  z: -4762.609803349739
+  yaw: 311.7682
+  pitch: 24.600006
+logoutlocation:
+  world: world
+  x: 2099.1106191516346
+  y: 68.0
+  z: -973.0151486692865
+  yaw: -66.318115
+  pitch: 29.099968
+homes:
+  home:
+    world: world
+    x: 2097.311060845988
+    y: 68.875
+    z: -974.6999999880791
+    yaw: -71.86807
+    pitch: 41.25001

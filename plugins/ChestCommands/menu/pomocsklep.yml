@@ -1,0 +1,72 @@
+######################
+#+                  +#
+#   Przydatne Set    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&1pomoc sklep'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'pomoc sklep'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'tell: &eOtworzyles Pomoc Sklepu'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+sklep-emerald:
+  COMMAND: 'tell: &akupiles emeralda za 50$!; give: emerald'
+  NAME: '&eKup emeralda'
+  LORE:
+    - 'kupisz szmaragd za 50$'
+  ID: emerald
+  PRICE: 50
+  POSITION-X: 1
+  POSITION-Y: 1
+sklep-targ:
+  COMMAND: 'warp targ'
+  NAME: '&e/warp targ'
+  LORE:
+    - 'pojdziesz na warp targ'
+  ID: chest
+  POSITION-X: 2
+  POSITION-Y: 1
+
+sklep-back:
+  COMMAND: 'open: startmenu.yml'
+  NAME: '&4&lWSTECZ'
+  LORE:
+    - 'do startmenu'
+  ID: wool
+  DATA-VALUE: 14
+  POSITION-X: 8
+  POSITION-Y: 3
+sklep-zamknij:
+  NAME: '&4&lWYJDZ'
+  ID: redstone lamp
+  LORE:
+    - 'Zamkniecie menu'
+  POSITION-X: 9
+  POSITION-Y: 3

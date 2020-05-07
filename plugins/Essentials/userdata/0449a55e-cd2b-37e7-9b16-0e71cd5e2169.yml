@@ -1,0 +1,21 @@
+lastAccountName: __sid__
+timestamps:
+  login: 1588614605296
+  lastteleport: 1588614644234
+  logout: 1588614686059
+ipAddress: 5.172.232.39
+socialspy: false
+lastlocation:
+  world: world
+  x: 2499.53823218839
+  y: 77.0
+  z: -4745.2224003388355
+  yaw: -51.215122
+  pitch: 40.95002
+logoutlocation:
+  world: world
+  x: 2211.333503352098
+  y: 64.0
+  z: -4890.762499988079
+  yaw: -49.114647
+  pitch: 19.200092

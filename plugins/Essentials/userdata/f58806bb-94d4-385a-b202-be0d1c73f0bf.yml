@@ -1,0 +1,20 @@
+socialspy: false
+lastAccountName: klinxis
+timestamps:
+  login: 1588070418284
+  logout: 1588070442099
+ipAddress: 83.9.222.49
+lastlocation:
+  world: world
+  x: -51.5
+  y: 67.0
+  z: 43.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 5.357029404508629
+  y: 65.0
+  z: 528.9561543239926
+  yaw: 189.45685
+  pitch: 5.549782

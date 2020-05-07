@@ -1,0 +1,29 @@
+lastAccountName: Tombuj
+timestamps:
+  login: 1588360925724
+  lastteleport: 1588263118944
+  logout: 1588360955562
+ipAddress: 89.64.63.148
+socialspy: false
+lastlocation:
+  world: world
+  x: -25.41623073020826
+  y: 66.0
+  z: 528.7230738225443
+  yaw: 177.90053
+  pitch: 8.0999975
+homes:
+  home:
+    world: world
+    x: 2099.7916627741397
+    y: 68.0
+    z: -972.9893549620092
+    yaw: 273.8815
+    pitch: 15.149844
+logoutlocation:
+  world: world
+  x: 2107.283431073366
+  y: 74.0
+  z: -972.0098110878512
+  yaw: 80.99454
+  pitch: 51.14967

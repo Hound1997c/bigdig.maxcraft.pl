@@ -1,0 +1,174 @@
+######################
+#+                  +#
+#   Przydatne Set    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&1pomoc walka'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'pomoc walka'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'tell: &eOtworzyles Pomoc Walki'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+walka-mcmmo:
+  COMMAND: 'mcmmo'
+  NAME: '&e/mcmmo'
+  LORE:
+    - 'za uzywanie kazdego rodzaju narzedzi'
+    - 'zdobywasz punkty mmo'
+    - 'im jest ich wiecej tym lepiej to robisz'
+  ID: wool
+  DATA-VALUE: 4
+  POSITION-X: 1
+  POSITION-Y: 1
+walka-zbroja:
+  COMMAND: 'weight'
+  NAME: '&8&lWagi Zbroi'
+  LORE:
+     - 'sprawdz swoja wage &8/weight'
+     - 'ty jestes kawal byka &c90 kg'
+     - '&4 skorzana &c15 kg'
+     - '&7 kolczuga &c30 kg'
+     - '&6 zlota &c40 kg'
+     - '&8 zelazna &c50 kg'
+     - '&b diaxowa &c70 kg'
+     - 'dynia na glowie &f-10 kg'
+  ID: iron chestplate
+  POSITION-X: 2
+  POSITION-Y: 1
+walka-miecze:
+  COMMAND: 'swords'
+  NAME: '&e&lMiecze'
+  LORE:
+     - 'sprawdz staty mieczy &e/swords'
+     - 'im wiecej pkt mcmmo tym lepsze staty'
+     - '&aobrazenia: &7jak w MC 1.9'
+     - '&aTarcza: &7Tarcze wyciagasz z dupy'
+     - '&akrwawienie 3-4 hp: &7szansa na zadanie max 75%/ 750 lvl'
+     - '&akontra atak 50% dmg z powrotem: &7szansa broniac sie tarcza'
+     - 'max szansa 50% na 1000 lvl'
+     - '&azebate ciosy&7 wszystkim dookola obrazenia x1.5 + krwawienie 7hp'
+     - '&7uruchomnienie prawy + uderzenie'
+  ID: iron sword
+  POSITION-X: 3
+  POSITION-Y: 1
+walka-topory:
+  COMMAND: 'axes'
+  NAME: '&e&lTopory'
+  LORE:
+     - 'sprawdz staty topora &e/axes'
+     - 'im wiecej pkt mcmmo tym lepsze staty'
+     - '&8obrazenia: &7jak w MC 1.9'
+     - '&aAxe Mastery: &7zablokowane, zbyt EP'
+     - '&acios krytyczny: &7szansa na obrazenia x1.5'
+     - 'max 37.50 % na 750 lvl'
+     - '&aniszczenie zbroi:'
+     - 'im wyzszy lvl tym bardziej niszczesz zbroje'
+     - '&awybuchowe uderzenie: &7+2 hp nieuzbrojonym + odrzut'
+     - 'szansa 25%'
+     - '&alamacz czaszek&7 wszystkim dookola obrazenia x0.5'
+     - '&7uruchomnienie prawy + uderzenie'
+  ID: iron axe
+  POSITION-X: 4
+  POSITION-Y: 1
+walka-kungfu:
+  COMMAND: 'unarmed'
+  NAME: '&e&lKung-Fu'
+  LORE:
+     - 'sprawdz staty kungfu &e/unarmed'
+     - 'im wiecej pkt mcmmo tym lepsze staty'
+     - '&8obrazenia na 0 lvl: &7normalne+ 4hp'
+     - '&aWieksze obrazenia: &7co 50 lvl +1hp do obrazen'
+     - 'max +8hp na 250 lvl'
+     - '&arozbrojenie: &7item wypada z reki przeciwnika'
+     - 'szansa max 33 % na 1000 lvl'
+     - '&azelazna reka: utrzymujesz item gdy chca Cie rozbroic'
+     - 'szansa max 80% na 1000 lvl'
+     - '&azlapanie strzaly: &7lapiesz lecaca w Ciebie strzale'
+     - 'szansa max 50% na 1000 lvl'
+     - '&aFuria&7 Obrazenia + 50% + niszczenie miekkich blokow'
+     - '&7uruchomnienie prawy + uderzenie'
+  ID: wool
+  DATA-VALUE: 7
+  POSITION-X: 5
+  POSITION-Y: 1
+walka-lewa:
+  NAME: '&e&lLewa Reka'
+  LORE:
+     - 'mozesz bic lewa reka trzymajac w niej narzedzie'
+  ID: wool
+  DATA-VALUE: 14
+  POSITION-X: 1
+  POSITION-Y: 2  
+walka-lucznictwo:
+  COMMAND: 'archery'
+  NAME: '&e&lLucznictwo'
+  LORE:
+     - 'sprawdz staty kungfu &e/unarmed'
+     - 'im wiecej pkt mcmmo tym lepsze staty'
+     - '&aLepsze obrazenia: &70.2% co lvl'
+     - 'max +200% obrazen na 1000lvl'
+     - '&aOdzyskanie strzaly: &7'
+     - '+ 0.1% co kazdy lvl. max 100% na 1000lvl'
+     - '&aOszolomienie: &7przeciwnikowi kreci sie w glowie'
+     - 'i otrzymuje obrazenia +4 hp'
+     - 'max szansa 50% na 1000 lvl'
+  ID: bow
+  POSITION-X: 6
+  POSITION-Y: 1
+walka-akrobatyka:
+  COMMAND: 'acrobatics'
+  NAME: '&e&lAkrobatyka'
+  LORE:
+     - 'sprawdz staty kungfu &e/acrobatisc'
+     - 'im wiecej pkt mcmmo tym lepsze staty'
+     - '&aUnik:&7 zmiejszenie otrzymanego dmg o polowe'
+     - 'max 20% na 800 lvl'
+     - '&aMiękkie lądowanie: &7nacisniecie szift przy spadaniu'
+     - 'max 100% na 500 lvl'
+     - '&aPrzeturlanie sie: &7zneutralizowanie dmg w spadaniu'
+     - 'max 100% na 1000 lvl'
+  ID: leather boots
+  POSITION-X: 7
+  POSITION-Y: 1  
+walka-back:
+  COMMAND: 'open: startmenu.yml'
+  NAME: '&4&lWSTECZ'
+  LORE:
+    - 'do startmenu'
+  ID: wool
+  POSITION-X: 8
+  POSITION-Y: 3
+walka-zamknij:
+  NAME: '&4&lWYJDZ'
+  ID: redstone lamp
+  LORE:
+    - 'Zamkniecie menu'
+  POSITION-X: 9
+  POSITION-Y: 3

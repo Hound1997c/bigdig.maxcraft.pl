@@ -1,0 +1,70 @@
+lastAccountName: rasi
+socialspy: false
+timestamps:
+  login: 1588173813828
+  kits:
+    color: 1588169263269
+    starter: 1587918694676
+    provip: 1587448695958
+    notch: 1587457343416
+    vip: 1587657827754
+    dtools: 1587918686473
+    tools: 1586878054599
+  lastteleport: 1588175746961
+  logout: 1588176024114
+  lastheal: 1587381421581
+ipAddress: 178.37.84.197
+lastlocation:
+  world: world
+  x: -8418.320972168152
+  y: 5.0
+  z: 6073.267054556754
+  yaw: -265.21103
+  pitch: 11.702515
+homes:
+  rybki:
+    world: world
+    x: -3351.2965648329555
+    y: 64.0
+    z: -767.3991234073256
+    yaw: -209.1283
+    pitch: 8.119373
+  exp:
+    world: world
+    x: -2883.282345524952
+    y: 2.5
+    z: 340.2838541658458
+    yaw: 36.632935
+    pitch: -2.824316
+  ender:
+    world: world
+    x: -2911.3273332797885
+    y: 39.0
+    z: 386.2120506238843
+    yaw: 210.87502
+    pitch: 7.4325604
+  home:
+    world: world
+    x: -2814.2680387031446
+    y: 47.0
+    z: 327.4521247382424
+    yaw: 92.50574
+    pitch: 0.028520111
+  parkour:
+    world: world
+    x: 89.2665591605364
+    y: 68.0
+    z: 723.2837142751054
+    yaw: -68.98775
+    pitch: 18.900503
+logoutlocation:
+  world: world
+  x: 5.351229498959164
+  y: 64.0
+  z: 466.20959267550757
+  yaw: 2.9790955
+  pitch: 21.627901
+godmode: true
+afk: false
+money: '43069.5'
+nickname: §k§lrasi

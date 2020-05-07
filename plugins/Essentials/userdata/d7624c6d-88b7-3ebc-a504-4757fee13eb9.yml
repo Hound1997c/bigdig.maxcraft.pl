@@ -1,0 +1,24 @@
+lastAccountName: Kornischonn
+socialspy: false
+timestamps:
+  login: 1588780701008
+  kits:
+    starter: 1588780738351
+    narzedzia: 1588780765875
+    jedzenie: 1588780732501
+  logout: 1588781275860
+ipAddress: 78.31.93.10
+lastlocation:
+  world: world
+  x: 7.5
+  y: 64.0
+  z: 520.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -600.6999999880791
+  y: 90.0
+  z: 3559.300000011921
+  yaw: -57.7352
+  pitch: 31.650263

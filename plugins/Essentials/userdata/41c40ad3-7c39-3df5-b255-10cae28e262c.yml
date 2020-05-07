@@ -1,0 +1,23 @@
+lastAccountName: MenereQ
+socialspy: false
+timestamps:
+  login: 1587749918064
+  kits:
+    starter: 1587750392581
+  lastteleport: 1587751635817
+  logout: 1587751736564
+ipAddress: 5.173.227.212
+lastlocation:
+  world: world
+  x: 30.108638159957806
+  y: 64.0
+  z: 548.3462370236084
+  yaw: -79.93125
+  pitch: 14.6545725
+logoutlocation:
+  world: world
+  x: 9.579306687469078
+  y: 64.0
+  z: 529.9381774784981
+  yaw: -246.26636
+  pitch: 12.24473

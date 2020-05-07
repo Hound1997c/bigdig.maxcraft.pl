@@ -1,0 +1,20 @@
+socialspy: false
+lastAccountName: watericc
+timestamps:
+  login: 1588607261328
+  logout: 1588607480117
+ipAddress: 5.173.172.208
+lastlocation:
+  world: world
+  x: -51.5
+  y: 67.0
+  z: 43.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 513.5324843365844
+  y: 70.0
+  z: -1078.8393111258436
+  yaw: 5.4686127
+  pitch: 78.11778

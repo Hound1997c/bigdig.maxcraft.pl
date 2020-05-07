@@ -1,0 +1,578 @@
+#-----------------------------------------------------------------------------------------------------------#
+#							  MyCommand Commands config file (last update v5.3.0)							#
+#																											#
+#  BukkitDev Help page : http://dev.bukkit.org/server-mods/mycommand/pages/configuration-and-example    	#
+#																											#
+#	How to make a command :	(See an example command below)													#
+#		For first, put your command name on first line  													#
+#		Now put your command_line name after the "command:" line. Don't forget the '/' before your command.	#
+#		So, now select your command type from a predefined list putting it after "type" line				#
+#	COMMAND TYPE LIST :																						#
+#		TEXT , ALIAS , RUN_COMMAND , BROADCAST_TEXT , RUN_COMMAND_TEXT , RUN_COMMAND_BROADCAST_TEXT			#
+#		ADD_PERMISSION , WARMUP , COOLDOWN , RUN_CONSOLE , RUN_CONSOLE_RANDOM , SPOUT_TEXT					#
+#       RUN_COMMAND_RANDOM , RUN_ASOPERATOR , ICON_MENU , SCOREBOARD , BUNGEE_TP , SPOUT_NOTIFICATION		#
+#		BAR_API_TEXT , BAR_API_BROADCAST_TEXT , CALL_URL, TITLE, BROADCAST_TITLE, ACTION_BAR				#
+#																											#
+#	If your command is "TEXT" type, you can put multiple line of text below this parameter					#
+#	You can do the same thing with the "RUNCOMMAND" type, but instead of text, puts commands in this list	#
+#	For delayed command(s) add $delay$ before the command in runcmd Example : - $delay$/list				#
+#	Set delay time with delaytimer: 5 (5 = seconds) | 														#
+#   If you are using the Vault plugin, you can put the "cost: 123.0" with this line. 						#
+#	You can customize your permission node by placing "permission-node:" field in a command					#
+#	Also,you can change the permission error message with "permission-error:"								#
+#   Custom error-message for invalid args ,put "error-message:" line in a command.							#
+#   You can use itemcost : 'ID:AMOUNT' for set a cost with items. 											#
+#   Register REAL commands putting "register: true" below the command.     									#
+#   With register commands you can use the "tab_completer: - Hi - Hello!"									#
+#   For Scripts and more features, find more on the bukkitdev page											#
+#-----------------------------------------------------------------------------------------------------------#
+# przydatne:
+    # command: /przydatne
+    # type: TEXT
+    # text:
+    # - '&6 drop jest z kamienia &7/dropy'
+    # - '&6 gildie &2/frakcje'
+    # - '&6 dostepne zestawy /kit'
+    # - '&6 rangi &5/vipinfo /provipinfo'
+    # - '&6 [RPG] zdolnosci pvp &e/walka'
+    # - '&6 [RPG] zdolnosci inne &e/zdolnosci'
+    # - '&6 [RPG] malzenstwa &d/slub'
+    # - '&6 [RPG] kupowanie przedmiotow &a/warp sklep /warp targ'
+    # - '&6 arena z potworami &0/mobarena'
+    # - '&6 warpy /warp'
+    # permission-required: false
+    # permission-node: mycommand.cmd.przydatne
+    # permission-error: "&a$player! , &2Nie mozesz tego uzyc!"
+# dropy:
+    # command: /dropy
+    # type: TEXT
+    # text:
+      # - '&7 wszystko dropi z kamienia'
+      # - '&7 szczescie w kilofie zwieksza % dropu i ilosc dropu'
+      # - '&7 jedwabny dotyk dropi rudy'
+      # - '&7 bez fortune:'
+      # - '&b diament: 0.5%'
+      # - '&2 szmaragd: 0.7%'
+      # - '&7 zelazo: 3% 1-7'
+      # - '&6 zloto: 1% 1-7'
+      # - '&4 redstone: 2% 3-4'
+      # - '&1 lapis: 3% 2-7'
+      # - '&0 obsidian: 1% 1-2'
+      # - '&d refil: 0.5% 1-3'
+      # - '&f nether star: 0.01%' 
+      # - '&7 VIP ma lepszy drop &5/vipinfo /provipinfo'
+    # permission-required: false
+    # permission-node: mycommand.cmd.dropy
+    # permission-error: "&a$player! , &2You can't use this command!"
+# frakcje:
+    # command: /frakcje
+    # type: TEXT
+    # text:
+      # - '&7 oryginalna instrukcja &2/f help <numer>'
+      # - '&7 tworzenie gildii &2/f create <nazwa>'
+      # - '&7 zajecie terenu 16x16 &2/f claim one'
+      # - '&7 widzenie klatki 16x16 &2/f seechunk'
+      # - '&7 postawienie spawnu gildii &2/f sethome'
+      # - '&7 teleportowanie na spawn &2/f home'
+      # - '&7 zwolnienie terenu &2/f unclaim one'
+      # - '&7 zwolnienie calego terenu &2/f unclaim all'
+      # - '&7 zaproszenie/anulowanie do gildii &2/f invite <nick>'
+      # - '&7 dolaczenie do gildii &2/f join <nazwa>'
+      # - '&7 wyrzucenie z gildii &2/f kick <nick>'
+      # - '&7 pozwolenie na budowanie &2/f promote <nick>'
+      # - '&7 moderator gildii &2/f officer <nick>'
+      # - '&5 sojusz &7 gildii &2/f ally <gildia>'
+      # - '&5 uwaga sojusznicy moga tepac sie na twoja baze jesli tego nie zmienisz'
+      # - '&d zaufanie &7gildii &2/f truce <gildia>'
+      # - '&4 wojna &7 gildii &2/f enemy <gildia>'
+      # - '&7zarzadzanie pozwoleniami &2/f perm <list/show/set>'
+    # permission-required: false
+    # permission-node: mycommand.cmd.frakcje
+    # permission-error: "&a$player! , &2You can't use this command!"
+vipinfo:
+    command: /vipinfo
+    type: TEXT
+    text:
+    - '&6 aby kupic wejdz na: &5 http://itemshop.pl/784502.html  &6!'
+    - '&6 albo wpisz &5&l /buy  &6! (PayPal)'
+    - '&e /kit vip (diax narzedzia + jablka)'
+    - '&e lepszy drop z kamienia (w tym koxy)'
+    - '&e wiecej xp przy kopaniu kilofem'
+    - '&e /tpahere'
+    - '&e /hat'
+    - '&e pisanie i tabliczki na kolorowo'
+    - '&e compass'
+    - '&e 3x /sethome'
+    - '&e powrot na miejsce smierci /back'
+    - '&e enderchest'
+    - '&e workbench'
+    - '&e pisanie i tabliczki na kolorowo'
+    - '&e /mc latajacy dywan'
+    - '&6 Na &czawsze!'
+    - '&6 Tylko &55 ziko &6! (tyle 2litry koli)'
+    permission-required: false
+    permission-node: mycommand.cmd.vipinfo
+    permission-error: "&a$player! , &2You can't use this command!"
+supervipinfo:
+    command: /supervipinfo
+    type: TEXT
+    text:
+    - '&6 aby kupic wejdz na: &5 http://itemshop.pl/784502.html  &6!'
+    - '&6 albo wpisz &5&l /buy  &6! (PayPal)'
+    - '&e Wszystko to co VIP'
+    - '&e /kit supervip (diax full eq + refile)'
+    - '&e /fix (naprawa tego co jest w rece)'
+    - '&e 5 /sethome'
+    - '&e /feed - najedzenie sie'
+    - '&e nie traci xp po smierci'
+    - '&e /fly - latanie'
+    - '&e /skin set  -> zmiana skina'
+    - '&6 Na &czawsze!'
+    - '&6 Jedynie 10 ziko! (tyle 2litry koli + chipsy)'
+    permission-required: false
+    permission-node: mycommand.cmd.vipinfo
+    permission-error: "&a$player! , &2You can't use this command!"
+elitevipinfo:
+    command: /elitevipinfo
+    type: TEXT
+    text:
+    - '&6 aby kupic wejdz na: &5 http://itemshop.pl/784502.html  &6!'
+    - '&6 albo wpisz &5&l /buy  &6! (PayPal)'
+    - '&e Wszystko to co SuperVIP'
+    - '&e kit provip (diax zbroja 4/3 + narzedzia 4/3 + '
+    - '&e + miecz 4/2/2 + refile + koxy + tarcza)'
+    - '&e /heal - leczenie'
+    - '&e 10x /sethome'
+    - '&e /near  - pokazuje wszystkich w poblizu'
+    - '&e /nick - zmiana nicku'
+    - '&e /ss change <mob> (zmiana spawnera)'
+    - '&6 Na &czawsze!'
+    - '&6 Jedynie 15 ziko! (tyle co kebab)'
+    permission-required: false
+    permission-node: mycommand.cmd.vipinfo
+    permission-error: "&a$player! , &2You can't use this command!"
+provipinfo:
+    command: /provipinfo
+    type: TEXT
+    text:
+    - '&6 aby kupic wejdz na: &5 http://itemshop.pl/784502.html  &6!'
+    - '&6 albo wpisz &5&l /buy  &6! (PayPal)'
+    - '&e to co EliteVIP'
+    - '&e /kit provip (diax eq 4/3 + narzedzia 5/3 + )'
+    - '&e (+ miecz 5/2/2 + refile + koxy + tarcza)'
+    - '&e /fix all (naprawa calego eq)'
+    - '&e &cgamemode creative &l!!&e(tylko do budowania)'
+    - '&e duzo wiecej xp przy kopaniu kilofem'
+    - '&6 Na &czawsze!'
+    - '&6 Jedynie 20 ziko! (tyle co kebab + cola)'
+    permission-required: false
+    permission-node: mycommand.cmd.vipinfo
+    permission-error: "&a$player! , &2You can't use this command!"
+walka:
+    command: /walka
+    type: TEXT
+    text:
+      - '&7 im masywniejszą masz zbroje tym wolniej sie poruszasz &8/wagi'
+      - '&7 mozesz trzymac bron w lewej rece i bic prawym przyciskiem myszy'
+      - '&7 za walke kazdym rodzajem broni dostajesz punkty &emcmmo /mcmmo help'
+      - '&7 rodzaje broni: &e/topory /miecze /piesci /lucznictwo'
+      - '&7 im wyzszy masz lvl tym lepsze efekty dostajesz'
+      - '&7 im wyzszy masz lvl akrobatyki tym wieksza masz szanse na &eunik lub miekkie ladowanie /acrobatics'
+    permission-required: false
+    permission-node: mycommand.cmd.walka
+    permission-error: "&a$player! , &2You can't use this command!"
+wagi:
+    command: /wagi
+    type: TEXT
+    text:
+      - '&6&l>>>WAGI<<<'
+      - '&7 sprawdz swoja wage &8/weight'
+      - '&7 ty jestes kawal byka &890 kg'
+      - '&7 skorzany pelny set &815 kg'
+      - '&7 kolczuga &830 kg'
+      - '&7 zlota zbroja &840 kg'
+      - '&7 zelazna &850 kg'
+      - '&7 diaxowa &870'
+      - '&7 dynia na glowie &r-10 kg'
+    permission-required: false
+    permission-node: mycommand.cmd.wagi
+    permission-error: "&a$player! , &2You can't use this command!"
+topory:
+    command: /topory
+    type: TEXT
+    text:
+      - '&6&l>>>TOPORY<<<'
+      - '&7 staty skila &e/axes'
+      - '&7 dodatkowe obrazenia topora &cAxe Mastery'
+      - '&7 niszczenie zbroji &cArmor Impact'
+      - '&7 wieksze obrazenia nieuzbrojonym &cGreater Impact'
+      - '&7 cios krytyczny &cCritical Strike'
+      - '&7 tryb lamacza czaszek / obrazenia x2 &cSkull Splitter'
+      - '&c uruchamiasz prawym + uderzeniem'
+    permission-required: false
+    permission-node: mycommand.cmd.topory
+    permission-error: "&a$player! , &2You can't use this command!"
+miecze:
+    command: /miecze
+    type: TEXT
+    text:
+      - '&6&l>>>MIECZE<<<'
+      - '&7 staty skila &e/swords'
+      - '&7 szansa na kotra atak broniac sie tarcza &cCounter Attack'
+      - '&7 krwawienie przeciwnika &cBleeding'
+      - '&7 tryb: zabkowane ciosy / obrazenia x4 &cSerrated Strikes'
+      - '&c uruchamiasz prawym + uderzeniem'
+    permission-required: false
+    permission-node: mycommand.cmd.miecze
+    permission-error: "&a$player! , &2You can't use this command!"
+piesci:
+    command: /kungfu
+    type: TEXT
+    text:
+      - '&6&l>>>KUNG FU<<<'
+      - '&7 staty skila &e/unarmed'
+      - '&7 coraz wieksze obrazenia w walce piescia &cIron Arm Style'
+      - '&7 szansa na złapanie strzaly &cArrow Deflect'
+      - '&7 szansa na rozbrojenie przeciwnika &cDisarm Chance'
+      - '&7 szansa na odparcie czyjegos rozbrojenia &cIron Grip Chance'
+      - '&7 tryb: obrazenia + 50% &cBerserker'
+      - '&c uruchamiasz prawym + uderzeniem'
+    permission-required: false
+    permission-node: mycommand.cmd.kungfu
+    permission-error: "&a$player! , &2You can't use this command!"
+lucznictwo:
+    command: /lucznictwo
+    type: TEXT
+    text:
+      - '&6&l>>>LUCZNICTWO<<<'
+      - '&7 staty skila &e/archery'
+      - '&7 coraz wieksze obrazenia &cBonus Damage'
+      - '&7 oszolomienie &cDaze'
+      - '&7 odzyskanie strzaly &cRetrieve arrow'
+    permission-required: false
+    permission-node: mycommand.cmd.lucznictwo
+    permission-error: "&a$player! , &2You can't use this command!"
+gamemode_alias:
+  command: /gm
+  type: ALIAS
+  alias: /gamemode
+  permission-required: true
+simple_dice:
+  command: /mycmd-dice
+  type: TEXT
+  text:
+  - '&0[&6Dice&0] &eYou got &6$rnd6 !'
+  permission-required: true
+  permission-node: mycommand.cmd.dice
+  permission-error: "&a$player! , &2You can't use this command!"
+tab_completer:
+  command: /greets 
+  type: RUN_COMMAND
+  runcmd:
+  - '$broadcasttext$&0[&e$player&0]&r $multiargs'
+  required_args: 1
+  register: true
+  tab_completer:
+  - Hi
+  - Hello!
+  - Well Met!
+shortcut:
+  command: /l
+  type: RUN_COMMAND
+  runcmd:
+  - '/list'
+  cost: 0
+mycmd_colors:
+  command: /mycmd-colors
+  type: TEXT
+  text:
+  - "&11 &22 &33 &44 &55 &66 &77 &88 &99 &00 &aa &bb &cc &dd &ee &ff"
+  - "&nn&r &mm&r &ll&r &oo&r $random_color :D"
+  permission-required: false
+shortcut_with_arguments:
+  command: /t
+  type: RUN_COMMAND
+  runcmd:
+  - '/time $arg1 $arg2'
+  cost: 0
+  error-message: '&cType &e/t set day'
+  require_all_arguments: true
+delay_example:
+  command: /mycmd-countdown
+  type: RUN_COMMAND
+  runcmd:
+  - '$delay$$broadcasttext$&0[&eCountdown&0] $random_color3..'
+  - '$delay$$broadcasttext$&0[&eCountdown&0] $random_color2..'
+  - '$delay$$broadcasttext$&0[&eCountdown&0] $random_color1..'
+  - '$delay$$broadcasttext$&0[&eCountdown&0] &eGO!!'
+  cost: 0
+  delaytimer: 1
+  delaytimer_format: SECONDS
+broadcast_example:
+  command: /mycmd-broadcast
+  type: BROADCAST_TEXT
+  text:
+  - '&0[&e$player&0]&r $multiargs'
+  required_args: 1
+run_by_console:
+  command: /mycmd-runconsole
+  type: RUN_CONSOLE
+  runcmd:
+  - /say This /say it's performed by the console.
+  cost: 0
+warmups_cooldowns_info:
+  command: /warmupsandcooldowns
+  type: TEXT
+  text:
+  - 'Put your command over /warmupsandcooldowns'
+  - 'And change type : from text to WARMUP for Warmups and COOLDOWN for Cooldowns'
+  - 'adjust the warmup and cooldowns time with delaytimer'
+  delaytimer: 5
+add_permission:
+  command: /command-to-override
+  type: ADD_PERMISSION
+  text:
+  - '$6Add an extra permission to another existing command'
+  permission-node: permission.name
+  cost: 0
+some_placeholders:
+  command: /mycmd-playerinfo
+  type: TEXT
+  text:
+  - '&2Player name : &a$player'
+  - '&2World : &a$world'
+  - '&2Health : &a$health &2Food : &a$food'
+  - '&2Exp : &a$exp &2Level : &a$level'
+  - '&2Gamemode : &a$gamemode'
+  - '&2LastDamage : &a$lastdamage'
+mycmd_list_command:
+  command: /mycmd-online
+  type: TEXT
+  text:
+  - '&2There are &a$online &2players online.'
+  - '&a $ponline'
+clear_chat:
+  command: /clearchat
+  type: BROADCAST_TEXT
+  text:
+  - '%Repeat%100% '
+  - '&0[&eMyCommand&0]&b Chat clared :D'
+shortcut_with_multiargs:
+  command: /mycmd-shortcut
+  type: RUN_COMMAND
+  runcmd:
+  - '/say $multiargs'
+random_example:
+  command: /rockpaperscissors
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/me Rock!'
+  - '/me Paper!'
+  - '/me Scissors!'
+iconmenu_page1:
+  command: /iconmenu
+  type: ICON_MENU
+  text:
+  - 'POSITION:ITEM_NAME:ITEMDATA:COMMAND/MESSAGE:TITLE:DESCRIPTION;MULTILINES'
+  - 'ITEM_NAME can also be ITEM_NAME;ENCHANTMENT_NAME;LEVEL'
+  iconmenu_title: '&cMyCommand &4ItemMenu'
+  iconmenu_size: 27
+  iconmenu_commands:
+  - '0:GOLDEN_APPLE:0:/help:&2Help:&aOpen the help menu'
+  - '1:COMPASS;DAMAGE_ALL;1:0:/mycmd:Menu:MyCommand menu'
+  - '9:EMERALD:0:/list:Player List:&bShow online players'
+  - '10:WATCH:0:/time set 0:Day:Turn day'
+  - '26:WOOL:11:%openiconmenu%/iconmenu2:Next Page:&cChange IconMenu Page;&a--------->'
+  cost: 0
+  delaytimer: 5
+iconmenu_page2:
+  command: /iconmenu2
+  type: ICON_MENU
+  iconmenu_title: 'Page 2'
+  iconmenu_size: 9
+  iconmenu_commands:
+  - '0:GOLDEN_APPLE:0:Do something:Hello!:=)'
+  - '8:WOOL:13:%openiconmenu%/iconmenu:Return Back:&cChange IconMenu Page;&a<---------'
+  cost: 0
+  delaytimer: 5
+help_page_0:
+  command: /mycmd-help
+  type: TEXT
+  text:
+  - '&a ---- &6MyCommand Help &eMain Page &a----'
+  - '&e This is the Main page of the help '
+  - '&e Type &6/mycmd-help 2 &efor see the second page'
+help_page_1:
+  command: /mycmd-help 2
+  type: TEXT
+  text:
+  - '&a ---- &6MyCommand Help &ePage two &a----'
+  - '&e And this is the page two of the help'
+itemcost_example:
+  command: /itemcostexample
+  type: TEXT
+  text:
+  - '$random_colorYou have spent 5 Cobblestone for run this command.'
+  itemcost: 'COBBLESTONE:5'
+scoreboard_example:
+  command: /sbexample
+  type: SCOREBOARD
+  text:
+  - The Scoreboard will get removed after DelayTimer(sec). If 0 don't remove
+  - Use $marquee$ as a prefix of the scoreboard name for scroll the text.
+  - Use scoreboard_refresh_ticks, for determinate how frequent the plugin have to update the scoreboard.
+  scoreboard_name: "$marquee$&1M&2y&3C&4o&5m&6m&7a&8n&9d &aS&bc&co&dr&ee&fb&0o&1a&2r&3d &nExample&r "
+  scoreboard_text:
+  - "4;&c&lCoordinates:"
+  - "3;&6X:&e $locX &6Y:&e $locY &6Z:&e $locZ "
+  - "2;&c&lPlayer Info:"
+  - "1;&6Health: &e$health"
+  - "0;&6Food: &e$food"
+  scoreboard_refresh_ticks: 5
+  delaytimer: 10
+bungeecord_example:
+  command: /bungeetest
+  type: BUNGEE_TP
+  server_name: hub
+allowed_worlds_example:
+  command: /onlynether
+  type: TEXT
+  text:
+  - "&cYea,The Nether!"
+  allowed_worlds:
+  - world_nether
+per_world_commands:
+  command: /perworldcommand
+  type: RUN_COMMAND
+  runcmd:
+  - "$world=%world%/me This command will be performed only if you are in the world"
+  - "$world=%world_nether%/me And this only if you are in the nether"
+  permission-required: false
+executefor_example:
+  command: /executeforall
+  type: RUN_CONSOLE
+  executefor: ONLINE_PLAYERS
+  runcmd:
+  - "/tp $player 0 64 0"
+  permission-required: false
+ouch:
+  command: /ouch
+  type: RUN_COMMAND
+  runcmd:
+  - '%PlayerOptions%damage: 1'
+  - '$text$&c<3'
+  permission-required: false
+heal_me:
+  command: /mycmd-heal
+  type: RUN_COMMAND
+  runcmd:
+  - '%PlayerOptions%setHealth: 20'
+  - '%PlayerOptions%setFoodLevel: 20'
+  - '%PlayerOptions%sendMessage: &aHealed!'
+  permission-required: false
+world_guard_example:
+  command: /checkregion
+  type: TEXT
+  text:
+  - 'You are in $wgregionname region!'
+  allowed_wg_region:
+  - 'region_name_here'
+custom_cmd_cooldown:
+  command: /cooldown-example
+  type: TEXT
+  text:
+  - '&aBla bla bla, type the command again for see the cooldown effect.'
+  cooldown: 5
+custom_cmd_warmup:
+  command: /warmup-example
+  type: TEXT
+  text:
+  - '&aYou have waited 5 second for see this command performed'
+  warmup: 5
+call_url:
+  command: /call-url
+  type: CALL_URL
+  url: 'http://localhost/yourscript.php?variable=$arg1&player=$player'
+  get_output : true
+  show_output_ingame : true
+  save_output_as : httpResponse
+script_example_420:
+  command: /example420
+  type: RUN_COMMAND
+  runcmd:
+  - $Script$%if%$arg1==password
+  - $text$&eRight!
+  - $Script$%if%$arg1==420
+  - $text$&aBLAZE IT
+  - $Script$%else%
+  - $text$Password not correct
+bar_text:
+  command: /bar_example
+  type: BAR_API_TEXT
+  text:
+  - '&aHello $random_color$player'
+  bar_seconds: 5
+  bar_percentage: 8
+  bar_style: SEGMENTED_20
+  bar_flag: DARKEN_SKY
+  bar_color: PINK
+rawmessage_example:
+  command: /raw-example
+  type: RAW_TEXT
+  text:
+  - '&aHello &b$player! &aHover your mouse over me!; &dMAGIC'
+  - '&0[&d*&0]&e Click me; &eClick Here for suggest the command &d/mycmd;/mycmd'
+  - '$RUN_COMMAND$&0[&e*&0]&c Set the time to day; &eClick for Execute;/time set day'
+  - '$OPEN_URL$&0[&e*&0]$random_color Open Google.com; &eClick for open;http://www.google.com'
+lottery_example:
+  command: /lottery_example
+  type: RUN_COMMAND
+  runcmd:
+  - '%PlayerOptions%playSound: BLOCK_LEVER_CLICK:1.0F:1'
+  - '$text$&6Welcome to &eMyCommand &6Lottery!'
+  - '$delay$'
+  - '$text$&b+------------------------------------'
+  - '$text$&b| &2Prize of today :'
+  - '$text$&b| &aCOBBLESTONE, BREAD, APPLE, GOLD_INGOT or DIAMOND! '
+  - '$text$&b+------------------------------------'
+  - '$text$&ePlease wait for the results!'
+  - '$delay$$delay$$delay$'
+  - '$delay$$text$&0[$random_colorLottery&0] &65...'
+  - '%PlayerOptions%playSound: BLOCK_LEVER_CLICK:1.0F:1'
+  - '$delay$$text$&0[$random_colorLottery&0] &64...'
+  - '%PlayerOptions%playSound: BLOCK_LEVER_CLICK:1.0F:1'
+  - '$delay$$text$&0[$random_colorLottery&0] &63...'
+  - '%PlayerOptions%playSound: BLOCK_LEVER_CLICK:1.0F:1'
+  - '$delay$$text$&0[$random_colorLottery&0] &62...'
+  - '%PlayerOptions%playSound: BLOCK_LEVER_CLICK:1.0F:1'
+  - '$delay$$text$&0[$random_colorLottery&0] &61...'
+  - '%PlayerOptions%playSound: BLOCK_LEVER_CLICK:1.0F:1'
+  - '$delay$'
+  - '%PlayerOptions%playSound: ENTITY_EXPERIENCE_ORB_PICKUP:1.0F:1'
+  - '$Script$%PlayerData%lotteryprize=$GetRandomStringFromList%COBBLESTONE;DIAMOND;GOLD_INGOT;BREAD;APPLE%'
+  - '$Script$%PlayerData%amount_lotteryprize=$randomnumber%3%'
+  - '$delay$'
+  - '$text$&b+------------------------------------'
+  - '$text$&b| &6Congratulation! You won : &e $PlayerData%amount_lotteryprize% $PlayerData%lotteryprize%! ' 
+  - '$text$&b+------------------------------------'
+  - '%PlayerOptions%addItem: $PlayerData%lotteryprize%:$PlayerData%amount_lotteryprize%'
+  delaytimer: 1
+dailybonus:
+  command: /dailybonus
+  type: RUN_COMMAND
+  runcmd:
+  - "$Script$%if%$todaydate!=$PlayerData%DailyBonus%"
+  - "$text$&0[&6Daily&eBonus&0]&b Hello $player! Here, your daily reward!"
+  - "$text$&0[&6Daily&eBonus&0]&b Received &a1 DIAMOND!"
+  - "%PlayerOptions%addItem: DIAMOND:1"
+  - "$Script$%PlayerData%DailyBonus=$todaydate"
+  - "$text$&0[&6Daily&eBonus&0]&b Come back tomorrow!"
+  - "$Script$%else%"
+  - "$text$&0[&6Daily&eBonus&0]&b That's enough for today! Come back tomorrow!"
+  permission-required: false
+broadcast_message_with_perm:
+  command: /brmsgwithperm
+  type: BROADCAST_TEXT
+  text:
+  - "Only the player with the correct permission can see this message"
+  broadcast_message_permission_node: permission.for.see.this.message

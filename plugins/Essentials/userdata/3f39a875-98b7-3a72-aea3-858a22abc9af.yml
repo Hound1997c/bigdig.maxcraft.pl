@@ -1,0 +1,31 @@
+lastAccountName: BabciaKaryna
+socialspy: false
+timestamps:
+  login: 1586685771347
+  logout: 1586685931778
+  lastteleport: 1586685907631
+  kits:
+    tools: 1586639440598
+ipAddress: 195.211.11.152
+lastlocation:
+  world: world
+  x: -251.49312205226298
+  y: 43.0
+  z: 676.6999999880791
+  yaw: 227.8304
+  pitch: 90.0
+logoutlocation:
+  world: world
+  x: -260.2000408367425
+  y: 69.0
+  z: 681.5077214310785
+  yaw: -171.30338
+  pitch: 22.199976
+homes:
+  home:
+    world: world
+    x: -270.63440552325756
+    y: 71.0
+    z: 690.6999999880791
+    yaw: 173.39673
+    pitch: 29.549982

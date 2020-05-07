@@ -1,0 +1,107 @@
+######################
+#+                  +#
+#   Przydatne Set    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&1pomoc marry'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'pomoc marry'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'tell: &eOtworzyles Pomoc Malzenstwa'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+start:
+  NAME: '&b&lKsiadz'
+  LORE:
+    - 'popros admina o slub'
+  ID: wool
+  DATA-VALUE: 9
+  POSITION-X: 1
+  POSITION-Y: 1
+tp:
+  NAME: '&b&lTeleport'
+  LORE:
+    - '/marry tp'
+    - 'teleportujesz sie do partnera'
+  ID: wool
+  DATA-VALUE: 9
+  POSITION-X: 2
+  POSITION-Y: 1
+home:
+  NAME: '&b&lDom'
+  LORE:
+    - 'wasz dom'
+    - '/marry sethome'
+    - '/marry home'
+  ID: wool
+  DATA-VALUE: 9
+  POSITION-X: 3
+  POSITION-Y: 1
+regen:
+  NAME: '&b&lRegeneracja'
+  LORE:
+    - 'razem regeneracja jest 2x'
+  ID: wool
+  DATA-VALUE: 9
+  POSITION-X: 4
+  POSITION-Y: 1
+kiss:
+  NAME: '&a&lPocalunek'
+  LORE:
+    - 'mozecie sie pocalowac'
+    - '/marry kiss'
+  ID: wool
+  DATA-VALUE: 9
+  POSITION-X: 5
+  POSITION-Y: 1
+hug:
+  NAME: '&a&lPrzytulas'
+  LORE:
+    - 'mozecie sie przytulic'
+    - '/marry hug'
+  ID: wool
+  DATA-VALUE: 9
+  POSITION-X: 6
+  POSITION-Y: 1
+back:
+  COMMAND: 'open: startmenu.yml'
+  NAME: '&4&lWSTECZ'
+  LORE:
+    - 'do startmenu'
+  ID: wool
+  DATA-VALUE: 14
+  POSITION-X: 8
+  POSITION-Y: 3
+zamknij:
+  NAME: '&4&lWYJDZ'
+  ID: redstone lamp
+  LORE:
+    - 'Zamkniecie menu'
+  POSITION-X: 9
+  POSITION-Y: 3

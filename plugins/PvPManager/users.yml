@@ -1,0 +1,68 @@
+# This File Saves All User Data
+# Please Don't Change Anything in This File To Avoid Any Errors
+players:
+  e4450fbe-547b-3c92-8b70-c30eea8ebb65:
+    newbie_timeleft: 285352
+    newbie: true
+    pvpstatus: true
+    toggletime: 0
+  22560e24-8ca9-3617-866c-ed79be76a2d5:
+    newbie_timeleft: 25539
+    newbie: true
+    pvpstatus: true
+    toggletime: 0
+  d087e9a9-02d7-3981-959b-8bb7ea7109b3:
+    newbie_timeleft: 283177
+    newbie: true
+    pvpstatus: true
+    toggletime: 0
+  9cc773bb-daa1-3fe4-9b4f-05283995a790:
+    newbie_timeleft: 0
+    newbie: false
+    pvpstatus: false
+    toggletime: 0
+  7706efe3-82c7-3377-8192-f677e1a485d1:
+    newbie_timeleft: 232778
+    newbie: true
+    pvpstatus: true
+    toggletime: 0
+  12d05614-e607-3583-9a44-b78ee39ac813:
+    newbie_timeleft: 156937
+    newbie: true
+    pvpstatus: true
+    toggletime: 0
+  dc0e38b3-e0bb-38ec-a31c-378668931001:
+    newbie_timeleft: 256578
+    newbie: true
+    pvpstatus: true
+    toggletime: 0
+  cc6f0a45-2e94-38a9-9bbc-4362c268ccf1:
+    newbie_timeleft: 199088
+    newbie: true
+    pvpstatus: true
+    toggletime: 0
+  93d5eba1-9edf-3036-b90c-574f943520ab:
+    newbie_timeleft: 173292
+    newbie: true
+    pvpstatus: true
+    toggletime: 0
+  3afa7ea0-3ded-3f4a-92de-b29c44ae658c:
+    newbie_timeleft: 0
+    newbie: false
+    pvpstatus: false
+    toggletime: 0
+  aa077988-653b-37ee-a3a1-8ccac031b639:
+    newbie_timeleft: 0
+    newbie: false
+    pvpstatus: false
+    toggletime: 0
+  e737c09f-aec0-32c1-8a2c-cab89def3904:
+    newbie_timeleft: 293281
+    newbie: true
+    pvpstatus: true
+    toggletime: 0
+  99e1a41a-9ed5-3627-a858-41eaaec1d08b:
+    newbie_timeleft: 118679
+    newbie: true
+    pvpstatus: true
+    toggletime: 0

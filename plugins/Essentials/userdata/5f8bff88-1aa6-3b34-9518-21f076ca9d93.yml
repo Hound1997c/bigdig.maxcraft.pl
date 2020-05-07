@@ -1,0 +1,29 @@
+socialspy: false
+lastAccountName: _mrlyx_
+timestamps:
+  login: 1587999714161
+  lastteleport: 1588000060186
+  logout: 1588001207776
+ipAddress: 94.254.132.217
+lastlocation:
+  world: world
+  x: 46.362037183111966
+  y: 64.0
+  z: 559.9575635470577
+  yaw: -29.836548
+  pitch: 25.349937
+logoutlocation:
+  world: world
+  x: -2024.6159105027189
+  y: 64.0
+  z: 1122.5375137617357
+  yaw: 249.49194
+  pitch: 21.150055
+homes:
+  home:
+    world: world
+    x: -2024.213016343717
+    y: 64.0
+    z: 1127.07833760396
+    yaw: 93.18469
+    pitch: 39.45004

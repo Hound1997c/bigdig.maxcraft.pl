@@ -1,0 +1,33 @@
+lastAccountName: kozoplots
+timestamps:
+  login: 1588799074378
+  kits:
+    starter: 1588613813752
+    narzedzia: 1588663331031
+    jedzenie: 1588663345734
+  lastteleport: 1588799311833
+  logout: 1588799554415
+ipAddress: 31.60.118.18
+socialspy: false
+lastlocation:
+  world: world
+  x: -1.6899254499749454
+  y: 64.0
+  z: 536.8655343378704
+  yaw: 109.20687
+  pitch: 26.69979
+logoutlocation:
+  world: world
+  x: -28.699999988079064
+  y: 5.0
+  z: 318.69999998807907
+  yaw: 227.5564
+  pitch: 47.99996
+homes:
+  home:
+    world: world
+    x: -50.69999998807907
+    y: 59.0
+    z: 293.69647391086966
+    yaw: 111.15637
+    pitch: -41.999992

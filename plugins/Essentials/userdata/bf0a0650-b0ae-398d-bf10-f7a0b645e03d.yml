@@ -1,0 +1,29 @@
+lastAccountName: JUSTOLUSZEK_JDW
+socialspy: false
+timestamps:
+  login: 1588794141754
+  logout: 1588794147449
+  lastteleport: 1588086899252
+ipAddress: 91.227.216.186
+lastlocation:
+  world: world
+  x: -86.30000001192093
+  y: 63.0
+  z: 313.634956869397
+  yaw: -69.97453
+  pitch: 12.604822
+logoutlocation:
+  world: world
+  x: -49.447470994702556
+  y: 68.00133597911214
+  z: 371.3330819278705
+  yaw: -172.69873
+  pitch: 17.067406
+homes:
+  home:
+    world: world
+    x: -424.8085409933951
+    y: 66.0
+    z: -788.6272566324864
+    yaw: 15.877075
+    pitch: 33.11082

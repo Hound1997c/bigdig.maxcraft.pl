@@ -1,0 +1,29 @@
+lastlocation:
+  world: world
+  x: -2011.3332923839812
+  y: 67.0
+  z: 4756.431652611692
+  yaw: -51.778564
+  pitch: -30.149927
+socialspy: false
+lastAccountName: sQubana
+timestamps:
+  login: 1588708036757
+  lastteleport: 1588708201252
+  logout: 1588708245456
+ipAddress: 31.41.82.68
+logoutlocation:
+  world: world
+  x: -2008.808378969008
+  y: 85.0
+  z: 4759.56707737097
+  yaw: -234.62543
+  pitch: 26.69994
+homes:
+  home:
+    world: world
+    x: -2009.9403595280583
+    y: 85.0
+    z: 4760.379787476938
+    yaw: -185.87462
+    pitch: 21.299934

@@ -1,0 +1,20 @@
+socialspy: false
+lastAccountName: Krzysiu
+timestamps:
+  login: 1588757498298
+  logout: 1588757512753
+ipAddress: 188.47.39.161
+lastlocation:
+  world: world
+  x: 6.5
+  y: 64.0
+  z: 519.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 5.5
+  y: 64.0
+  z: 528.5
+  yaw: -95.693184
+  pitch: 15.299797

@@ -1,0 +1,58 @@
+socialspy: false
+lastAccountName: krzys_Koks_951
+timestamps:
+  login: 1588666071059
+  logout: 1588666432482
+  lastteleport: 1588666429169
+  lastheal: 1587459899252
+ipAddress: 37.47.27.65
+lastlocation:
+  world: world
+  x: 53.5
+  y: 11.0
+  z: 273.5
+  yaw: 36.256817
+  pitch: 11.849945
+logoutlocation:
+  world: world
+  x: 5.5
+  y: 64.0
+  z: 538.5
+  yaw: 97.0569
+  pitch: 18.149742
+homes:
+  las:
+    world: world
+    x: -1827.929766146396
+    y: 92.0
+    z: 342.9635032455258
+    yaw: 180.17207
+    pitch: 50.850067
+  sawana:
+    world: world
+    x: -2711.842353110192
+    y: 76.0
+    z: 996.1476214955816
+    yaw: 271.67166
+    pitch: 69.45018
+  xd:
+    world: world
+    x: -377.61244578729713
+    y: 97.0
+    z: 800.6999999880791
+    yaw: 309.97186
+    pitch: 36.89991
+  xdd:
+    world: world
+    x: -124.06215900111482
+    y: 63.0
+    z: 182.63665525327616
+    yaw: -240.13303
+    pitch: 20.849905
+  home:
+    world: world
+    x: 54.53336811429851
+    y: 11.0
+    z: 276.62794246400614
+    yaw: -108.79352
+    pitch: 24.449976

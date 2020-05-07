@@ -1,0 +1,25 @@
+socialspy: false
+lastAccountName: Parapetor
+timestamps:
+  login: 1588774127700
+  kits:
+    starter: 1588774151487
+    narzedzia: 1588774156038
+    jedzenie: 1588774158739
+  lastteleport: 1588775144302
+  logout: 1588775366016
+ipAddress: 188.146.183.88
+lastlocation:
+  world: world
+  x: -2012.6483452429788
+  y: 67.0
+  z: 4754.150447461523
+  yaw: -198.7837
+  pitch: 12.30008
+logoutlocation:
+  world: world
+  x: -1.3919596120395554
+  y: 64.0
+  z: 468.33283601843
+  yaw: 286.95776
+  pitch: 23.399721

@@ -1,0 +1,88 @@
+# +----------------------------------------------------+
+# <                  CreativeControl                   >
+# <                     by KubqoA                      >
+# +----------------------------------------------------+
+
+container-chest: You are not allowed to open chest in creative!
+container-chestdouble: You are not allowed to open chest in creative!
+container-furnace: You are not allowed to open furnace in creative!
+container-crafting: You are not allowed to open crafting table in creative!
+container-enderchest: You are not allowed to open enderchest in creative!
+container-minecart: You are not allowed to open minecart in creative!
+container-dispenser: You are not allowed to open dispenser in creative!
+container-dropper: You are not allowed to open dropper in creative!
+container-hopper: You are not allowed to open hopper in creative!
+container-horse: You are not allowed to open horse inventory in creative!
+container-donkey: You are not allowed to open donkey inventory in creative!
+container-enchant: You are not allowed to open enchantment table in creative!
+container-repair: You are not allowed to open anvil in creative!
+container-villager: You are not allowed to trade with villager in creative!
+container-brewing: You are not allowed to open brewing stand in creative!
+damage-creeper: You are not allowed to damage creepers while in creative!
+damage-skeleton: You are not allowed to damage skeletons while in creative!
+damage-spider: You are not allowed to damage spiders while in creative!
+damage-zombie: You are not allowed to damage zombies while in creative!
+damage-slime: You are not allowed to damage slimes while in creative!
+damage-ghast: You are not allowed to damage ghasts while in creative!
+damage-zombie-pigman: You are not allowed to damage zombie pigmans while in creative!
+damage-enderman: You are not allowed to damage endermans while in creative!
+damage-cave-spider: You are not allowed to damage cave spiderss while in creative!
+damage-silverfish: You are not allowed to damage silverfish while in creative!
+damage-blaze: You are not allowed to damage blazes while in creative!
+damage-magma-cube: You are not allowed to damage magma cubes while in creative!
+damage-bat: You are not allowed to damage bats while in creative!
+damage-witch: You are not allowed to damage witches while in creative!
+damage-endermite: You are not allowed to damage endermites while in creative!
+damage-guardian: You are not allowed to damage guardians while in creative!
+damage-pig: You are not allowed to damage pigs while in creative!
+damage-sheep: You are not allowed to damage sheep while in creative!
+damage-cow: You are not allowed to damage cows while in creative!
+damage-chicken: You are not allowed to damage chickens while in creative!
+damage-squid: You are not allowed to damage squids while in creative!
+damage-wolf: You are not allowed to damage wolfs while in creative!
+damage-mooshroom: You are not allowed to damage mooshrooms while in creative!
+damage-ocelot: You are not allowed to damage ocelots while in creative!
+damage-donkey: You are not allowed to damage donkeys while in creative!
+damage-horse: You are not allowed to damage horses while in creative!
+damage-mule: You are not allowed to damage mules while in creative!
+damage-rabbit: You are not allowed to damage rabbits while in creative!
+damage-villager: You are not allowed to damage villagers while in creative!
+damage-giant: You are not allowed to damage giants while in creative!
+damage-iron-golem: You are not allowed to damage iron golems while in creative!
+damage-ender-dragon: You are not allowed to damage ender dragons while in creative!
+damage-snow-golem: You are not allowed to damage snow golems while in creative!
+damage-wither: You are not allowed to damage withers while in creative!
+damage-ender-crystal: You are not allowed to destroy ender crystals while in creative!
+damage-player: You are not allowed to damage players while in creative!
+damage-shulker: You are not allowed to damage shulkers while in creative!
+disabled-gamemode: You can't use this gamemode because it is disabled!
+block-break-bedrock: You are not allowed to break bedrock while in creative!
+hanging-break: This item frame was placed in creative, meaning you can't get the drops from it!
+block-break: This block was placed in creative, meaning you can't get the drops from it!
+vehicle-break: This minecart was place in creative, meaning you can't get the drops from it!
+pickup: You can't pick up items while in creative
+ender_portal: You can't activate ender portal while in creative!
+eye_of_ender: You are not allowed to use eye of ender while in creative!
+snowball: You are not allowed to use snowballs while in creative!
+monster_egg: You can't spawn monsters in creative!
+ignite: You can't ignite while in creative!
+exp_bottle: You can't use xp bottles while in creative!
+chicken_egg: You can't use chicken eggs while in creative!
+potion: You can't use potions while in creative!
+jukebox: You can't use jukeboxes while in creative!
+beacon: You can't manipulate beacons while in creative!
+item_frame: You can't put items to itemframes while in creative!
+armor_stand: You can't edit armor stands in creative!
+saddle: You can't put saddle on pigs in creative mode!
+command: You are not allowed to execute command %cmd% while in creative!
+disabled-item: You can't use this item while in creative!
+disabled-block: You can't place this block while in creative!
+plant: You can't plant while in creative!
+destroy-farmland: You can't destroy farmland while in creative!
+breed: You can't breed animals in creative!
+fish: You are not allowed to fish while in creative!
+drop: You can't drop items while in creative!
+mob-create: You can't create mobs while in creative!
+shooting: You can't shoot from bow while in creative!
+disabled_item: You can't use this item while in creative!
+destroy_farmland: You can't destroy farmland while in creative!

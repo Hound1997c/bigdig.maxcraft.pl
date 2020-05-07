@@ -1,0 +1,34 @@
+lastAccountName: Domi_Q
+timestamps:
+  login: 1588694586354
+  kits:
+    starter: 1588689707356
+    narzedzia: 1588266171537
+    jedzenie: 1588689703806
+    vip: 1588689038264
+  lastteleport: 1588694714642
+  logout: 1588694843564
+socialspy: false
+ipAddress: 83.28.234.48
+lastlocation:
+  world: world
+  x: 23.713317771022794
+  y: 64.0
+  z: 563.5703461005112
+  yaw: -342.7421
+  pitch: 43.649998
+logoutlocation:
+  world: world
+  x: -18.97071753009041
+  y: 64.0
+  z: 500.87873768957763
+  yaw: -69.74293
+  pitch: 6.1500125
+homes:
+  home:
+    world: world
+    x: 2126.695740490885
+    y: 71.0
+    z: -4744.944552951594
+    yaw: 59.914185
+    pitch: 6.8999834

@@ -1,0 +1,628 @@
+﻿options:
+# ###################################################
+#   ___   ___   ___  ___       ___        ___  ___  #
+#  |  __ |   | |   | |  \     |    |___| |___|  |   #
+#  |___| |___| |___| |__/     |___ |   | |   |  |   #
+#                                                   #
+# ###################################################
+
+
+# ################################### #
+        author: MatiX119
+        version: 1.4
+# ZAKAZ EDYTOWANIA TYCH INFORMACJI!!! #
+# ################################### #
+
+
+# ################################################## #
+# Oficjalna strona skryptu:                          #
+#    matix119.000webhostapp.com/skrypty/goodchat.php #
+# Ważne zasady użytkowania skryptu:                  #
+#    matix119.000webhostapp.com/regulamin.php        #
+# ################################################## #
+
+
+# ####################################################################################### #
+#                                       USTAWIENIA                                        #
+#                                                                                         #
+#   Ustaw formatowanie tagu wyświetlanego przed większością komunikatów ze skryptu.       #
+        tag: &b[&eGoodChat&b]
+#                                                                                         #
+#   Ustaw lokalizację folderu, w którym będą przechowywane dodatkowe pliki skryptu.       #
+        folder: plugins/Skript/scripts/GoodChat
+#                                                                                         #
+#   Ustaw nazwy plików. Konieczne używanie rozszerzenia YML. Jeśli plik nie istnieje, to  #
+#   zostanie utworzony nowy przy wczytaniu lub restartu skryptu.                          #
+        przeklenstwa-file: przeklenstwa.yml
+        slownik-file: slownik.yml
+        slownik-lista-file: baza-bledow.yml
+#                                                                                         #
+#   Ustaw, czy blokowanie przekleństw ma być włączone.                                    #
+        anti-swear: true
+#                                                                                         #
+#   Ustaw, czy wiadomość na czacie ma być widoczna, jeśli gracz napisze przekleństwo. W   #
+#   celu skuteczniejszego zwalczania przekleństw oraz omijania cenzury, to zaleca się     #
+#   wyłączyć wyświetlanie danej wiadomości na czacie oraz ustawienia SWEAR-WARN na TRUE.  #
+#   Ustaw także formatowanie cenzury (dotyczy też reklam serwerów czy linków).            #
+        show-chat-swear: true
+        censor-format: *****
+#                                                                                         #
+#   Ustaw, czy ma być pokazane ostrzeżenie lub pouczenie, jeśli gracz napisze przekleń-   #
+#   stwo. Ustaw także wiadomość.                                                          #
+        swear-warn: false
+        swear-warn-msg: &cWyrażaj się grzeczniej!
+#                                                                                         #
+#   Ustaw działanie, podczas gdy gracz obrazi serwer lub administrację. Ustawienie        #
+#   ANTI-SWEAR musi być TRUE. Ustaw filtry, które będą brane pod uwagę, jeśli gracz je    #
+#   napisze wraz z przekleństwem. Ustaw "kick", aby gracz był wyrzucany z serwera, lub    #
+#   ustaw "ban", aby gracz został zbanowany. Ustaw także powód kary.                      #
+        anti-offend: true
+        anti-offend-filters: "serw" or "serv" or "serwer" or "server" or "admin" or "administracja"
+        offend-penalty: kick
+        offend-penalty-reason: &cObraza serwera lub administracji.
+#                                                                                         #
+#   Ustaw, czy ma być włączony słownik dla wszystkich. Zadaniem słownika jest poprawianie #
+#   błędów lub innych literówek co młodzi gracze (dzieci) najczęściej robią błędy.        #
+        use-dictionary: true
+#                                                                                         #
+#   Ustaw, czy na czacie ma funkcjonować funkcja Anti-CapsLook. Wszystkie duże litery     #
+#   będą zamieniane na małe.                                                              #
+        anti-capslock: false
+#                                                                                         #
+#   Ustaw, czy na czacie ma funkcjonować funkcja Anti-Flood. Ta funkcja może nie być      #
+#   skuteczna w przypadku używania skomplikowanych znaków czy pisaniu losowych liter.     #
+        anti-flood: true
+#                                                                                         #
+#   Ustaw, czy na czacie ma funkcjonować ograniczenie czasowe do napisania kolejnej       #
+#   wiadomości. Podaj czas w sekundach. Jeśli ta funkcja ma być wyłączona, to wpisz: 0.   #
+#   Ustaw także wiadomość wyświetlaną na czacie.                                          #
+        anti-spam-time: 0
+        anti-spam-msg: &6Odczekaj &c%{_czas}% sekund &6zanim wyślesz kolejną wiadomość.
+#                                                                                         #
+#   Ustaw, czy ma funkcjonować ograniczenie czasowe do napisania kolejnej komendy. Podaj  #
+#   czas w sekundach. Jeśli ta funkcja ma być wyłączona, to wpisz: 0. Ustaw także         #
+#   wiadomość wyświetlaną na czacie.                                                      #
+        anti-spam-cmd-time: 0
+        anti-spam-cmd-msg: &6Odczekaj &c%{_czas}% sekund &6zanim użyjesz ponownie komendy.
+#                                                                                         #
+#   Ustaw komendy, które mają być pomijane lub sprawiają problem przez funkcję            #
+#   Anti-Spam-Command.                                                                    #
+        allowed-anti-spam-cmd: "komenda" or "komenda2" or "komenda3"
+#                                                                                         #
+#   Ustaw wiadomość wyświetlaną po wyczyszczeniu czatu. Jeśli chcesz, aby był pokazywany  #
+#   nick gracza, który wyczyścił czat, wpisz: %player%.                                   #
+        clearchat-msg: &r                   &e&lCzat został wyczyszczony!
+#                                                                                         #
+#   Ustaw wiadomość wyświetlaną przy próbie napisania wiadomości na czacie, kiedy jest    #
+#   wyłączony i gracz nie posiada uprawnienia.                                            #
+        blocked-chat-msg: &cCzat jest wyłączony.
+#                                                                                         #
+#   Ustaw, czy ma być włączone powiadomienie do wszystkich graczy podczas włączania i     #
+#   wyłączania czatu. Ustaw także wiadomości.                                             #
+        blocked-chat-warn: true
+        blocked-chat-on-msg: &6Czat dla graczy został &2włączony&6!
+        blocked-chat-off-msg: &6Czat dla graczy został &4wyłączony&6!
+#                                                                                         #
+#   Ustaw, czy używasz formatowania czatu przy pomocy skryptów. Jeśli tak, to podaj nazwę #
+#   skryptu, który odpowiada za formatowanie czatu. Funkcja ma na celu wyeliminowanie     #
+#   problemu z niedziałającymi innymi funkcjami skryptu GoodChat na czacie. Ta funkcja    #
+#   jest BETA i może zawierać luki w zabezpieczeniach!                                    #
+        use-script-chat-format: false
+        name-script-chat-format: Nazwa_skryptu
+#                                                                                         #
+#   Ustaw, czy skrypt ma wyświetlać w komendzie "/goodchat stats" ostatnią poprawę błędu  #
+#   przy pomocy słownika oraz ostatnie użycie przekleństwa. Dodatkowo wyświetlany jest    #
+#   nick gracza oraz data. Do wyświetlania statystyk musi być włączona opcja              #
+#   USE-DICTIONARY lub ANTI-SWEAR. Ustawienie opcji na FALSE resetuje statystyki.         #
+        use-stats: true
+#                                                                                         #
+#   Ustaw, czy ma był włączona funkcja Anti-Ads polegająca na blokowaniu (w połowie)      #
+#   reklam serwerów lub linków internetowych. Ustaw także filtry, które mają wykrywać     #
+#   reklamę. Ustaw także sposób karania graczy: "warn" - ostrzeżenie, "kick" - wyrzucenie #
+#   gracza, "ban" - zbanowanie gracza (zbyt ostra kara).                                  #
+        anti-ads: true
+        anti-ads-filter: "www." or "http://" or "http://" or ".csrv" or ".us" or ".ench" or ".de" or ".serv.nu" or ".pl" or ".com" or ".eu" or ".net" or ".tk" or ".pl" or ".gomc" or ".hostmc" or ".mineserv" or "mc." or ".mc" or ".enmc" or "192."
+        anti-ads-penalty: warn
+        anti-ads-msg: &cReklamowanie serwerów i linków internetowych jest zabronione!
+        allowed-ads-filter: "google.pl" or "google.com" or "youtube.pl" or "youtube.com" or "ip_twojego_serwera.pl" or "ip_strony_www_serwera.pl"
+#                                                                                         #
+#   Ustaw, które funkcje skryptu mają dotyczyć uprawionych graczy, którzy posiadają       #
+#   uprawienia typu "bypass". Przydatne do testowania funkcji jako administrator.         #
+        anti-swear-permitted: false
+        anti-capslock-permitted: false
+        anti-spam-permitted: false
+        anti-spam-cmd-permitted: false
+        blocked-chat-permitted: false
+        anti-ads-permitted: false
+#                                                                                         #
+# ####################################################################################### #
+
+
+variables:
+    {gc.spam.%player%} = false
+    {gc.spam.cmd.%player%} = false
+    {gc.chat.toggle} = true
+
+on join:
+    if {gc.spam.%player%} is true:
+        set {gc.spam.%player%} to false
+    if {gc.spam.cmd.%player%} is true:
+        set {gc.spam.cmd.%player%} to false
+
+on load:
+    if folder "{@folder}" doesn't exists:
+        create folder "{@folder}"
+        wait 1 tick
+    if file "{@folder}/{@przeklenstwa-file}" doesn't exists:
+        create file "{@folder}/{@przeklenstwa-file}"
+        send "[GoodChat] Plik z lista przeklenstw zostal utworzony." to console
+        add "kurw" to yaml list "przeklenstwa" from file "{@folder}/{@przeklenstwa-file}"
+    if file "{@folder}/{@slownik-lista-file}" doesn't exists:
+        create file "{@folder}/{@slownik-lista-file}"
+        send "[GoodChat] Plik z lista bledow zostal utworzony." to console
+        add "rze" to yaml list "baza-bledow" from file "{@folder}/{@slownik-lista-file}"
+    if file "{@folder}/{@slownik-file}" doesn't exists:
+        create file "{@folder}/{@slownik-file}"
+        send "[GoodChat] Plik z poprawnymi slowami zostal utworzony." to console
+        set yaml value "rze" from file "{@folder}/{@slownik-file}" to "że"
+    wait 1 tick
+    if {@use-script-chat-format} is true:
+        execute console command "/skript reload {@name-script-chat-format}"
+    if {@use-stats} is false:
+        if {gc.stats.slownik.blad} is set:
+            delete {gc.stats.slownik.blad}
+            delete {gc.stats.slownik.gracz}
+            delete {gc.stats.slownik.data}
+        if {gc.stats.swear.tresc} is set:
+            delete {gc.stats.swear.tresc}
+            delete {gc.stats.swear.gracz}
+            delete {gc.stats.swear.data}
+
+every 1 second:
+    if {gc.chattime} is set:
+        if {gc.chattime} <= now:
+            delete {gc.chattime}
+            if {gc.chat.toggle} is false:
+                set {gc.chat.toggle} to true
+                if {@blocked-chat-warn} is true:
+                    send "{@blocked-chat-on-msg}" to all players
+
+command /chat [<text>]:
+    aliases: /czat, /togglechat
+    trigger:
+        if arg 1 is set:
+            set {_arg1} to arg 1 parsed as integer
+            if {_arg1} is integer:
+                execute player command "/goodchat chat %{_arg1}%"
+            else:
+                send "{@tag} &cPodany czas wyłączenia czatu musi być liczbą." to player
+        else:
+            execute player command "/goodchat chat"
+
+on command:
+    if executor is player:
+        if command is "cc" or "clearchat" or "cleanchat" or "cchat":
+            execute player command "/goodchat clearchat"
+            cancel event
+            stop
+        if command is "goodchat" or "gc" or {@allowed-anti-spam-cmd}:
+            stop
+        if {gc.spam.cmd.%player%} is true:
+            set {_czas} to {@anti-spam-cmd-time}
+            send "{@anti-spam-cmd-msg}" to player
+            cancel event
+            stop
+        if {@anti-spam-cmd-time} > 0:
+            if {@anti-spam-cmd-permitted} is false:
+                if player has permission "goodchat.spam.cmd.bypass" or "goodchat.*" or "*":
+                    stop
+            if {gc.spam.cmd.%player%} is false:
+                set {gc.spam.cmd.%player%} to true
+                wait {@anti-spam-cmd-time} second
+                set {gc.spam.cmd.%player%} to false
+
+on chat:
+    if {gc.chat.toggle} is false:
+        set {_check} to false
+        if {@blocked-chat-permitted} is false:
+            if player has permission "goodchat.chat.toggle.bypass" or "goodchat.*" or "*":
+                set {_check} to true
+        if {_check} is false:
+            send "{@blocked-chat-msg}" to player
+            cancel event
+            stop
+    if {gc.spam.%player%} is true:
+        set {_czas} to {@anti-spam-time}
+        send "{@anti-spam-msg}" to player
+        cancel event
+        stop
+    if {@anti-spam-time} > 0:
+        set {_check} to false
+        if {@anti-spam-permitted} is false:
+            if player has permission "goodchat.spam.bypass" or "goodchat.*" or "*":
+                set {_check} to true
+        if {_check} is false:
+            if {gc.spam.%player%} is false:
+                set {gc.spam.%player%} to true
+    if {@anti-ads} is true:
+        set {_check} to false
+        if {@anti-ads-permitted} is false:
+            if player has permission "goodchat.ads.bypass" or "goodchat.*" or "*":
+                set {_check} to true
+        if {_check} is false:
+            message contains {@allowed-ads-filter}:
+                set {_check} to false
+            else:
+                message contains {@anti-ads-filter}:
+                    cancel event
+                    if "{@anti-ads-penalty}" is "warn":
+                        send "{@anti-ads-msg}" to player
+                    if "{@anti-ads-penalty}" is "kick":
+                        kick player due to "{anti-ads-msg}"
+                    if "{@anti-ads-penalty}" is "ban":
+                        ban player due to "{anti-ads-msg}"
+                    if {@anti-spam-time} > 0:
+                        if {gc.spam.%player%} is true:
+                            wait {@anti-spam-time} seconds
+                            set {gc.spam.%player%} to false
+                        stop
+    if {@anti-capslock} is true:
+        set {_check} to false
+        if {@anti-capslock-permitted} is false:
+            if player has permission "goodchat.capslock.bypass" or "goodchat.*" or "*":
+                set {_check} to true
+        if {_check} is false:
+            replace all "A" with "a" in message
+            replace all "Ą" with "ą" in message
+            replace all "B" with "b" in message
+            replace all "C" with "c" in message
+            replace all "Ć" with "ć" in message
+            replace all "D" with "d" in message
+            replace all "E" with "e" in message
+            replace all "Ę" with "ę" in message
+            replace all "F" with "f" in message
+            replace all "G" with "g" in message
+            replace all "H" with "h" in message
+            replace all "I" with "i" in message
+            replace all "J" with "j" in message
+            replace all "K" with "k" in message
+            replace all "L" with "l" in message
+            replace all "Ł" with "ł" in message
+            replace all "M" with "m" in message
+            replace all "N" with "n" in message
+            replace all "Ń" with "ń" in message
+            replace all "O" with "o" in message
+            replace all "Ó" with "ó" in message
+            replace all "P" with "p" in message
+            replace all "R" with "r" in message
+            replace all "S" with "s" in message
+            replace all "Ś" with "ś" in message
+            replace all "T" with "t" in message
+            replace all "U" with "u" in message
+            replace all "W" with "w" in message
+            replace all "X" with "x" in message
+            replace all "Y" with "y" in message
+            replace all "Z" with "z" in message
+            replace all "Ż" with "ż" in message
+            replace all "Ź" with "ź" in message
+            replace all "Q" with "q" in message
+            replace all "V" with "v" in message
+            loop all players:
+                message contains "%loop-player%":
+                    replace all "%loop-player%" with "%loop-player%" in the message
+    if {@anti-flood} is true:
+        loop 3 times:
+            replace all "aaaaaa" with "a" in the message
+            replace all "ąąąąąą" with "ą" in the message
+            replace all "bbbbbb" with "b" in the message
+            replace all "cccccc" with "c" in the message
+            replace all "ćććććć" with "ć" in the message
+            replace all "dddddd" with "d" in the message
+            replace all "eeeeee" with "e" in the message
+            replace all "ęęęęęę" with "ę" in the message
+            replace all "ffffff" with "f" in the message
+            replace all "gggggg" with "g" in the message
+            replace all "hhhhhh" with "h" in the message
+            replace all "iiiiii" with "i" in the message
+            replace all "jjjjjj" with "j" in the message
+            replace all "kkkkkk" with "k" in the message
+            replace all "llllll" with "l" in the message
+            replace all "łłłłłł" with "ł" in the message
+            replace all "mmmmmm" with "m" in the message
+            replace all "nnnnnn" with "n" in the message
+            replace all "ńńńńńń" with "ń" in the message
+            replace all "oooooo" with "o" in the message
+            replace all "óóóóóó" with "ó" in the message
+            replace all "pppppp" with "p" in the message
+            replace all "rrrrrr" with "r" in the message
+            replace all "ssssss" with "s" in the message
+            replace all "śśśśśś" with "ś" in the message
+            replace all "tttttt" with "t" in the message
+            replace all "uuuuuu" with "u" in the message
+            replace all "wwwwww" with "w" in the message
+            replace all "xxxxxx" with "x" in the message
+            replace all "yyyyyy" with "y" in the message
+            replace all "zzzzzz" with "z" in the message
+            replace all "żżżżżż" with "ż" in the message
+            replace all "źźźźźź" with "ź" in the message
+            replace all "qqqqqq" with "q" in the message
+            replace all "vvvvvv" with "v" in the message
+            replace all "111111" with "1" in the message
+            replace all "222222" with "2" in the message
+            replace all "333333" with "3" in the message
+            replace all "444444" with "4" in the message
+            replace all "555555" with "5" in the message
+            replace all "666666" with "6" in the message
+            replace all "777777" with "7" in the message
+            replace all "888888" with "8" in the message
+            replace all "999999" with "9" in the message
+            replace all "000000" with "0" in the message
+            replace all "......" with "." in the message
+            replace all ",,,,,," with "," in the message
+            replace all "!!!!!!" with "!" in the message
+            replace all "======" with "=" in the message
+            replace all "------" with "-" in the message
+            replace all "//////" with "/" in the message
+            replace all "??????" with "?" in the message
+            replace all "!?!?" and "?!?!" and "??!" and "!??" and "!!?" and "?!!" with "?!" in the message
+            replace all "hahaha" and "hahhah" and "hahaah" and "hhhaa" with "haha" in the message
+            replace all "hehehe" and "hehheh" and "heheeh" and "hhhee" with "hehe" in the message
+    if {@use-dictionary} is true:
+        set message to " %message% "
+        replace all " " with "    " in the message
+        set {_blad::*} to yaml list "baza-bledow" from file "{@folder}/{@slownik-lista-file}"
+        loop {_blad::*}:
+            if {@use-stats} is true:
+                message contains " %loop-value% " or "  %loop-value%?" or "  %loop-value%." or "  %loop-value%," or "  %loop-value%!" or "  %loop-value%:":
+                    set {gc.stats.slownik.blad} to "%loop-value%"
+                    set {gc.stats.slownik.gracz} to player
+                    set {gc.stats.slownik.data} to now
+            message contains "  %loop-value%?":
+                set {_korekta} to yaml value "%loop-value%" from file "{@folder}/{@slownik-file}"
+                replace all "  %loop-value%?" with "  %{_korekta}%?" in message
+            message contains "  %loop-value%.":
+                set {_korekta} to yaml value "%loop-value%" from file "{@folder}/{@slownik-file}"
+                replace all "  %loop-value%." with "  %{_korekta}%." in message
+            message contains "  %loop-value%,":
+                set {_korekta} to yaml value "%loop-value%" from file "{@folder}/{@slownik-file}"
+                replace all "  %loop-value%," with "  %{_korekta}%," in message
+            message contains "  %loop-value%!":
+                set {_korekta} to yaml value "%loop-value%" from file "{@folder}/{@slownik-file}"
+                replace all "  %loop-value%!" with "  %{_korekta}%!" in message
+            message contains "  %loop-value%:":
+                set {_korekta} to yaml value "%loop-value%" from file "{@folder}/{@slownik-file}"
+                replace all "  %loop-value%:" with "  %{_korekta}%:" in message
+            message contains " %loop-value% ":
+                set {_korekta} to yaml value "%loop-value%" from file "{@folder}/{@slownik-file}"
+                replace all "  %loop-value%  " with "  %{_korekta}%  " in message
+        set message to "¯%message%¯"
+        replace all "   " with "" in the message
+        replace all "¯¯ " with "" in the message
+        replace all " ¯¯" with "" in the message
+        replace all "¯ " with "" in the message
+        replace all "¯" with "" in the message
+    if {@anti-swear} is true:
+        set {_message} to message
+        replace all "_" or "." or "," or "*" or "'" or "-" or ":" or "|" or "\" or "/" or "?" or ";" or " " with "" in {_message}
+        set {_przeklenstwa::*} to yaml list "przeklenstwa" from file "{@folder}/{@przeklenstwa-file}"
+        set {_nospammsg} to false
+        set {_check} to false
+        if {@anti-swear-permitted} is false:
+            if player has permission "goodchat.swear.bypass" or "goodchat.*" or "*":
+                set {_check} to true
+        loop {_przeklenstwa::*}:
+            if {@use-stats} is true:
+                {_message} contains "%loop-value%":
+                    set {gc.stats.swear.tresc} to "%loop-value%"
+                    set {gc.stats.swear.gracz} to player
+                    set {gc.stats.swear.data} to now
+            if {_check} is false:
+                {_message} contains "%loop-value%":
+                    if {@anti-offend} is true:
+                        {_message} contains {@anti-offend-filters}:
+                            cancel event
+                            {@offend-penalty} player due to "{@offend-penalty-reason}"
+                            if {@anti-spam-time} > 0:
+                                if {gc.spam.%player%} is true:
+                                    wait {@anti-spam-time} seconds
+                                    set {gc.spam.%player%} to false
+                            stop
+                    if {_nospammsg} is false:
+                        if {@swear-warn} is true:
+                            send "{@swear-warn-msg}" to player
+                    set {_nospammsg} to true
+                    replace all "%loop-value%" with "{@censor-format}" in the message
+                    if {@show-chat-swear} is false:
+                        cancel event
+    if {@anti-spam-time} > 0:
+        if {gc.spam.%player%} is true:
+            wait {@anti-spam-time} seconds
+            set {gc.spam.%player%} to false
+
+command /goodchat [<text>] [<text>] [<text>] [<text>]:
+    aliases: /gc
+    trigger:
+        if arg 1 is "help" or "pomoc" or "?":
+            if player has permission "goodchat.admin" or "goodchat.*" or "*":
+                send "&b&l&m==================&r&b&l[&e&lGoodChat&b&l]&b&l&m==================" to player
+                send "&3/goodchat slownik <dodaj|usun> <błędne słowo> [zamień na] &b- &eDodaje lub usuwa błędy do słownika." to player
+                send "&3/goodchat przekelnstwo <dodaj|usun> <treść> &b- &eDodaje lub usuwa część przekleństwa, który będzie uwzględniany na czacie." to player
+                send "&3/goodchat statystyki &b- &ePokazuje ilość błędów w słowniku oraz zdefiniowanych przekleństw." to player
+                send "&3/clearchat &b- &eCzyści czat." to player
+                send "&3/chat [czas] &b- &eWyłącza czat (czasowo w minutach także)." to player
+                send "&3/goodchat reload &b- &eRestartuje skrypt." to player
+                send "&3/goodchat info &b- &eInformacje o skrypcie." to player
+                send "&b&l&m=============================================" to player
+            else:
+                send "&cNie masz uprawnień." to player
+        if arg 1 is "reload" or "restart" or "r":
+            if player has permission "goodchat.admin" or "goodchat.*" or "*":
+                execute console command "/skript reload %script%"
+                send "{@tag} &aZrestartowano skrypt. Sprawdź konsole czy nie ma błędów." to player
+            else:
+                send "&cNie masz uprawnień." to player
+        if arg 1 is "info" or "informacje":
+            if player has permission "goodchat.admin" or "goodchat.*" or "*":
+                send "&b&l&m==================&r&b&l[&e&lGoodChat&b&l]&b&l&m==================" to player
+                send "&b» &3Skrypt napisany przez: &e{@author}" to player
+                send "&b» &3Wersja: &e{@version}" to player
+                send "&b» &3Informacje: &ematix119.000webhostapp.com/skrypty/goodchat.php" to player
+                send "&3Dziękuję za używanie skryptu GoodChat. Miłego użytkowania! :D" to player
+                send "&b&l&m=============================================" to player
+            else:
+                send "&cNie masz uprawnień." to player
+        if arg 1 is "statystyki" or "staty" or "stats":
+            if player has permission "goodchat.admin" or "goodchat.*" or "*":
+                set {_blad::*} to yaml list "baza-bledow" from file "{@folder}/{@slownik-lista-file}"
+                set {_przeklenstwa::*} to yaml list "przeklenstwa" from file "{@folder}/{@przeklenstwa-file}"
+                send "&b&l&m============&r&b&l[&e&lGoodChat - statystyki&b&l]&b&l&m=============" to player
+                send "&b» &3Ilość zdefiniowanych błędów na liście słownika: &e&l%size of {_blad::*}%" to player
+                send "&b» &3Ilość zdefiniowanych przekleństw na liście: &e&l%size of {_przeklenstwa::*}%" to player
+                if {@use-stats} is true:
+                    if {@use-dictionary} is true:
+                        if {gc.stats.slownik.blad} is set:
+                            send "&b» &3Ostatni błąd: &e%{gc.stats.slownik.blad}% &3(&e%{gc.stats.slownik.gracz}%&3, &e%{gc.stats.slownik.data}%&3)" to player
+                        else:
+                            send "&b» &3Ostatni błąd: &c&onigdy" to player
+                    if {@anti-swear} is true:
+                        if {gc.stats.swear.tresc} is set:
+                            send "&b» &3Ostatnie przekleństwo: &e%{gc.stats.swear.tresc}% &3(&e%{gc.stats.swear.gracz}%&3, &e%{gc.stats.swear.data}%&3)" to player
+                        else:
+                            send "&b» &3Ostatnie przekleństwo: &c&onigdy" to player
+                send "&b&l&m=============================================" to player
+            else:
+                send "&cNie masz uprawnień." to player
+        if arg 1 is "chat" or "czat" or "togglechat":
+            if player has permission "goodchat.chat.toggle.bypass" or "goodchat.*" or "*":
+                if player has permission "goodchat.chat.toggle" or "goodchat.*" or "*":
+                    if {gc.chat.toggle} is true:
+                        if arg 2 is not set:
+                            set {gc.chat.toggle} to false
+                            send "{@tag} &eCzat dla graczy został &4wyłączony&e." to player
+                        if arg 2 is set:
+                            set {_arg2} to arg 2 parsed as integer
+                            if {_arg2} is integer:
+                                if {_arg2} >= 1:
+                                    if {_arg2} <= 1440:
+                                        set {gc.chat.toggle} to false
+                                        set {gc.chattime} to now
+                                        set {_time} to "%arg 2% minutes" parsed as timespan
+                                        add {_time} to {gc.chattime}
+                                        send "{@tag} &eCzat dla graczy został &4wyłączony&e na &b%{_arg2}% minut&e (do &b%{gc.chattime}%&e)." to player
+                                    else:
+                                        send "{@tag} &cPodany czas wyłączenia czatu nie może być wyższy niż 1440." to player
+                                else:
+                                    send "{@tag} &cPodany czas wyłączenia czatu nie może być niższy niż 1." to player
+                            else:
+                                send "{@tag} &cPodany czas wyłączenia czatu musi być liczbą." to player
+                        if {@blocked-chat-warn} is true:
+                            loop all players:
+                                if loop-player is not player:
+                                    send "{@blocked-chat-off-msg}" to loop-player
+                        stop
+                    if {gc.chat.toggle} is false:
+                        set {gc.chat.toggle} to true
+                        if {gc.chattime} is set:
+                            delete {gc.chattime}
+                        send "{@tag} &eCzat dla graczy został &2włączony&e." to player
+                        if {@blocked-chat-warn} is true:
+                            loop all players:
+                                if loop-player is not player:
+                                    send "{@blocked-chat-on-msg}" to loop-player
+                else:
+                    send "&cNie masz uprawnień." to player
+            else:
+                send "&cNie masz uprawnień." to player
+        if arg 1 is "cc" or "clearchat" or "cleanchat" or "cchat":
+            if player has permission "goodchat.clearchat" or "goodchat.*" or "*":
+                loop 100 times:
+                    send " " to all players
+                send "{@clearchat-msg}" to all players
+                loop 4 times:
+                    send " " to all players
+            else:
+                send "&cNie masz uprawnień." to player
+        if arg 1 is "slownik" or "słownik" or "dictionary":
+            if player has permission "goodchat.slownik" or "goodchat.admin" or "goodchat.*" or "*":
+                if arg 2 is "add" or "dodaj" or "ustaw" or "set":
+                    if arg 3 is set:
+                        if arg 4 is set:
+                            set {_check} to false
+                            set {_blad::*} to yaml list "baza-bledow" from file "{@folder}/{@slownik-lista-file}"
+                            loop {_blad::*}:
+                                if "%loop-value%" is "%arg 3%":
+                                    set {_check} to true
+                                    set {_korekta} to yaml value "%loop-value%" from file "{@folder}/{@slownik-file}"
+                                    if {_korekta} is arg 4:
+                                        send "{@tag} &cBłąd ""&4%arg 3%&c"" -> ""&2%arg 4%&c"" jest już zdefiniowany." to player
+                                        stop
+                            if {_check} is false:
+                                add "%arg 3%" to yaml list "baza-bledow" from file "{@folder}/{@slownik-lista-file}"
+                            set yaml value "%arg 3%" from file "{@folder}/{@slownik-file}" to "%arg 4%"
+                            send "{@tag} &aUstawiono błąd ""&4%arg 3%&a"" -> ""&2%arg 4%&a""." to player
+                        else:
+                            send "&f/goodchat %arg 1% %arg 2% %arg 3% &c<popraw na*>" to player
+                            send "&c* &oPrzy definiowaniu słów do słownika proszę używać małych liter!" to player
+                    else:
+                        send "&f/goodchat %arg 1% %arg 2% &c<błędne słowo*> &f<popraw na*>" to player
+                        send "&c* &oPrzy definiowaniu słów do słownika proszę używać małych liter!" to player
+                if arg 2 is "rem" or "remove" or "delete" or "del" or "usun" or "usuń":
+                    if arg 3 is set:
+                        set {_blad::*} to yaml list "baza-bledow" from file "{@folder}/{@slownik-lista-file}"
+                        loop {_blad::*}:
+                            if "%loop-value%" is "%arg 3%":
+                                set {_korekta} to yaml value "%arg 3%" from file "{@folder}/{@slownik-file}"
+                                set yaml value "%arg 3%" from file "{@folder}/{@slownik-file}" to "%{_korekta}% (*** USUNIĘTE ***)"
+                                remove "%arg 3%" from yaml list "baza-bledow" from file "{@folder}/{@slownik-lista-file}"
+                                send "{@tag} &aBłąd ""&4%arg 3%&a"" -> ""&2%{_korekta}%&a"" został usunięty." to player
+                                stop
+                        send "{@tag} &cBłąd ""&4%arg 3%&c"" nie jest zdefiniowany." to player
+                    else:
+                        send "&f/goodchat %arg 1% %arg 2% &c<błędne słowo*>" to player
+                        send "&c* &oPrzy definiowaniu słów do słownika proszę używać małych liter!" to player
+                if arg 2 is not "add" or "dodaj" or "ustaw" or "set" or "rem" or "remove" or "delete" or "del" or "usun" or "usuń":
+                    send "&f/goodchat %arg 1% &c<dodaj|usun> &f<błędne słowo> [popraw na]" to player
+                if arg 2 is not set:
+                    send "&f/goodchat %arg 1% &c<dodaj|usun> &f<błędne słowo> [popraw na]" to player
+            else:
+                send "&cNie masz uprawnień." to player
+        if arg 1 is "przeklenstwo" or "przekleństwo" or "przeklenstwa" or "przekleństwa":
+            if player has permission "goodchat.przeklenstwa" or "goodchat.admin" or "goodchat.*" or "*":
+                if arg 2 is "add" or "dodaj" or "ustaw" or "set":
+                    if arg 3 is set:
+                        set {_przeklenstwa::*} to yaml list "przeklenstwa" from file "{@folder}/{@przeklenstwa-file}"
+                        loop {_przeklenstwa::*}:
+                            if "%loop-value%" is "%arg 3%":
+                                send "{@tag} &cFragment przekleństwa ""&4%arg 3%&c"" jest już zdefiniowany." to player
+                                stop
+                        add "%arg 3%" to yaml list "przeklenstwa" from file "{@folder}/{@przeklenstwa-file}"
+                        send "{@tag} &aFragment przekleństwa ""&4%arg 3%&a"" został dodany." to player
+                    else:
+                        send "&f/goodchat %arg 1% %arg 2% &c<treść przekleństwa>" to player
+                if arg 2 is "rem" or "remove" or "delete" or "del" or "usun" or "usuń":
+                    if arg 3 is set:
+                        set {_przeklenstwa::*} to yaml list "przeklenstwa" from file "{@folder}/{@przeklenstwa-file}"
+                        loop {_przeklenstwa::*}:
+                            if "%loop-value%" is "%arg 3%":
+                                remove "%arg 3%" from yaml list "przeklenstwa" from file "{@folder}/{@przeklenstwa-file}"
+                                send "{@tag} &aFragment przekleństwa ""&4%arg 3%&a"" został usunięty." to player
+                                stop
+                        send "{@tag} &cFragment przekleństwa ""&4%arg 3%&c"" nie istnieje." to player
+                    else:
+                        send "&f/goodchat %arg 1% %arg 2% &c<treść przekleństwa>" to player
+                if arg 2 is not "add" or "dodaj" or "ustaw" or "set" or "rem" or "remove" or "delete" or "del" or "usun" or "usuń":
+                    send "&f/goodchat %arg 1% &c<dodaj|usun> &f<treść przekleństwa>" to player
+                if arg 2 is not set:
+                    send "&f/goodchat %arg 1% &c<dodaj|usun> &f<treść przekleństwa>" to player
+            else:
+                send "&cNie masz uprawnień." to player
+        if arg 1 is not "slownik" or "słownik" or "dictionary" or "help" or "pomoc" or "?" or "reload" or "restart" or "r" or "info" or "informacje" or "przeklenstwo" or "przekleństwo" or "przeklenstwa" or "przekleństwa" or "statystyki" or "staty" or "stats" or "cc" or "clearchat" or "cleanchat" or "cchat" or "chat" or "czat" or "togglechat":
+            send "{@tag} &6Nieznany argument. Wpisz &3/goodchat help&e." to player
+        if arg 1 is not set:
+            execute player command "/goodchat help"
+
+on skript start:
+    send "[Skript] Skrypt GoodChat v{@version} zostal uruchomiony!" to console
+
+on skript stop:
+    send "[Skript] Skrypt GoodChat v{@version} zostal wylaczony!" to console

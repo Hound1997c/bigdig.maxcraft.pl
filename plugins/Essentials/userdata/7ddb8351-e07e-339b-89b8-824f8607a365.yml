@@ -1,0 +1,26 @@
+socialspy: false
+lastAccountName: Dzejkii
+timestamps:
+  login: 1587480708105
+  lastteleport: 1587482450656
+  kits:
+    starter: 1587481716397
+    narzedzia: 1587481155470
+    vip: 1587481693353
+  lastheal: 1587482002135
+  logout: 1587482745523
+ipAddress: 89.64.73.51
+lastlocation:
+  world: world
+  x: -96.84397623451227
+  y: 69.74771665367209
+  z: 905.9427324058663
+  yaw: 135.95981
+  pitch: 84.599945
+logoutlocation:
+  world: world
+  x: -26.486230401986823
+  y: 75.0625
+  z: 528.5243146177297
+  yaw: -280.0493
+  pitch: 27.59998

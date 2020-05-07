@@ -1,0 +1,20 @@
+lastAccountName: dasd
+timestamps:
+  login: 1588798104689
+  logout: 1588798285824
+ipAddress: 5.172.235.51
+socialspy: false
+lastlocation:
+  world: world
+  x: 11.5
+  y: 64.0
+  z: 523.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 33.24728053411199
+  y: 64.0
+  z: 543.3000000119209
+  yaw: 259.50214
+  pitch: 2.2501817

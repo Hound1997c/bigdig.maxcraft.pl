@@ -1,0 +1,21 @@
+lastAccountName: Pertyk
+socialspy: false
+timestamps:
+  login: 1587664582086
+  lastteleport: 1587664744823
+  logout: 1587664748928
+ipAddress: 83.11.106.104
+lastlocation:
+  world: world
+  x: -13.509733128272432
+  y: 64.0
+  z: 507.44074825418824
+  yaw: -165.42853
+  pitch: 9.450082
+logoutlocation:
+  world: world
+  x: 41.69999998807907
+  y: 67.0
+  z: 501.05001945008513
+  yaw: -28.046173
+  pitch: 16.649956

@@ -1,0 +1,23 @@
+lastAccountName: McPantiPL
+timestamps:
+  login: 1588426453888
+  kits:
+    starter: 1588426491591
+  lastteleport: 1588426806188
+  logout: 1588426981705
+socialspy: false
+ipAddress: 46.186.1.9
+lastlocation:
+  world: world
+  x: -27.746106062846383
+  y: 63.0
+  z: 390.85443021212006
+  yaw: 86.40711
+  pitch: 16.499828
+logoutlocation:
+  world: world
+  x: 5.551753738826874
+  y: 65.0
+  z: 528.2869661929418
+  yaw: -2.3931007
+  pitch: 76.04978

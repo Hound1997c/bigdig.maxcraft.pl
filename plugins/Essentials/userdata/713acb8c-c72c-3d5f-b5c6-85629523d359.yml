@@ -1,0 +1,21 @@
+lastAccountName: ziomal
+socialspy: false
+timestamps:
+  login: 1587831853310
+  logout: 1587832479883
+  lastteleport: 1587831937540
+ipAddress: 5.173.32.118
+lastlocation:
+  world: world
+  x: 826.4418321365523
+  y: 64.0
+  z: 184.23937766433372
+  yaw: -56.249542
+  pitch: 21.000088
+logoutlocation:
+  world: world
+  x: 1884.1116395914325
+  y: 72.0
+  z: 699.5021589884874
+  yaw: 261.2995
+  pitch: 26.39993

@@ -1,0 +1,4 @@
+Server ID: unnamed
+Server Name: BidDidCraft
+Bukkit Version: 1.9.2-R0.1-SNAPSHOT
+Version: git-Spigot-944aa20-11e8c6d (MC: 1.9.2)

@@ -1,0 +1,20 @@
+socialspy: false
+lastAccountName: Mikolaj
+timestamps:
+  login: 1587479897592
+  logout: 1587480659575
+ipAddress: 5.174.231.83
+lastlocation:
+  world: world
+  x: -51.5
+  y: 67.0
+  z: 43.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 55.75748646193195
+  y: 64.0
+  z: 536.5309934981931
+  yaw: -269.5484
+  pitch: -25.500036

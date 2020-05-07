@@ -1,0 +1,76 @@
+﻿# ###############################
+# ## ArmorWeight Configuration ##
+# ###############################
+# 
+# For more detail on the values, visit http://armorweight.zettelnet.com/
+# 
+# How weight works:
+#  - A "normal" Minecraft player weighs 100
+#  - Less weight (e.g. 80) means lighter (= faster)
+#  - More weight (e.g. 120) means heavier (= slower)
+#  - Player weight = normal weight + armor weight
+# 
+#  - A "normal" Minecraft horse weighs 500
+#  - Horse weight = normal weight + rider (player) weight + armor weight
+# 
+# To enable all worlds, add the world "*" to "enabledWorlds".
+# 
+# If something does not work properly, check if the feature is enabled in
+# the configuration sections "weightEnabled" and "effectEnabled".
+# 
+# Disclaimer: I cannot assume liability for the accuracy and completeness of the translations.
+
+config:
+  version: 0.3.12
+  autoUpdate: true
+
+metricsEnabled: true
+
+chat:
+  language: enUS
+
+playerWeight: 90
+horseWeight: 400
+
+weightEnabled:
+  armor:
+    player: true
+    horse: true
+  horseRider: true
+  enchantment: false
+
+effectEnabled:
+  speed:
+    player: true
+    playerCreative: false
+    horse: true
+
+enabledWorlds:
+- "*"
+- "world"
+- "world_nether"
+- "world_the_end"
+
+armor:
+  weight:
+    leather: 15
+    gold: 40
+    chainmail: 30
+    iron: 50
+    diamond: 70
+    pumpkin: -10
+  share:
+    helmet: 17
+    chestplate: 45
+    leggings: 25
+    boots: 13
+
+enchantment:
+  weight:
+    general: 0
+    protection: 0
+    unbreaking: 0
+
+weightWarning:
+  enabled: true
+  cooldown: 10

@@ -1,0 +1,21 @@
+lastAccountName: HQ_KILL
+timestamps:
+  login: 1588186726240
+  lastteleport: 1588186971289
+  logout: 1588187288937
+ipAddress: 37.47.38.199
+socialspy: false
+lastlocation:
+  world: world
+  x: 5.1723543638729845
+  y: 65.0
+  z: 528.6000604754399
+  yaw: 1.6577148
+  pitch: 11.9999695
+logoutlocation:
+  world: world
+  x: 2715.699999988079
+  y: 3.0
+  z: 4638.699999988079
+  yaw: 122.70219
+  pitch: -60.74997

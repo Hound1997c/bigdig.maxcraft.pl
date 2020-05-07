@@ -1,0 +1,13 @@
+{
+  "name": "KPS",
+  "description": "Gdzie kucharek sześć, tam oczu dwanaście",
+  "createdAtMillis": 1587130327922,
+  "home": {
+    "w": "world",
+    "lx": -2813.9418066543494,
+    "ly": 47.0,
+    "lz": 327.5070543322817,
+    "p": 5.5145984,
+    "y": 89.65285
+  }
+}

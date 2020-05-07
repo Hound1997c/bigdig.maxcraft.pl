@@ -1,0 +1,20 @@
+socialspy: false
+lastAccountName: Manieknonpremium
+timestamps:
+  login: 1587229357012
+  logout: 1587229416260
+ipAddress: 188.147.51.219
+lastlocation:
+  world: world
+  x: -51.5
+  y: 67.0
+  z: 43.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 1.1661436695982017
+  y: 64.0
+  z: 508.2643230743677
+  yaw: -122.28558
+  pitch: 8.207462

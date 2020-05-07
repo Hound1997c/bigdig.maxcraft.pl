@@ -1,0 +1,16 @@
+{
+  "name": "unatco",
+  "createdAtMillis": 1588718972887,
+  "home": {
+    "w": "world",
+    "lx": -3320.369627976282,
+    "ly": 66.0,
+    "lz": -630.5012960848954,
+    "p": 6.749947,
+    "y": -204.02509
+  },
+  "relationWishes": {
+    "d085a085-73fc-4658-ae76-68b8d4a43ebf": "ENEMY",
+    "safezone": "ALLY"
+  }
+}

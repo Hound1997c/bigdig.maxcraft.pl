@@ -1,0 +1,31 @@
+socialspy: false
+lastAccountName: xxxBlackPearlxxx
+timestamps:
+  login: 1588175637123
+  lastteleport: 1587904296194
+  logout: 1588176865382
+  kits:
+    vip: 1588054104258
+ipAddress: 83.29.155.251
+lastlocation:
+  world: world
+  x: -1357.3694153833956
+  y: 72.11398354882154
+  z: 428.27302211216954
+  yaw: -83.1062
+  pitch: 65.84999
+homes:
+  home:
+    world: world
+    x: -1318.3525882579904
+    y: 8.0
+    z: 412.5879074838319
+    yaw: 184.36633
+    pitch: 10.8000765
+logoutlocation:
+  world: world
+  x: -1277.699999988079
+  y: 70.0
+  z: 438.30000001192093
+  yaw: 139.81598
+  pitch: 10.800086

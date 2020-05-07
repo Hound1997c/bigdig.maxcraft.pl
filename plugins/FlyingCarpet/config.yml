@@ -1,0 +1,26 @@
+pass-through:
+- water
+- lava
+- long_grass
+- dead_bush
+- vine
+- double_plant:2
+- double_plant:3
+descend-speed: 5
+model:
+  base:
+    glass:
+      block-type: glass
+      from: -2, 0, -2
+      to: 2, 0, 2
+  tools:
+    enderchest:
+      block-type: ender_chest
+      at: -2, 0, 0
+    workbench:
+      block-type: workbench
+      at: 2, 0, 0
+  light:
+    glowstone:
+      block-type: glowstone
+      at: 0, 0, 0

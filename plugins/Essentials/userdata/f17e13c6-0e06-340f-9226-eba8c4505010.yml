@@ -1,0 +1,24 @@
+lastAccountName: XB3unekX
+timestamps:
+  login: 1588704381756
+  logout: 1588704987617
+  lastteleport: 1588704947241
+  kits:
+    starter: 1588704567279
+    jedzenie: 1588704553849
+ipAddress: 37.47.45.121
+socialspy: false
+lastlocation:
+  world: world
+  x: -11.377197547498213
+  y: 53.0
+  z: 362.63140516257255
+  yaw: -147.29419
+  pitch: 28.649994
+logoutlocation:
+  world: world
+  x: 36.48170876331317
+  y: 64.0
+  z: 647.6999999880791
+  yaw: -182.24298
+  pitch: 37.200005

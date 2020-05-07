@@ -1,0 +1,373 @@
+# 
+# +------------------------------------------------------+ #
+# |                       Notes                          | #
+# +------------------------------------------------------+ #
+ops-name-color: '4'
+nickname-prefix: ''
+max-nick-length: 15
+ignore-colors-in-max-nick-length: false
+change-displayname: true
+teleport-safety: true
+force-disable-teleport-safety: false
+teleport-cooldown: 0
+teleport-delay: 3
+teleport-invulnerability: 4
+heal-cooldown: 60
+near-radius: 200
+permission-based-item-spawn: false
+spawnmob-limit: 1000
+warn-on-smite: true
+drop-items-if-full: false
+notify-no-new-mail: true
+enabledSigns: -color
+socialspy-commands:
+- msg
+- w
+- r
+- mail
+- m
+- t
+- whisper
+- emsg
+- tell
+- er
+- reply
+- ereply
+- email
+- action
+- describe
+- eme
+- eaction
+- edescribe
+- etell
+- ewhisper
+- pm
+mute-commands:
+- f
+- kittycannon
+player-commands:
+- afk
+- afk.auto
+- back
+- back.ondeath
+- balance
+- balance.others
+- balancetop
+- build
+- chat.color
+- chat.format
+- chat.shout
+- chat.question
+- clearinventory
+- compass
+- depth
+- delhome
+- getpos
+- geoip.show
+- help
+- helpop
+- home
+- home.others
+- ignore
+- info
+- itemdb
+- kit
+- kits.tools
+- kits.vip
+- list
+- mail
+- mail.send
+- me
+- motd
+- msg
+- msg.color
+- nick
+- near
+- pay
+- ping
+- protect
+- r
+- rules
+- realname
+- seen
+- sell
+- sethome
+- setxmpp
+- signs.create.protection
+- signs.create.trade
+- signs.break.protection
+- signs.break.trade
+- signs.use.balance
+- signs.use.buy
+- signs.use.disposal
+- signs.use.enchant
+- signs.use.free
+- signs.use.gamemode
+- signs.use.heal
+- signs.use.info
+- signs.use.kit
+- signs.use.mail
+- signs.use.protection
+- signs.use.repair
+- signs.use.sell
+- signs.use.time
+- signs.use.trade
+- signs.use.warp
+- signs.use.weather
+- spawn
+- suicide
+- time
+- tpa
+- tpaccept
+- tpahere
+- tpdeny
+- warp
+- warp.list
+- world
+- worth
+- xmpp
+skip-used-one-time-kits-from-kit-list: false
+kits:
+  vip:
+    delay: 43200
+    items:
+    - 276 1 name:&bKit_&6Vip
+    - 277 1 name:&bKit_&6Vip
+    - 278 1 name:&bKit_&6Vip
+    - 279 1 name:&bKit_&6Vip
+    - apple 10 name:&bKit_&6Vip
+  supervip:
+    delay: 43200
+    items:
+    - 276 1 name:&bKit_&eSuper&6Vip
+    - 277 1 name:&bKit_&eSuper&6Vip
+    - 278 1 name:&bKit_&eSuper&6Vip
+    - 279 1 name:&bKit_&eSuper&6Vip
+    - 310 1 name:&bKit_&eSuper&6Vip
+    - 311 1 name:&bKit_&eSuper&6Vip
+    - 312 1 name:&bKit_&eSuper&6Vip
+    - 313 1 name:&bKit_&eSuper&6Vip
+    - 322 10 name:&bKit_&eSuper&6Vip
+  narzedzia:
+    delay: 600
+    items:
+    - wooden_sword 1
+    - wooden_axe 1
+    - wooden_pickaxe 1
+    - wooden_shovel 1
+  jedzenie:
+    delay: 600
+    items:
+    - cooked_beef 10
+  starter:
+    delay: 86400
+    items:
+    - stone_sword 1 name:&rKit_&2Starter
+    - stone_axe 1 name:&rKit_&2Starter
+    - stone_pickaxe 1 name:&rKit_&2Starter
+    - stone_shovel 1 name:&rKit_&2Starter
+    - stone_hoe 1 name:&rKit_&2Starter
+    - iron_helmet 1 name:&rKit_&2Starter
+    - iron_chestplate 1 name:&rKit_&2Starter
+    - iron_leggings 1 name:&rKit_&2Starter
+    - iron_boots 1 name:&rKit_&2Starter
+    - shield 1 name:&rKit_&2Starter
+    - cooked_beef 10
+  dtools:
+    delay: 600
+    items:
+    - 278 1 efficiency:1 durability:1 fortune:1 name:&4Gigadrill lore:The_drill_that_&npierces|the_heavens
+    - 277 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole
+    - 298 1 color:255,255,255 name:Top_Hat lore:Good_day,_Good_day
+    - 279:780 1
+  notch:
+    delay: 6000
+    items:
+    - 397:3 1 player:Notch
+  color:
+    delay: 6000
+    items:
+    - 387 1 title:&4Book_&9o_&6Colors author:KHobbits lore:Ingame_color_codes book:Colors
+  firework:
+    delay: 6000
+    items:
+    - 401 1 name:Angry_Creeper color:red fade:green type:creeper power:1
+    - 401 1 name:Starry_Night color:yellow,orange fade:blue type:star effect:trail,twinkle power:1
+    - 401 2 name:Solar_Wind color:yellow,orange fade:red shape:large effect:twinkle color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink shape:star effect:trail power:1
+  elitevip:
+    delay: 86400
+    items:
+    - DIAMOND_PICKAXE 1 dig_speed:4 durability:3 name:&bKit_&eElite&5Vip
+    - DIAMOND_SPADE 1 dig_speed:4 durability:3 name:&bKit_&eElite&5Vip
+    - DIAMOND_AXE 1 dig_speed:4 durability:3 name:&bKit_&eElite&5Vip
+    - DIAMOND_SWORD 1 damage_all:4 fire_aspect:2 knockback:2 name:&bKit_&eElite&5Vip
+    - GOLDEN_APPLE:1 4 name:&bKit_&eElite&5Vip
+    - GOLDEN_APPLE 16 name:&bKit_&eElite&5Vip
+    - DIAMOND_BOOTS 1 protection_environmental:4 durability:3 name:&bKit_&eElite&5Vip
+    - DIAMOND_LEGGINGS 1 protection_environmental:4 durability:3 name:&bKit_&eElite&5Vip
+    - DIAMOND_CHESTPLATE 1 protection_environmental:4 durability:3 name:&bKit_&eElite&5Vip
+    - DIAMOND_HELMET 1 protection_environmental:4 durability:3 name:&bKit_&eElite&5Vip
+    - shield 1 name:&bKit_&eElite&5Vip
+  provip:
+    delay: 86400
+    items:
+    - DIAMOND_PICKAXE 1 dig_speed:5 durability:3 name:&bKit_&dPro&5Vip
+    - DIAMOND_SPADE 1 dig_speed:5 durability:3 name:&bKit_&dPro&5Vip
+    - DIAMOND_AXE 1 dig_speed:5 durability:3 name:&bKit_&dPro&5Vip
+    - DIAMOND_SWORD 1 damage_all:5 fire_aspect:2 knockback:2 name:&bKit_&dPro&5Vip
+    - GOLDEN_APPLE:1 8 name:&bKit_&dPro&5Vip
+    - GOLDEN_APPLE 16 name:&bKit_&dPro&5Vip
+    - DIAMOND_BOOTS 1 protection_environmental:4 durability:3 name:&bKit_&dPro&5Vip
+    - DIAMOND_LEGGINGS 1 protection_environmental:4 durability:3 name:&bKit_&dPro&5Vip
+    - DIAMOND_CHESTPLATE 1 protection_environmental:4 durability:3 name:&bKit_&dPro&5Vip
+    - DIAMOND_HELMET 1 protection_environmental:4 durability:3 name:&bKit_&dPro&5Vip
+    - shield 1 name:&bKit_&dPro&5Vip
+sign-use-per-second: 4
+backup:
+  interval: 30
+per-warp-permission: false
+list:
+  Admins: owner admin
+debug: false
+remove-god-on-disconnect: false
+auto-afk: 300
+auto-afk-kick: -1
+freeze-afk-players: false
+disable-item-pickup-while-afk: false
+cancel-afk-on-interact: true
+cancel-afk-on-move: true
+afk-list-name: none
+death-messages: true
+allow-silent-join-quit: false
+custom-join-message: none
+custom-quit-message: none
+world-teleport-permissions: false
+default-stack-size: -1
+oversized-stacksize: 64
+repair-enchanted: true
+unsafe-enchantments: false
+register-back-in-listener: false
+login-attack-delay: 5
+max-fly-speed: 0.8
+max-walk-speed: 0.8
+mails-per-minute: 1000
+max-tempban-time: -1
+last-message-reply-recipient: true
+last-message-reply-recipient-timeout: 180
+milk-bucket-easter-egg: true
+send-fly-enable-on-join: true
+world-time-permissions: false
+update-bed-at-daytime: true
+world-home-permissions: false
+sethome-multiple:
+  default: 1
+  vip: 3
+  supervip: 5
+  elitevip: 10
+  provip: 15
+  staff: 10
+tpa-accept-cancellation: 120
+starting-balance: 0
+currency-symbol: $
+max-money: 10000000000000
+min-money: -10000
+economy-log-enabled: false
+use-bukkit-permissions: false
+minimum-pay-amount: 0.001
+non-ess-in-help: true
+hide-permissionless-help: true
+chat:
+  radius: 0
+  format: '&7{DISPLAYNAME}&7: &r{MESSAGE}'
+  group-formats:
+     Default: '{GROUP}{DISPLAYNAME}&7:&r {MESSAGE}'
+protect:
+  prevent:
+    lava-flow: false
+    water-flow: false
+    water-bucket-flow: false
+    fire-spread: true
+    lava-fire-spread: true
+    flint-fire: false
+    lightning-fire-spread: true
+    portal-creation: false
+    tnt-explosion: false
+    tnt-playerdamage: false
+    tnt-minecart-explosion: false
+    tnt-minecart-playerdamage: false
+    fireball-explosion: false
+    fireball-fire: false
+    fireball-playerdamage: false
+    witherskull-explosion: false
+    witherskull-playerdamage: false
+    wither-spawnexplosion: false
+    wither-blockreplace: false
+    creeper-explosion: false
+    creeper-playerdamage: false
+    creeper-blockdamage: false
+    enderdragon-blockdamage: true
+    enderman-pickup: false
+    villager-death: false
+    entitytarget: false
+    spawn:
+      creeper: false
+      skeleton: false
+      spider: false
+      giant: false
+      zombie: false
+      slime: false
+      ghast: false
+      pig_zombie: false
+      enderman: false
+      cave_spider: false
+      silverfish: false
+      blaze: false
+      magma_cube: false
+      ender_dragon: false
+      pig: false
+      sheep: false
+      cow: false
+      chicken: false
+      squid: false
+      wolf: false
+      mushroom_cow: false
+      snowman: false
+      ocelot: false
+      iron_golem: false
+      villager: false
+      wither: false
+      bat: false
+      witch: false
+      horse: false
+  creeper:
+    max-height: -1
+  disable:
+    fall: false
+    pvp: false
+    drown: false
+    suffocate: false
+    lavadmg: false
+    projectiles: false
+    contactdmg: false
+    firedmg: false
+    lightning: false
+    wither: false
+    weather:
+      storm: false
+      thunder: false
+      lightning: false
+    build: true
+    use: true
+    warn-on-build-disallow: true
+  alert:
+    on-placement: 10,11,46,327
+    on-use: 327
+  blacklist:
+    placement: 10,11,46,327
+    usage: 327
+newbies:
+  announce-format: '&dWitaj {DISPLAYNAME}&d na serwerze BigDigCraft!                Wpisz &c&l/pomocstart &dby stac sie koxem'
+  spawnpoint: newbies
+  kit: narzedzia
+respawn-listener-priority: high
+respawn-at-home: false

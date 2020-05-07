@@ -1,0 +1,68 @@
+socialspy: false
+lastAccountName: Hound1997c
+timestamps:
+  login: 1586521345130
+  logout: 1586518282576
+  lastteleport: 1586468323285
+  kits:
+    color: 1584874548121
+    provip: 1586456533691
+    notch: 1584874537065
+    dtools: 1584874512987
+    vip: 1586275302479
+    tools: 1586296039040
+  lastheal: 1586454188604
+ipAddress: 37.7.58.216
+lastlocation:
+  world: world
+  x: -71.5878991239178
+  y: 64.0
+  z: 585.2615689814698
+  yaw: -282.89856
+  pitch: 17.249998
+logoutlocation:
+  world: world
+  x: 4307.3655926548
+  y: 70.0
+  z: 1994.9796989262697
+  yaw: 37.648834
+  pitch: 38.100067
+homes:
+  home:
+    world: world
+    x: 12.46049156454863
+    y: 64.28670555644763
+    z: 731.9593127702252
+    yaw: -9.299783
+    pitch: 52.50018
+  stoning:
+    world: world
+    x: 6.407937659290454
+    y: 63.0
+    z: 367.55945167011555
+    yaw: 186.90013
+    pitch: 43.35019
+  endgate:
+    world: world
+    x: 4.5347730038605105
+    y: 69.0
+    z: 675.9401282469894
+    yaw: -132.45041
+    pitch: 57.150066
+  end:
+    world: world_the_end
+    x: 88.26606279121944
+    y: 58.0
+    z: 15.36068516808225
+    yaw: -257.99945
+    pitch: 19.50014
+  nether:
+    world: world_nether
+    x: 11.468285803721049
+    y: 79.0
+    z: 2.6221618292605084
+    yaw: 86.39965
+    pitch: 67.20005
+afk: true
+money: '101999.0'
+godmode: false

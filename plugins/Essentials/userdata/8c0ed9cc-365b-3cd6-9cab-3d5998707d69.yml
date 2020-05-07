@@ -1,0 +1,21 @@
+lastAccountName: goskof
+timestamps:
+  login: 1587495982718
+  logout: 1587497130203
+  lastteleport: 1587496886765
+ipAddress: 185.23.12.64
+socialspy: false
+lastlocation:
+  world: world
+  x: -80.1425428541524
+  y: 68.0
+  z: 841.0280883108787
+  yaw: 198.30786
+  pitch: 24.150328
+logoutlocation:
+  world: world
+  x: 23.786093013252188
+  y: 64.0
+  z: 562.1702732061816
+  yaw: 213.70691
+  pitch: 15.599291

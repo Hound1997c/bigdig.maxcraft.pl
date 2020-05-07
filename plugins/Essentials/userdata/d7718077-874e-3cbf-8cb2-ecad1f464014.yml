@@ -1,0 +1,34 @@
+lastAccountName: kryha2710
+timestamps:
+  login: 1588797905958
+  kits:
+    supervip: 1588680952104
+    starter: 1588440221769
+  lastteleport: 1588798816047
+  logout: 1588799039988
+  lastheal: 1588798484268
+ipAddress: 5.172.233.80
+socialspy: false
+lastlocation:
+  world: world
+  x: -2010.3418864025455
+  y: 85.0
+  z: 4759.066568723419
+  yaw: -334.38184
+  pitch: 25.649954
+homes:
+  home:
+    world: world
+    x: -59.59143035212943
+    y: 60.0
+    z: 236.8843892611661
+    yaw: -0.14555773
+    pitch: 80.7
+logoutlocation:
+  world: world
+  x: -52.94002354893469
+  y: 63.0
+  z: 278.26779689427224
+  yaw: 74.405045
+  pitch: 9.60011
+money: '0.0'

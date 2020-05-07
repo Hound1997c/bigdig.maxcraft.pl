@@ -1,0 +1,32 @@
+lastAccountName: montjaksi
+socialspy: false
+timestamps:
+  login: 1587828505151
+  logout: 1587832961023
+  lastteleport: 1587832833904
+  kits:
+    vip: 1587832356542
+  lastheal: 1587832904752
+ipAddress: 5.173.32.118
+lastlocation:
+  world: world
+  x: 5.5
+  y: 65.0
+  z: 528.5
+  yaw: -339.28516
+  pitch: 42.15002
+logoutlocation:
+  world: world
+  x: 1895.5841286646037
+  y: 96.31733954384653
+  z: 702.5459556144668
+  yaw: 356.99936
+  pitch: 29.140732
+homes:
+  home:
+    world: world
+    x: 1885.1073638789435
+    y: 72.20000004768372
+    z: 704.4940650337683
+    yaw: 268.49915
+    pitch: 30.490732

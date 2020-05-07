@@ -1,0 +1,82 @@
+lastAccountName: Hound1997c
+timestamps:
+  login: 1588804105810
+  logout: 1588804320109
+  lastteleport: 1588786359644
+  kits:
+    graczplus: 1588064209290
+    supervip: 1588701540503
+    firework: 1588507084742
+    color: 1587455920298
+    starter: 1588784165294
+    narzedzia: 1588232037956
+    provip: 1588783490304
+    jedzenie: 1588784152026
+    vip: 1588611365727
+    dtools: 1588590139487
+    elitevip: 1588601752959
+    tools: 1587456638536
+  lastheal: 1588803403503
+ipAddress: 94.254.232.16
+socialspy: false
+lastlocation:
+  world: world
+  x: 134.6508707229919
+  y: 64.0
+  z: 564.8735593138081
+  yaw: 81.90939
+  pitch: 0.7500424
+logoutlocation:
+  world: world
+  x: -1503.5842545412638
+  y: 84.0
+  z: 4650.613486022292
+  yaw: -166.9498
+  pitch: 0.8999193
+afk: false
+homes:
+  biom1:
+    world: world
+    x: -8411.155937391632
+    y: 18.0
+    z: 6112.488589794205
+    yaw: 159.24649
+    pitch: 23.400227
+  biom2:
+    world: world
+    x: -3898.508913872416
+    y: 103.0
+    z: -1727.2950936303316
+    yaw: -239.25
+    pitch: 79.05011
+  biom3:
+    world: world
+    x: -8311.517241263477
+    y: 95.0
+    z: 6048.313944835886
+    yaw: 4.6495667
+    pitch: 63.30004
+  region1:
+    world: world
+    x: -8430.600229685258
+    y: 84.0
+    z: 6094.35907060277
+    yaw: 44.79527
+    pitch: 60.60006
+  gildia:
+    world: world
+    x: -8408.38136301656
+    y: 5.0
+    z: 6079.0576789345
+    yaw: 9.392029
+    pitch: 7.6499853
+  gildianew:
+    world: world
+    x: -8297.190179299418
+    y: 5.0
+    z: 5922.393852727757
+    yaw: -141.20157
+    pitch: 9.899993
+money: '8358.0'
+godmode: false
+nickname: Sandor

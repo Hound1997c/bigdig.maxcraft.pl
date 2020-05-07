@@ -1,0 +1,20 @@
+socialspy: false
+lastAccountName: Merry0
+timestamps:
+  login: 1587925041703
+  logout: 1587925051555
+ipAddress: 31.182.140.110
+lastlocation:
+  world: world
+  x: -51.5
+  y: 67.0
+  z: 43.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 5.023950939736966
+  y: 65.0
+  z: 528.4565003747612
+  yaw: -264.43546
+  pitch: 10.05001

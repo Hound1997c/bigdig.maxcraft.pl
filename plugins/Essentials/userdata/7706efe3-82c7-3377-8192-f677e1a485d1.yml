@@ -1,0 +1,20 @@
+socialspy: false
+lastAccountName: chorskyTV
+timestamps:
+  login: 1588767604191
+  logout: 1588767671209
+ipAddress: 185.34.77.253
+lastlocation:
+  world: world
+  x: 5.5
+  y: 64.0
+  z: 536.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 29.733803127802528
+  y: 64.0
+  z: 570.826986745433
+  yaw: -107.99314
+  pitch: 34.650005

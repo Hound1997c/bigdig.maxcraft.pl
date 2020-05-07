@@ -1,0 +1,187 @@
+######################
+#+                  +#
+#   Przydatne Set    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&1pomoc drop'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'pomoc drop'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'tell: &eOtworzyles Pomoc Drop'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+diamond:
+  NAME: '&b&lDiament'
+  LORE:
+    - 'kilof: zelazny,diaxowy'
+    - 'szansa: 0.5%'
+    - 'fortune: +0,1%/lvl oraz % +2 /lvl'
+    - 'silk Touch: 0.5% 1-2 rudy'
+    - '&6VIP &7ma leszy drop'
+  ID: diamond
+  POSITION-X: 1
+  POSITION-Y: 1
+emerald:
+  NAME: '&2&lSzmaragd'
+  LORE:
+    - 'kilof: zelazny,diaxowy'
+    - 'szansa: 0.7%'
+    - 'fortune: +0,1%/lvl oraz % +2 /lvl'
+    - 'silk Touch: 0.7% 1-2 rudy' 
+    - '&6VIP &7ma leszy drop'
+  ID: emerald
+  POSITION-X: 2
+  POSITION-Y: 1
+iron:
+  NAME: '&7&lZelazo'
+  LORE:
+    - 'kilof: kamienny,zelazny'
+    - 'szansa: 3% 1-9'
+    - '&6VIP &7ma leszy drop'
+  ID: iron ore
+  POSITION-X: 3
+  POSITION-Y: 1
+gold:
+  NAME: '&6&lZloto'
+  LORE:
+    - 'kilof: zelazny,diaxowy'
+    - 'szansa: 0.7%'
+    - 'fortune: +0,1%/lvl oraz % +2 /lvl'
+    - 'silk Touch: 0.7% 1-2 rudy' 
+    - '&6VIP &7ma leszy drop'
+  ID: gold ore
+  POSITION-X: 4
+  POSITION-Y: 1
+lapis:
+  NAME: '&1&lLapis'
+  LORE:
+    - 'kilof: kamienny,zelazny,diaxowy'
+    - 'szansa: 2% 2-9'
+    - 'silk Touch: 2% 1-3 rudy'
+  ID: 351
+  DATA-VALUE: 4
+  POSITION-X: 5
+  POSITION-Y: 1
+redstone:
+  NAME: '&4&lRedstone'
+  LORE:
+    - 'kilof: zelazny,diaxowy'
+    - 'szansa: 2% 2-13'
+    - 'silk Touch: 2% 1-3 rudy'
+  ID: redstone
+  POSITION-X: 6
+  POSITION-Y: 1
+coal:
+  NAME: '&8&lCoal'
+  LORE:
+    - 'kilof: dowolny'
+    - 'szansa: 4.2% 1-9'
+    - 'silk Touch: 4.2% 1-2 rudy'
+  ID: coal
+  POSITION-X: 7
+  POSITION-Y: 1
+obsidian:
+  NAME: '&5&lObsidian'
+  LORE:
+    - 'kilof: diaxowy'
+    - 'szansa: 2% 1-2'
+    - 'fortune: +0,3%/lvl oraz % +2 /lvl'
+    - '&6VIP &7ma leszy drop'
+  ID: obsidian
+  POSITION-X: 8
+  POSITION-Y: 1
+refil:
+  NAME: '&b&lRefil'
+  LORE:
+    - 'kilof: dowolny'
+    - 'szansa: 0.3%'
+    - 'fortune: +0,1%/lvl oraz % +1 /lvl'
+    - '&6VIP &7ma leszy drop'
+  ID: 322
+  POSITION-X: 9
+  POSITION-Y: 1
+netherstar:
+  NAME: '&f&lGwiazda Netheru'
+  LORE:
+    - 'kilof: diaxowy'
+    - 'szansa: 0.01%'
+    - 'fortune: +0.01%/lvl oraz'
+    - '&6VIP &7ma leszy drop'
+  ID: 399
+  POSITION-X: 1
+  POSITION-Y: 2
+xp:
+  NAME: '&a&lXP'
+  LORE:
+    - 'kilof: dowolny'
+    - 'xp leci ze stona'
+    - 'szansa: 100% 1pkt'
+    - '&6VIP &7ma leszy drop'
+  ID: wool
+  DATA-VALUE: 5
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 2
+  POSITION-Y: 2
+mcmmo:
+  NAME: '&e&lMCMMO lopata'
+  LORE:
+    - 'jak wysoki lvl kopania mozesz dropnac'
+    - '&6z piachu:'
+    - 'glowstone dust'
+    - 'diaxa'
+    - '&2z ziemi:'
+    - 'jablko'
+    - 'glowstone dust'
+    - 'kakao'
+    - 'diaxa'
+    - 'tabliczke dla konia'
+    - '&8ze zwiru:'
+    - 'kosc'
+    - 'proch wybuchowy'
+  ID: diamond spade
+  DATA-VALUE: 4
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 3
+  POSITION-Y: 2
+back:
+  COMMAND: 'open: startmenu.yml'
+  NAME: '&4&lWSTECZ'
+  LORE:
+    - 'do startmenu'
+  ID: wool
+  DATA-VALUE: 14
+  POSITION-X: 8
+  POSITION-Y: 3
+zamknij:
+  NAME: '&4&lWYJDZ'
+  ID: redstone lamp
+  LORE:
+    - 'Zamkniecie menu'
+  POSITION-X: 9
+  POSITION-Y: 3

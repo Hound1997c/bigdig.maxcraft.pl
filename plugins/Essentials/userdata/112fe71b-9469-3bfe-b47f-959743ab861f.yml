@@ -1,0 +1,29 @@
+socialspy: false
+lastAccountName: DerBahner
+timestamps:
+  login: 1587780328979
+  lastteleport: 1587786768948
+  logout: 1587787340517
+ipAddress: 188.146.161.66
+lastlocation:
+  world: world
+  x: 72.42015715485832
+  y: 79.0
+  z: -508.4507570572476
+  yaw: -359.76694
+  pitch: 32.39971
+logoutlocation:
+  world: world
+  x: 60.92946575405284
+  y: 83.0
+  z: -500.738421576976
+  yaw: 283.43207
+  pitch: 22.800022
+homes:
+  home:
+    world: world
+    x: 72.57271571591559
+    y: 79.0
+    z: -509.1859630977309
+    yaw: -353.7668
+    pitch: 31.649708

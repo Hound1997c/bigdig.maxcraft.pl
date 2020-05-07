@@ -1,0 +1,33 @@
+lastAccountName: miki
+timestamps:
+  login: 1588781565627
+  lastteleport: 1588782937572
+  kits:
+    starter: 1588781887974
+    narzedzia: 1588782282707
+    jedzenie: 1588782295815
+  logout: 1588783711301
+ipAddress: 46.148.79.133
+socialspy: false
+lastlocation:
+  world: world
+  x: 5.551753738826874
+  y: 64.0
+  z: 528.2869661929418
+  yaw: 12.306896
+  pitch: -1.2002387
+homes:
+  home:
+    world: world
+    x: -4261.031783290745
+    y: 70.0
+    z: -2749.418849987907
+    yaw: 357.90335
+    pitch: 27.900314
+logoutlocation:
+  world: world
+  x: -4265.661886590724
+  y: 70.0
+  z: -2750.967146593343
+  yaw: -34.970215
+  pitch: 18.300657

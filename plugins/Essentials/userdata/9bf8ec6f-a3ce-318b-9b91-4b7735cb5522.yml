@@ -1,0 +1,29 @@
+lastAccountName: free0man61
+timestamps:
+  login: 1588504203336
+  logout: 1588504252438
+  lastteleport: 1588428160942
+ipAddress: 46.20.59.222
+socialspy: false
+lastlocation:
+  world: world
+  x: -19.93159848688205
+  y: 64.0
+  z: 496.59438120078295
+  yaw: -80.39746
+  pitch: 15.749688
+homes:
+  home:
+    world: world
+    x: -1845.9958741526398
+    y: 65.0
+    z: 1721.536811672739
+    yaw: -265.2
+    pitch: 22.799988
+logoutlocation:
+  world: world
+  x: -1840.0685632811048
+  y: 59.0
+  z: 1726.633817238463
+  yaw: -57.44965
+  pitch: 5.9998794

@@ -1,0 +1,257 @@
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&1start menu'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'pomoc gildie'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'tell: &eOtworzyles pomoc gildie.'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+frakcja-pomoc:
+  COMMAND: 'f help'
+  NAME: '&2/f help [1..2..]'
+  LORE:
+    - 'wszystkie komendy'
+  ID: command block
+  POSITION-X: 1
+  POSITION-Y: 1
+
+frakcja-zalozenie:
+  COMMAND: 'f create'
+  NAME: '&2/f create <nazwa>'
+  LORE:
+    - 'zakladasz gildie'
+  ID: wool
+  DATA-VALUE: 13
+  POSITION-X: 2
+  POSITION-Y: 1
+  
+frakcja-claim-one:
+  COMMAND: 'f claim one'
+  NAME: '&2/f claim one'
+  LORE:
+    - 'przejmujesz kwadrat terenu 16x16 kratek, tam gdzie stoisz'
+    - 'nie mozesz przejac wiecej niz laczny &2power &7gildii'
+    - 'mozesz zabrac teren innej gildii jak maja za malo &2powera'
+  ID: grass
+  DATA-VALUE: 13
+  POSITION-X: 3
+  POSITION-Y: 1
+frakcja-unclaim-one:
+  COMMAND: 'f unclaim one'
+  NAME: '&2/f unclaim one'
+  LORE:
+    - 'oddajesz 16x16 na ktorym stoisz jako teren niczyi'
+  ID: grass
+  POSITION-X: 4
+  POSITION-Y: 1
+frakcja-unclaim-all:
+  COMMAND: 'f unclaim all'
+  NAME: '&2/f unclaim all'
+  LORE:
+    - 'oddajesz caly teren gildii jako niczyi'
+  ID: grass
+  POSITION-X: 5
+  POSITION-Y: 1
+frakcja-seechunk:
+  COMMAND: 'f seechunk'
+  NAME: '&2/f seechunk'
+  LORE:
+    - 'widzisz granice kwadratu 16x16 na którym stoisz'
+    - 'wylaczasz jeszcze raz uzywajac komendy'
+  ID: fence
+  POSITION-X: 6
+  POSITION-Y: 1
+frakcja-map:
+  COMMAND: 'f map'
+  NAME: '&2/f map'
+  LORE:
+    - 'widzisz mape wszystkich kwadratow w okolicy'
+  ID: map
+  POSITION-X: 7
+  POSITION-Y: 1
+frakcja-sethome:
+  COMMAND: 'f sethome'
+  NAME: '&2/f sethome'
+  LORE:
+    - 'ustawiasz home gildii'
+  ID: bed
+  POSITION-X: 8
+  POSITION-Y: 1
+frakcja-home:
+  COMMAND: 'f home'
+  NAME: '&2/f home'
+  LORE:
+    - 'teleport na home'
+  ID: bed
+  POSITION-X: 9
+  POSITION-Y: 1
+frakcja-invite:
+  COMMAND: 'f invite'
+  NAME: '&2/f invite <nick>'
+  LORE:
+    - 'zaproszenie gracza do gildii'
+  ID: bed
+  POSITION-X: 1
+  POSITION-Y: 2
+frakcja-invite:
+  COMMAND: 'f invite'
+  NAME: '&2/f invite <nick>'
+  LORE:
+    - 'zaproszenie gracza do gildii'
+  ID: tripwire_hook
+  POSITION-X: 1
+  POSITION-Y: 2
+frakcja-kick:
+  COMMAND: 'f kick'
+  NAME: '&2/f kick <nick>'
+  LORE:
+    - 'wywalenie gracza z gildii'
+  ID: cobblestone
+  POSITION-X: 2
+  POSITION-Y: 2
+frakcja-promote:
+  COMMAND: 'f promote'
+  NAME: '&2/f promote <nick>'
+  LORE:
+    - 'pozwolenie na budowanie w terenie gildii'
+  ID: iron ingot
+  POSITION-X: 3
+  POSITION-Y: 2
+frakcja-officer:
+  COMMAND: 'f officer'
+  NAME: '&2/f officer <nick>'
+  LORE:
+    - 'nadanie moderatora gildii'
+  ID: gold ingot
+  POSITION-X: 4
+  POSITION-Y: 2
+frakcja-title:
+  COMMAND: 'f title'
+  NAME: '&2/f title <nick> [tytul]'
+  LORE:
+    - 'tytul gracza w gildii widziany w czacie gildii'
+  ID: paper
+  POSITION-X: 5
+  POSITION-Y: 2
+frakcja-desc:
+  COMMAND: 'f desc'
+  NAME: '&2/f desc [napis]'
+  LORE:
+    - 'napis wyswietlany jak ktos wejdzie na twoje terytorium'
+  ID: sign
+  POSITION-X: 6
+  POSITION-Y: 2
+frakcja-ally:
+  COMMAND: 'f ally'
+  NAME: '&2/f ally [gildia]'
+  LORE:
+    - '&5sojusz gildii'
+    - 'uwaga! domyslnie moga sie tepac na Twoje f home'
+    - 'mozna to zmienic w ustawieniach gildii &2f perm'
+  ID: wool
+  DATA-VALUE: 10
+  POSITION-X: 7
+  POSITION-Y: 2
+frakcja-truce:
+  COMMAND: 'f truce'
+  NAME: '&2/f truce [gildia]'
+  LORE:
+    - '&dzaufanie gildii'
+  ID: wool
+  DATA-VALUE: 2
+  POSITION-X: 8
+  POSITION-Y: 2
+frakcja-enemy:
+  COMMAND: 'f enemy'
+  NAME: '&2/f enemy [gildia]'
+  LORE:
+    - '&4wojna gildii'
+    - 'mozenie sie bic na swoich terytoriach'
+  ID: wool
+  DATA-VALUE: 14
+  POSITION-X: 9
+  POSITION-Y: 2
+frakcja-neutral:
+  COMMAND: 'f neutral'
+  NAME: '&2/f neutral [gildia]'
+  LORE:
+    - '&fneutralnosc gildii'
+    - 'relacja z gildia taka jaka jest domyslnie'
+  ID: wool
+  POSITION-X: 1
+  POSITION-Y: 3
+frakcja-power:
+  COMMAND: 'f power'
+  NAME: '&2/f power'
+  LORE:
+    - 'taki bonus terenu dajesz swojej gildii'
+    - 'umieracjac tracisz go troche i mozesz miec ujemny'
+  ID: brick_stairs
+  POSITION-X: 2
+  POSITION-Y: 3
+frakcja-powerwspolny:
+  COMMAND: 'f f'
+  NAME: '&2/f f [gildia]'
+  LORE:
+    - 'widzisz statystyki danej gildii'
+    - '&6Land/ Power / Maxpower &7widzisz'
+    - '&eIle macie terenu/ile mozecie miec teraz/ile jak wszyscy maja max power'
+    - 'jesli &6(Power < Land)&7 to moga wam przejac&6(Land-Power)&7terenu'
+  ID: 340
+  POSITION-X: 3
+  POSITION-Y: 3
+frakcja-disband:
+  NAME: '&2/f disband'
+  LORE:
+    - 'usuwasz gildie'
+  ID: wool
+  DATA-VALUE: 13
+  POSITION-X: 4
+  POSITION-Y: 3
+frakcja-leave:
+  NAME: '&2/f leave'
+  LORE:
+    - 'opuszczasz gildie'
+  ID: wool
+  DATA-VALUE: 13
+  POSITION-X: 5
+  POSITION-Y: 3
+frakcja-back:
+  COMMAND: 'open: startmenu.yml'
+  NAME: '&4&lWSTECZ'
+  LORE:
+    - 'do startmenu'
+  ID: wool
+  DATA-VALUE: 14
+  POSITION-X: 8
+  POSITION-Y: 5
+frakcja-zamknij:
+  NAME: '&4&lWYJDZ'
+  ID: redstone lamp
+  LORE:
+    - 'Zamkniecie menu'
+  POSITION-X: 9
+  POSITION-Y: 5

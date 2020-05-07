@@ -1,0 +1,25 @@
+lastAccountName: Kamnipanzer
+timestamps:
+  login: 1588798394403
+  kits:
+    starter: 1588590304505
+    narzedzia: 1588274945020
+    jedzenie: 1588783684973
+  logout: 1588798723973
+  lastteleport: 1588785235176
+ipAddress: 188.146.170.154
+socialspy: false
+lastlocation:
+  world: world
+  x: 40.14169546238333
+  y: 67.0
+  z: 505.37149174506953
+  yaw: -263.54803
+  pitch: 3.4500184
+logoutlocation:
+  world: world
+  x: 6.425197433970772
+  y: 64.0
+  z: 497.0076761953672
+  yaw: 7.3558145
+  pitch: 12.749941

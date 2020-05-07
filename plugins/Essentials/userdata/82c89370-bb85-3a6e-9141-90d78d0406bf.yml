@@ -1,0 +1,23 @@
+lastAccountName: rKainee
+timestamps:
+  login: 1587041259655
+  logout: 1587063106360
+  kits:
+    tools: 1586879133857
+ipAddress: 77.114.155.227
+socialspy: false
+lastlocation:
+  world: world
+  x: -51.5
+  y: 67.0
+  z: 43.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 2683.513503687673
+  y: 62.0
+  z: -619.3000000119209
+  yaw: 198.52458
+  pitch: 7.0518484
+afk: false

@@ -1,0 +1,23 @@
+lastAccountName: szymonxe
+timestamps:
+  login: 1588194893609
+  logout: 1588198007491
+  lastteleport: 1588192519722
+  kits:
+    starter: 1588192039664
+ipAddress: 31.130.96.17
+socialspy: false
+lastlocation:
+  world: world
+  x: 5.551753738826874
+  y: 65.0
+  z: 528.2869661929418
+  yaw: 16.9569
+  pitch: 8.700003
+logoutlocation:
+  world: world
+  x: -201.51459465198107
+  y: 63.0
+  z: 804.6999999880791
+  yaw: 132.00513
+  pitch: -31.349972

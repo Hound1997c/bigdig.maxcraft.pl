@@ -1,0 +1,21 @@
+lastAccountName: JERRY1350
+timestamps:
+  login: 1587552782186
+  logout: 1587554380763
+  lastteleport: 1587552955176
+socialspy: false
+ipAddress: 195.117.212.184
+lastlocation:
+  world: world
+  x: -1514.300000011921
+  y: 60.0
+  z: 591.6999999880791
+  yaw: -86.40555
+  pitch: -90.0
+logoutlocation:
+  world: world
+  x: 476.83169539277634
+  y: 71.0
+  z: 748.0960718805699
+  yaw: 9.12931
+  pitch: 12.451907

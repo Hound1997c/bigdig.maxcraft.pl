@@ -1,0 +1,21 @@
+lastAccountName: wiikttoria
+timestamps:
+  login: 1587922650836
+  logout: 1587926661749
+  lastteleport: 1587841165019
+ipAddress: 87.205.128.108
+socialspy: false
+lastlocation:
+  world: world
+  x: 5.501557999088506
+  y: 64.5
+  z: 525.9363824574631
+  yaw: 186.91467
+  pitch: 20.700016
+logoutlocation:
+  world: world
+  x: -1312.699243064349
+  y: 8.0
+  z: 401.8870297647793
+  yaw: 168.26758
+  pitch: 20.84999

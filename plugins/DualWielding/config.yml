@@ -1,0 +1,8 @@
+# Config file
+cooldown: 0.35 # 0 to disable cooldown
+actionbar:
+   enabled: true
+   actionbar_format: "Cooldown: &a%time"
+permission:
+   enabled: false
+   node: "net.minecord.dualwielding.allow" # This node can be customized

@@ -1,0 +1,32 @@
+lastAccountName: pionamefy
+timestamps:
+  login: 1588196007244
+  lastteleport: 1588194758275
+  kits:
+    starter: 1588192017105
+    narzedzia: 1588192619224
+  logout: 1588196899188
+ipAddress: 31.130.96.17
+socialspy: false
+lastlocation:
+  world: world
+  x: -20.701965407840355
+  y: 65.0
+  z: 261.3953577602527
+  yaw: 102.60462
+  pitch: 13.049882
+logoutlocation:
+  world: world
+  x: 5.51442309871464
+  y: 65.0
+  z: 527.6464986153821
+  yaw: 204.15707
+  pitch: 9.7496605
+homes:
+  home:
+    world: world
+    x: -195.90109728674463
+    y: 6.0
+    z: 833.2810575402638
+    yaw: 275.0766
+    pitch: 16.949762

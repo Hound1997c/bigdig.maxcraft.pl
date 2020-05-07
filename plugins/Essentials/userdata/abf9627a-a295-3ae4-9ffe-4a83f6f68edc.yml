@@ -1,0 +1,21 @@
+socialspy: false
+lastAccountName: gamer267
+timestamps:
+  login: 1588751535204
+  logout: 1588751902431
+  lastteleport: 1588702767502
+ipAddress: 31.182.189.58
+lastlocation:
+  world: world
+  x: 4160.746691252567
+  y: 66.0
+  z: 5029.107343408483
+  yaw: -11.249895
+  pitch: 46.050026
+logoutlocation:
+  world: world
+  x: -2019.4308755129716
+  y: 11.0
+  z: 4749.724010664904
+  yaw: -352.82654
+  pitch: 29.250046

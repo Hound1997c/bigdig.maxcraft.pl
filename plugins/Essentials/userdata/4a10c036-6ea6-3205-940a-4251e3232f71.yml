@@ -1,0 +1,21 @@
+lastAccountName: wikunia1
+timestamps:
+  login: 1587645952204
+  logout: 1587650017431
+  lastteleport: 1587649699526
+ipAddress: 37.7.179.12
+socialspy: false
+lastlocation:
+  world: world
+  x: 35.36925413365729
+  y: 72.0
+  z: 684.6182178885618
+  yaw: -66.03091
+  pitch: 5.9118104
+logoutlocation:
+  world: world
+  x: 204.40842277142323
+  y: 66.0
+  z: 703.9169780506421
+  yaw: 192.91248
+  pitch: 7.909099

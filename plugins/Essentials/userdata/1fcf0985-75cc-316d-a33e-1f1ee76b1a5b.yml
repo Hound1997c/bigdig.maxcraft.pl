@@ -1,0 +1,32 @@
+lastAccountName: stefek
+timestamps:
+  login: 1588676124511
+  lastteleport: 1588179847445
+  logout: 1588676245897
+  kits:
+    vip: 1588175482129
+  lastheal: 1588179326622
+ipAddress: 188.146.104.157
+socialspy: false
+lastlocation:
+  world: world
+  x: -117.38450322195706
+  y: 63.0
+  z: 210.5111328501486
+  yaw: 14.258921
+  pitch: 30.0
+logoutlocation:
+  world: world
+  x: -3634.5967870954305
+  y: 37.0
+  z: -1900.8448960595395
+  yaw: 189.36046
+  pitch: 28.49999
+homes:
+  home:
+    world: world
+    x: -3630.998998726671
+    y: 64.0
+    z: -1936.762902133577
+    yaw: 183.36076
+    pitch: -6.6000524

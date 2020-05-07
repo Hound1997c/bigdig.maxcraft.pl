@@ -1,0 +1,29 @@
+socialspy: false
+lastAccountName: konradzio8
+timestamps:
+  login: 1588585263394
+  logout: 1588585268407
+  lastteleport: 1588236166325
+ipAddress: 109.196.148.57
+lastlocation:
+  world: world
+  x: 36.30000001192093
+  y: 64.5
+  z: 540.1363220637463
+  yaw: 110.11151
+  pitch: 41.82131
+logoutlocation:
+  world: world
+  x: -3636.2951233084636
+  y: 64.0
+  z: -1936.4035679575022
+  yaw: -319.38388
+  pitch: 22.857191
+homes:
+  home:
+    world: world
+    x: -3640.2567235628185
+    y: 64.0
+    z: -1930.6731459876444
+    yaw: 66.11259
+    pitch: 35.275738

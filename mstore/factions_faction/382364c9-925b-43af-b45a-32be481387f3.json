@@ -1,0 +1,19 @@
+{
+  "name": "BadDog",
+  "description": "BadDog ProG@mers never dies",
+  "createdAtMillis": 1587842132400,
+  "home": {
+    "w": "world",
+    "lx": -8301.10881156452,
+    "ly": 5.0,
+    "lz": 5926.368567338809,
+    "p": -0.6000088,
+    "y": -109.10158
+  },
+  "invitedPlayerIds": [
+    "90181a89-a3c4-3980-8bd7-f0b0090cc766"
+  ],
+  "relationWishes": {
+    "d4c81432-79bf-4fb7-bcfd-35267d3e9cbd": "TRUCE"
+  }
+}

@@ -1,0 +1,21 @@
+lastAccountName: olejek
+socialspy: false
+timestamps:
+  login: 1588072459917
+  logout: 1588073045493
+  lastteleport: 1587777232501
+ipAddress: 88.156.132.186
+lastlocation:
+  world: world
+  x: 5.46178482772306
+  y: 65.0
+  z: 528.4985616979536
+  yaw: -185.23586
+  pitch: 6.599998
+logoutlocation:
+  world: world
+  x: 52.01714675189919
+  y: 63.0
+  z: -488.54189482251263
+  yaw: 43.614746
+  pitch: 14.250061

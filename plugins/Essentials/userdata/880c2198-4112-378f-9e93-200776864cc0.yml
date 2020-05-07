@@ -1,0 +1,29 @@
+socialspy: false
+lastAccountName: SuperFox
+timestamps:
+  login: 1587720351088
+  logout: 1587720451714
+  lastteleport: 1587382666075
+ipAddress: 37.47.205.0
+lastlocation:
+  world: world
+  x: 186.97736761031103
+  y: 42.9375
+  z: 841.6329510852514
+  yaw: 293.9658
+  pitch: 54.40255
+logoutlocation:
+  world: world
+  x: 194.95266962206085
+  y: 62.02376184515165
+  z: 785.3637374065071
+  yaw: 236.49301
+  pitch: 9.792133
+homes:
+  home:
+    world: world
+    x: 209.54439575568944
+    y: 67.0
+    z: 800.3000000119209
+    yaw: 241.85779
+    pitch: 39.967434

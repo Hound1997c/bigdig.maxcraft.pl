@@ -1,0 +1,29 @@
+lastAccountName: twinkiewinkiex
+timestamps:
+  login: 1586875732067
+  logout: 1586877642658
+  lastteleport: 1586877167690
+ipAddress: 88.156.128.11
+socialspy: false
+lastlocation:
+  world: world
+  x: -220.5
+  y: 65.0
+  z: 1121.5
+  yaw: 268.76758
+  pitch: 8.400128
+logoutlocation:
+  world: world
+  x: 41.30896730357569
+  y: 64.0
+  z: 549.713247559009
+  yaw: 22.31482
+  pitch: -27.750013
+homes:
+  home:
+    world: world
+    x: -221.40673565119155
+    y: 65.0
+    z: 1122.4364734100793
+    yaw: 268.76758
+    pitch: 8.400128

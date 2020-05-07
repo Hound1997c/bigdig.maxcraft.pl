@@ -1,0 +1,29 @@
+lastAccountName: xxnukalukaxx
+timestamps:
+  login: 1586875400017
+  lastteleport: 1586877496058
+  logout: 1586877648660
+socialspy: false
+ipAddress: 31.0.23.141
+lastlocation:
+  world: world
+  x: -2671.7711130968964
+  y: 62.0
+  z: -537.3491033983653
+  yaw: 304.6508
+  pitch: 5.2500877
+logoutlocation:
+  world: world
+  x: 33.45701917882177
+  y: 64.0
+  z: 546.4612522466305
+  yaw: -150.75159
+  pitch: 10.500344
+homes:
+  home:
+    world: world
+    x: -221.99777831002345
+    y: 69.0
+    z: 1125.229128651285
+    yaw: -46.930176
+    pitch: 46.650536

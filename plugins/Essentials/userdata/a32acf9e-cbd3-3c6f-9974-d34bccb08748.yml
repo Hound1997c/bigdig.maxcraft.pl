@@ -1,0 +1,33 @@
+lastAccountName: Miuzore
+timestamps:
+  login: 1588780898875
+  lastteleport: 1588783582507
+  kits:
+    starter: 1588708772020
+    narzedzia: 1588708782320
+    jedzenie: 1588708777519
+  logout: 1588784189863
+ipAddress: 188.69.223.226
+socialspy: false
+lastlocation:
+  world: world
+  x: -3317.865735164818
+  y: 66.0
+  z: -629.3000000119209
+  yaw: -127.525085
+  pitch: 26.999918
+homes:
+  home:
+    world: world
+    x: 80.09824366709952
+    y: 108.0
+    z: 769.7697592295525
+    yaw: -181.94211
+    pitch: 11.549963
+logoutlocation:
+  world: world
+  x: -3320.369627976282
+  y: 66.0
+  z: -630.5012960848954
+  yaw: -204.02509
+  pitch: 6.749947

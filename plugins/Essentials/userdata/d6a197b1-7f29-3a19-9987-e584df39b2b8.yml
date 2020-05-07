@@ -1,0 +1,23 @@
+lastAccountName: MartysPL
+timestamps:
+  login: 1587827083200
+  lastteleport: 1587827193803
+  kits:
+    starter: 1587827255787
+  logout: 1587827321639
+ipAddress: 83.30.57.68
+socialspy: false
+lastlocation:
+  world: world
+  x: -30.8362686234037
+  y: 75.0625
+  z: 527.8348324086214
+  yaw: -45.434204
+  pitch: 36.14998
+logoutlocation:
+  world: world
+  x: -8.882585422925281
+  y: 64.0
+  z: 506.4379277568034
+  yaw: -95.41812
+  pitch: 8.11396

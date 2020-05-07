@@ -1,0 +1,19 @@
+# EmptyWorldGenerator v1.5 Config
+#
+# You can choose if the bedrock platform gets spawned or not.
+# If enabled, there will be a platform of bedrock at the location specified
+# below, and the player will spawn above it. If the option is
+# disabled, there won't be any bedrock, but the player will still
+# spawn above the location specified.
+#
+# You can set the radius of the rectangular bedrock platform.
+# Example: If the radius is set to 0, a single block will spawn.
+# If the radius is set to 1, a 3x3 platform will spawn (because it's
+# one block on each side, as well as the center block). And so on..
+
+bedrock:
+  enabled: true
+  x: 0
+  y: 64
+  z: 0
+  radius: 0

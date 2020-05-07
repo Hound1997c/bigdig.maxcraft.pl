@@ -1,0 +1,11 @@
+{
+  "aliasesCg": [
+    "cg",
+    "creativegates",
+    "creativegate"
+  ],
+  "teleportationSoundActive": true,
+  "teleportationMessageActive": true,
+  "permissionDefaultCreate": "TRUE",
+  "permissionDefaultUse": "TRUE"
+}

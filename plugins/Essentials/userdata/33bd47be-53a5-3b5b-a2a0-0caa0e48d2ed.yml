@@ -1,0 +1,34 @@
+lastlocation:
+  world: world
+  x: -34.300000011920915
+  y: 57.0
+  z: 375.81337853685915
+  yaw: 178.5061
+  pitch: 22.499908
+socialspy: false
+lastAccountName: ZgredekPLAY
+timestamps:
+  login: 1588609652984
+  logout: 1588622378022
+  lastteleport: 1588621936342
+  mute: 0
+  kits:
+    starter: 1588533010720
+    jedzenie: 1588621691384
+ipAddress: 194.152.47.9
+logoutlocation:
+  world: world
+  x: 7.3243650145538
+  y: 64.0
+  z: 493.8954045860368
+  yaw: 67.50903
+  pitch: 12.449985
+homes:
+  home:
+    world: world
+    x: 1767.648817267287
+    y: 131.0
+    z: -4125.6324350127015
+    yaw: 211.26984
+    pitch: 9.299755
+muted: false

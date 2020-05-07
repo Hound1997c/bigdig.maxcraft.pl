@@ -1,0 +1,21 @@
+socialspy: false
+lastAccountName: Vertez
+timestamps:
+  login: 1588425216547
+  lastteleport: 1588425314293
+  logout: 1588426014579
+ipAddress: 89.64.63.148
+lastlocation:
+  world: world
+  x: 53.29088651485442
+  y: 65.5
+  z: 562.9552838953921
+  yaw: 181.65736
+  pitch: 35.09967
+logoutlocation:
+  world: world
+  x: 5.761901915741653
+  y: 65.0
+  z: 528.4780545293079
+  yaw: 13.65802
+  pitch: 7.7998276

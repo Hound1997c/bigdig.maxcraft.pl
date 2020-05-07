@@ -1,0 +1,24 @@
+socialspy: false
+lastAccountName: MegaXavi
+timestamps:
+  login: 1588783710472
+  logout: 1588784828474
+  kits:
+    starter: 1588703000543
+    jedzenie: 1588780000793
+  lastteleport: 1588784367381
+ipAddress: 188.146.33.29
+lastlocation:
+  world: world
+  x: 3185.0347479604507
+  y: 70.0
+  z: -3676.2632736796695
+  yaw: -127.95593
+  pitch: 31.416672
+logoutlocation:
+  world: world
+  x: 11.453311726627206
+  y: 67.0
+  z: 516.1297463242815
+  yaw: -320.73315
+  pitch: 10.9297285

@@ -1,0 +1,21 @@
+lastAccountName: Jasqu
+timestamps:
+  login: 1588100055997
+  lastteleport: 1588100918235
+  logout: 1588101050106
+ipAddress: 185.131.240.48
+socialspy: false
+lastlocation:
+  world: world
+  x: -1787.140319378427
+  y: 84.0
+  z: -1471.4626802616945
+  yaw: -188.4028
+  pitch: 6.299925
+logoutlocation:
+  world: world
+  x: -3450.0148395729875
+  y: 61.0
+  z: 764.6420276221139
+  yaw: 141.62662
+  pitch: 10.357381

@@ -1,0 +1,23 @@
+socialspy: false
+lastAccountName: kampa
+timestamps:
+  login: 1586638451959
+  lastteleport: 1586638771952
+  kits:
+    tools: 1586639768350
+  logout: 1586639994108
+ipAddress: 77.255.93.234
+lastlocation:
+  world: world
+  x: -26.486230401986823
+  y: 75.0625
+  z: 528.5243146177297
+  yaw: -271.13464
+  pitch: 0.5609559
+logoutlocation:
+  world: world
+  x: -19.61073662092682
+  y: 77.5
+  z: 529.1904294157473
+  yaw: -105.01309
+  pitch: 8.807672

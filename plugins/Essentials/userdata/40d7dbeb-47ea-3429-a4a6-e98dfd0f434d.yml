@@ -1,0 +1,29 @@
+lastAccountName: justin
+socialspy: false
+timestamps:
+  login: 1588623168693
+  logout: 1588626328668
+  lastteleport: 1588626186352
+ipAddress: 5.172.232.39
+lastlocation:
+  world: world
+  x: 2319.5026635530626
+  y: 35.0
+  z: -4690.9480384467915
+  yaw: 180.98494
+  pitch: 9.149964
+logoutlocation:
+  world: world
+  x: 2295.350151259288
+  y: 81.0
+  z: -4879.14606210532
+  yaw: -288.06384
+  pitch: 23.550014
+homes:
+  home:
+    world: world
+    x: 2294.062649226724
+    y: 82.0
+    z: -4875.931419238294
+    yaw: 248.93512
+    pitch: 39.30005

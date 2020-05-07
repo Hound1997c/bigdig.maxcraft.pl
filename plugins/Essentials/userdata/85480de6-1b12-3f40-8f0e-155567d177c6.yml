@@ -1,0 +1,23 @@
+lastAccountName: vivi
+timestamps:
+  login: 1588188768933
+  logout: 1588188798970
+  kits:
+    starter: 1588086281463
+    narzedzia: 1588086894952
+ipAddress: 91.227.216.186
+socialspy: false
+lastlocation:
+  world: world
+  x: -51.5
+  y: 67.0
+  z: 43.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 4.252417618565102
+  y: 64.0
+  z: 524.0545887069202
+  yaw: 126.263214
+  pitch: 5.25

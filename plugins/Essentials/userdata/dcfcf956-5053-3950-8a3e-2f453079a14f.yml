@@ -1,0 +1,29 @@
+socialspy: false
+lastAccountName: Atezim
+timestamps:
+  login: 1588790070756
+  logout: 1588791119998
+  lastteleport: 1588790944262
+ipAddress: 89.151.45.58
+lastlocation:
+  world: world
+  x: -2955.848511922118
+  y: 80.0
+  z: -4544.897029774314
+  yaw: -183.10548
+  pitch: 40.121662
+logoutlocation:
+  world: world
+  x: -3094.7765640210387
+  y: 55.0
+  z: 1433.7544572601676
+  yaw: 60.034058
+  pitch: 7.1269474
+homes:
+  home:
+    world: world
+    x: -3095.352056577354
+    y: 63.0
+    z: 1430.901815917829
+    yaw: 84.76911
+    pitch: 53.16736

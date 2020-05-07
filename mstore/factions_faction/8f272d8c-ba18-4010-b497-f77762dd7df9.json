@@ -1,0 +1,16 @@
+{
+  "name": "KPTEAM",
+  "description": "KPTEAM",
+  "createdAtMillis": 1588585678102,
+  "home": {
+    "w": "world",
+    "lx": -2009.696734930845,
+    "ly": 85.0,
+    "lz": 4761.1922492595,
+    "p": 18.15074,
+    "y": -154.67757
+  },
+  "invitedPlayerIds": [
+    "820db0e8-c16b-3aa1-8877-4e12a0597b39"
+  ]
+}

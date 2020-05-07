@@ -1,0 +1,175 @@
+########################################################################################
+#                                                                                      #
+#                           Auto broadcast plugin config.                              #
+#                               Created by NickTheDev                                  #
+#                                                                                      #
+#   Define your custom broadcasts in this file. A guide on all of the custom options   #
+#   for broadcasts and how to define them can be found on the spigot resource page.    #
+#   All text fields support chat color codes with the '&' symbol.                      #
+#                                                                                      #
+########################################################################################
+
+# DO NOT CHANGE
+# Info created by the plugin about what plugin this config this version supports.
+# In future updates new changes may be added that break old config past a certain
+# version require and require their user to delete their unsupported old config
+# and let the plugin generate a new one.
+config-version: 3.0
+
+# Interval that defines how often broadcasts are scheduled.
+# The interval is in SECONDS, meaning the default 60 represents 60 seconds or one minute.
+interval: 120
+
+# Whether or not the scheduler should allow repeats in broadcasting.
+# If this is true, randomly generated broadcasts may repeat as with normal random numbers.
+# If this is false, broadcasts will never repeat until each unique broadcast has been shown.
+allow-repeats: true
+
+# List of your custom broadcasts!
+# Below are some starter templates that show how to use custom properties on broadcasts.
+# Feel free to add, remove, or change these templates as they are intended only to help
+# you get started. Please see the spigot resource page for a full guide for how to define them.
+#
+# Each broadcast may specify the following fields:
+# messages: String list (Supports color codes)
+# sound: Sound type (Choose from this link: https://bit.ly/2Tn1nvs)
+# worlds: String list (Must be valid worlds)
+# title: String (Supports color)
+# subtitle: String (Supports color)
+# permission: String (Should be a real permission)
+# items: Item list
+#
+# Each item may specify the following fields:
+# type: Material type (Choose from this link: https://bit.ly/2TzIJj0)
+# name: String (Supports color codes)
+# amount: Number (Must be greater than 0)
+# lore: String list (Supports color codes)
+broadcasts:
+    
+    donate:
+        messages:
+             - '&6[AutoBroadcast] Chcesz wspomoc Serwer ???'
+             - '&6Kup range! &b&l http://itemshop.pl/784502.html#'
+             - '&dVIP &6za jedyne &l&d5 zl!'
+             - '&6Rangi są na  &d&l zawsze!'
+
+    # vippromotion:
+        # messages:
+            # - '&6[AutoBroadcast] Chcesz poczuc &0&lmoc &6???'
+            # - '&6Kup vipa! &b&l http://itemshop.pl/784502.html#'
+            # - '&6&lChcesz kupić &b&ltaniej &6&l?'
+            # - '&6&lWpisz &6&l?'
+            # - '&6&l&b&l /vipinfo /provipinfo'
+            # - '&6&lRangi są na  &b&l zawsze!'
+    
+    #cheating:
+     #   messages:
+      #      - '&7&l czity sa karane ale &c&ltolerowane '
+       #     - '&7&l majac clienta do wlasnego uzytku mozesz spac spokojnie'
+        #    - '&7&l no chyba, ze walczysz tylem lub zapierdalasz jak dylizans to dostaniesz &cbana na kilka dni'
+         #   - '&7&l &cPermBan &7tylko za proby niszczenia serwera'
+
+
+    serwerpromotion:
+        messages:
+            - '&6[AutoBroadcast] Zaproś na serwer kolege/kolezanke '
+            - '&6a otrzymasz &2&lFajny Item'
+            - '&6Zapros 3 a otrzymasz &b&lVIPa &6na 30 dni '
+            - '&6Zapros 5 a otrzymasz &b&lSuperVIPa &6na 30 dni '
+      
+    przydatne:
+        messages:
+           - '&6[AutoBroadcast] Zobacz mozliwosci serwera!'
+           - '&6wpisz &c&l/pomocstart'
+    
+    likowanie:
+        messages:
+           - '&6[AutoBroadcast] podoba Ci się serwer ? daj łapkę w góre na:'
+           - '&7https://youtu.be/QaRIZY39sk0'
+           - '&7https://www.topkamc.pl/server/YCbaUQLa'
+           - '&7https://lista-serwerow.emecz.pl/serwery/minecraft/7b4e713b-452c-418e-8b75-cc47508d2b48'
+           - '&6za polubienia: &cnagrody&6!'
+    discord:
+        messages:
+        - '&c[Discord] https://discord.gg/rvM2Qn'
+
+   
+  # Template for a bare bones broadcast that only sends chat messages, feel free to remove.
+  # MessageOnlyTemplate:
+
+    # # Chat messages that this broadcast will send.
+    # messages:
+      # - '&c&lWhat is up!'
+      # - '&a&lGood morning.'
+
+  # Template for a bare bones broadcast that only sends chat messages to players with a certain permission, feel free to remove.
+  # PermissionRequiredTemplate:
+
+    # # Chat messages that this broadcast will send.
+    # messages:
+      # #- '&0&lReally nice weather today.'
+
+    # # Permission required for a player to be able to view this broadcast.
+    # permission: 'permission.needed'
+
+  # # Template for a bare bones broadcast that sends chat messages and plays a sound, feel free to remove.
+  # SoundPlayedTemplate:
+
+    # # Chat messages that this broadcast will send.
+    # messages:
+     # # - '&c&lWhat is up!'
+     # # - '&a&lGood morning.'
+
+    # # Sound that this broadcast will play for players.
+    # #sound: ANVIL_LAND
+
+  # # Template for a broadcast that doesn't send chat messages and just title animations, feel free to remove.
+  # TitleOnlyTemplate:
+
+    # # Title displayed to all players.
+    # #title: '&c&lWhat is up!'
+
+    # # Subtitle displayed to all players.
+    # #subtitle: '&a7lGood morning.'
+
+  # # Template for a broadcast that only displays to players in certain worlds, feel free to remove.
+  # WorldSpecificTemplate:
+
+    # # Chat messages that this broadcast will send.
+    # messages:
+      # #- '&c&lWhat is up!'
+      # #- '&a&lGood morning.'
+
+    # # Worlds the broadcast will show in, in this case exclusively the nether.
+    # worlds:
+      # #- 'world_nether'
+
+  # GiveItemsTemplate:
+
+    # # Chat messages that this broadcast will send.
+    # messages:
+      # #- '&dGreat day today!'
+
+    # # Items that are given to all players.
+    # items:
+
+      # FirstItem:
+        # # Material type.
+        # #type: BAKED_POTATO
+
+        # # Item name.
+        # #name: '&c&lPotato'
+
+        # # Amount of the item.
+        # #amount: 5
+
+        # # Lore of the item.
+        # #lore:
+        # #  - '&8Really cool potato.'
+
+      # SecondItem:
+        # # Material type.
+        # #type: APPLE
+
+        # # Amount of the item.
+        # #amount: 10

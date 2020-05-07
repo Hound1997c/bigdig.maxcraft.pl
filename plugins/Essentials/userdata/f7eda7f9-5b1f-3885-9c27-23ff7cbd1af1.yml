@@ -1,0 +1,32 @@
+lastAccountName: konradziox5
+timestamps:
+  login: 1588347131192
+  lastteleport: 1588251721065
+  logout: 1588347135580
+  kits:
+    vip: 1588236306928
+  lastheal: 1588236397682
+ipAddress: 159.205.141.39
+socialspy: false
+lastlocation:
+  world: world
+  x: 6.198877895705236
+  y: 65.0
+  z: 529.957769966326
+  yaw: -15.805313
+  pitch: 38.715225
+logoutlocation:
+  world: world
+  x: -3903.1201675002953
+  y: 81.05731261423031
+  z: -1948.9176511941444
+  yaw: 266.20966
+  pitch: 27.095764
+homes:
+  home:
+    world: world
+    x: -3630.8281009184207
+    y: 64.0
+    z: -1937.8779724475744
+    yaw: 14.176147
+    pitch: 27.488113

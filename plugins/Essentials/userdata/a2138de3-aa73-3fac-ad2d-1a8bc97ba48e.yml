@@ -1,0 +1,32 @@
+lastAccountName: Krawiec3011
+socialspy: false
+timestamps:
+  login: 1588598934667
+  logout: 1588602324600
+  lastteleport: 1588601294835
+  kits:
+    jedzenie: 1588601887874
+ipAddress: 89.67.22.66
+lastlocation:
+  world: world
+  x: 5.851014886322046
+  y: 64.0
+  z: 543.1378630195659
+  yaw: 1.9568936
+  pitch: 17.099838
+logoutlocation:
+  world: world
+  x: -2009.300000011921
+  y: 67.875
+  z: 4741.55344001949
+  yaw: 265.5769
+  pitch: 35.17266
+homes:
+  home:
+    world: world
+    x: 960.7581378210361
+    y: 70.0
+    z: -2529.483617609356
+    yaw: 163.0271
+    pitch: -10.650033
+money: '0.0'

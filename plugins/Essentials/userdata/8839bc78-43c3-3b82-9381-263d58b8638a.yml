@@ -1,0 +1,23 @@
+lastAccountName: ciecek
+socialspy: false
+timestamps:
+  login: 1588105536822
+  logout: 1588110051272
+  lastteleport: 1588107977467
+  kits:
+    narzedzia: 1587932430498
+ipAddress: 5.206.248.198
+lastlocation:
+  world: world
+  x: -2809.313391176246
+  y: 63.0
+  z: 4480.623068739558
+  yaw: 103.5974
+  pitch: 18.488714
+logoutlocation:
+  world: world
+  x: -3191.4936960771142
+  y: 58.0
+  z: 3124.933968693663
+  yaw: 113.92926
+  pitch: 9.963051

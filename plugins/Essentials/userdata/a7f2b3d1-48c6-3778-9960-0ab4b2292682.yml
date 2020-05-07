@@ -1,0 +1,29 @@
+lastAccountName: AshleyHeinrich
+timestamps:
+  login: 1587054384100
+  logout: 1587057878500
+ipAddress: 46.187.255.100
+socialspy: false
+lastlocation:
+  world: world
+  x: 1791.375790956417
+  y: 71.0
+  z: -102.18102650314005
+  yaw: 60.298584
+  pitch: 52.94992
+logoutlocation:
+  world: world
+  x: 1774.237500011921
+  y: 64.0
+  z: -163.29920145405916
+  yaw: -160.62158
+  pitch: 17.550407
+afk: false
+homes:
+  home:
+    world: world
+    x: 1774.699999988079
+    y: 64.0
+    z: -160.53041400996634
+    yaw: -319.49805
+    pitch: 19.64911

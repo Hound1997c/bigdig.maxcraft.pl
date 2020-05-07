@@ -1,0 +1,21 @@
+lastAccountName: derosiek
+socialspy: false
+timestamps:
+  login: 1586853835024
+  lastteleport: 1586854054583
+  logout: 1586854062539
+ipAddress: 37.116.131.56
+lastlocation:
+  world: world
+  x: 36.08588642907278
+  y: 64.0
+  z: 538.1205171796228
+  yaw: 255.80127
+  pitch: 2.2576427
+logoutlocation:
+  world: world
+  x: 42.90049944020206
+  y: 67.0
+  z: 504.50608893693607
+  yaw: -253.41402
+  pitch: 12.258836

@@ -1,0 +1,21 @@
+socialspy: false
+lastAccountName: igigi
+timestamps:
+  login: 1587846993690
+  lastteleport: 1587846180620
+  logout: 1587846998687
+ipAddress: 89.161.107.5
+lastlocation:
+  world: world
+  x: -26.313116884500367
+  y: 66.0
+  z: 528.6200033191899
+  yaw: -175.48515
+  pitch: -4.4999824
+logoutlocation:
+  world: world
+  x: 1300.5122661581033
+  y: 100.0
+  z: 1251.3680219878083
+  yaw: 14.25371
+  pitch: 34.949974

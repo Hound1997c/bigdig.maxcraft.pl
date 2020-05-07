@@ -1,0 +1,36 @@
+socialspy: false
+lastAccountName: xxerwoss
+timestamps:
+  login: 1588790744478
+  lastteleport: 1588790693819
+  logout: 1588790774449
+  kits:
+    starter: 1588765957408
+    narzedzia: 1588768139065
+    jedzenie: 1588790375808
+    vip: 1588613305651
+  mute: 0
+ipAddress: 89.228.27.119
+lastlocation:
+  world: world
+  x: 5.551753738826874
+  y: 64.0
+  z: 528.2869661929418
+  yaw: -27.1431
+  pitch: 36.29976
+homes:
+  home:
+    world: world
+    x: 4222.04270221722
+    y: 253.0
+    z: -4019.5614955823717
+    yaw: -88.95389
+    pitch: 19.800003
+logoutlocation:
+  world: world
+  x: 8.477915656757622
+  y: 64.0
+  z: 520.4649138028947
+  yaw: 238.20695
+  pitch: 24.149769
+muted: false

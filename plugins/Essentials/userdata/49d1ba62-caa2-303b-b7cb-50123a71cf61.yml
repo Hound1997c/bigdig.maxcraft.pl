@@ -1,0 +1,29 @@
+lastAccountName: Izonis
+socialspy: false
+timestamps:
+  login: 1586955464217
+  lastteleport: 1586956148611
+  logout: 1586956180267
+ipAddress: 46.7.220.6
+lastlocation:
+  world: world
+  x: -2832.3123987656973
+  y: 63.0
+  z: 3555.825293476878
+  yaw: 290.3073
+  pitch: 35.17108
+logoutlocation:
+  world: world
+  x: -2827.432855968002
+  y: 3.0
+  z: 327.52604335600574
+  yaw: -298.16245
+  pitch: 34.749714
+homes:
+  home:
+    world: world
+    x: -2787.6597354194946
+    y: 71.0
+    z: 3571.487447179387
+    yaw: 28.14502
+    pitch: 17.313728

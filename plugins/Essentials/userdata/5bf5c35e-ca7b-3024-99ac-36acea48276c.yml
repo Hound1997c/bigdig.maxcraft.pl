@@ -1,0 +1,32 @@
+lastAccountName: ProsekPolska2010
+socialspy: false
+timestamps:
+  login: 1588233453513
+  lastteleport: 1588236458315
+  kits:
+    starter: 1588101932138
+    narzedzia: 1588183794373
+  logout: 1588237305204
+ipAddress: 80.48.235.238
+lastlocation:
+  world: world
+  x: -8413.808554202002
+  y: 5.0
+  z: 6077.95171389412
+  yaw: 159.09198
+  pitch: 34.64997
+homes:
+  home:
+    world: world
+    x: -3010.222850502054
+    y: 59.0
+    z: -2047.8353562776024
+    yaw: -121.97466
+    pitch: 25.499987
+logoutlocation:
+  world: world
+  x: -25.633922104913978
+  y: 66.0
+  z: 528.3639039971159
+  yaw: -269.09302
+  pitch: 37.200035

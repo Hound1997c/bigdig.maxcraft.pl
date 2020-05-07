@@ -1,0 +1,122 @@
+﻿# #######################################
+# ## ArmorWeight Message Configuration ##
+# #######################################
+# 
+# In this file, you can change the messages of ArmorWeight.
+# Copy a configuration section and rename it to get started.
+# To change the language, edit the value "chat.language" in config.yml.
+# For more detail, visit the ArmorWeight website.
+# 
+# Website: http://armorweight.zettelnet.com/
+# 
+# 
+# Thanks to everyone that contributed to this file by providing their own translation.
+# Please note that I cannot assume liability for the accuracy and completeness of the translations.
+# A list of contributors can be found at armorweight.zettelnet.com/pages/contributors
+
+config:
+  version: 0.3.12
+  autoUpdate: true
+
+enUS:
+  command:
+    error:
+      syntax: "&(red)Syntax: &(gray)/%(syntax)"
+      invalidArgument: "&(red)Argument \"%(arg)\" invalid"
+      invalidArgumentType: "&(red)Argument %(argType) \"%(arg)\" invalid"
+      missingArgument: "&(red)Missing argument %(argType)"
+      notPlayer: "&(red)The player %(player) is currently not online"
+      noPermission: "&(red)You don't have permission to do this"
+    argument:
+      amount: "amount"
+      player: "player"
+    help:
+      command: "&(white)/%(syntax)&(white) - &(gray)%(description)"
+  weight:
+    get:
+      self: "&(prefix)&(gray)You weigh &(gold)%(weight) &(yellow)(%(playerWeight) + %(armorWeight))&(gray)!"
+      selfHorse: "&(prefix)&(gray)Your &(darkGray)horse &(gray)weighs &(gold)%(weight) &(yellow)(%(horseWeight) + %(armorWeight) + %(passengerWeight))&(gray)!"
+      other: "&(prefix)&(gray)%(player) weighs &(gold)%(weight) &(yellow)(%(playerWeight) + %(armorWeight))&(gray)!"
+      otherHorse: "&(prefix)&(gray)%(player)'s &(darkGray)horse &(gray)weighs &(gold)%(weight) &(yellow)(%(horseWeight) + %(armorWeight) + %(passengerWeight))&(gray)!"
+    help:
+      general: "&(prefix)&(gray)Your &(yellow)weight &(gray)effects how &(yellow)fast &(gray)you can move.&(br)The more &(yellow)armor &(gray)you and your horse are wearing, the more your weight goes up."
+      get: "Gets the weight of a player"
+    warning: "&(prefix)&(gray)Wearing heavy armor will cause you to slow down!"
+  plugin:
+    prefix: "&(gray)[&(darkGray)ArmorWeight&(gray)] "
+    info: "&(prefix)&(gray)This server is running &(darkGray)ArmorWeight&(gray) v%(version) by %(creator)!"
+    website: "&(darkGray)Website: &(gray)%(website)"
+    reload: "&(prefix)&(white)Reloaded configurations &(...)"
+    updateAvailable: "&(prefix)&(gray)An update is available &(white)(%(updateName) for %(updateGameVersion))&(gray)!&(br)&(white)Download it at &(gray)%(updateLink)&(white)."
+    help:
+      reload: "Reloads the plugin configurations"
+      debug: "Prints debug information"
+      debugUpdate: "Force recalculation of your weight"
+
+deDE:
+  command:
+    error:
+      syntax: "&(red)Syntax: &(gray)/%(syntax)"
+      invalidArgument: "&(red)Parameter \"%(arg)\" ungültig"
+      invalidArgumentType: "&(red)Parameter %(argType) \"%(arg)\" ungültig"
+      missingArgument: "&(red)Parameter %(argType) fehlt"
+      notPlayer: "&(red)Der Spieler %(player) konnte nicht gefunden werden"
+      noPermission: "&(red)Du darfst das nicht tun"
+    argument:
+      amount: "Betrag"
+      player: "Spieler"
+    help:
+      command: "&(white)/%(syntax)&(white) - &(gray)%(description)"
+  weight:
+    get:
+      self: "&(prefix)&(gray)Dein Gewicht beträgt &(gold)%(weight) &(yellow)(%(playerWeight) + %(armorWeight))&(gray)!"
+      selfHorse: "&(prefix)&(gray)Dein &(darkGray)Pferd &(gray)wiegt &(gold)%(weight) &(yellow)(%(horseWeight) + %(armorWeight) + %(passengerWeight))&(gray)!"
+      other: "&(prefix)&(gray)%(player)s Gewicht beträgt &(gold)%(weight) &(yellow)(%(playerWeight) + %(armorWeight))&(gray)!"
+      otherHorse: "&(prefix)&(gray)%(player)s &(darkGray)Pferd &(gray)wiegt &(gold)%(weight) &(yellow)(%(horseWeight) + %(armorWeight) + %(passengerWeight))&(gray)!"
+    help:
+      general: "&(prefix)&(gray)Dein &(yellow)Gewicht &(gray)bestimmt wie &(yellow)schnell &(gray)du dich bewegst.&(br)Desto mehr &(yellow)Rüstung &(gray)du und dein Pferd tragen, desto mehr wiegst du."
+      get: "Zeigt das Gewicht eines Spielers an"
+    warning: "&(prefix)&(gray)Schwere Rüstung macht dich langsamer!"
+  plugin:
+    prefix: "&(gray)[&(darkGray)ArmorWeight&(gray)] "
+    info: "&(prefix)&(gray)Dieser Server verwendet &(darkGray)ArmorWeight&(gray) v%(version) von %(creator)!"
+    website: "&(darkGray)Webseite: &(gray)%(website)"
+    reload: "&(prefix)&(white)Konfigurations-Dateien neugeladen &(...)"
+    updateAvailable: "&(prefix)&(gray)Update verfügbar: &(white)(%(updateName) für %(updateGameVersion))&(gray)!&(br)&(white)Download: &(gray)%(updateLink)&(white)."
+    help:
+      reload: "Läd die Konfigurations-Dateien neu"
+      debug: "Gibt Debug-Angaben aus"
+      debugUpdate: "Erzwingt eine Neuberechnung des Spielergewichts"
+
+trTR:
+  command:
+    error:
+      syntax: "&(red)Syntax: &(gray)/%(syntax)"
+      invalidArgument: "&(red)Parametre \"%(arg)\" bulunamadi"
+      invalidArgumentType: "&(red)Parametre %(argType) \"%(arg)\" bulunamadi"
+      missingArgument: "&(red)Parametre %(argType) eksik"
+      notPlayer: "&(red)Oyuncu %(player) cevrimici degil"
+      noPermission: "&(red)Bunu yapmak icin yetkiniz yok"
+    argument:
+      amount: "miktar"
+      player: "oyuncu"
+    help:
+      command: "&(white)/%(syntax)&(white) - &(gray)%(description)"
+  weight:
+    get:
+      self: "&(prefix)&(gray)Agirligin &(gold)%(weight) &(yellow)(%(playerWeight) + %(armorWeight))&(gray)!"
+      selfHorse: "&(prefix)&(gray)Senin &(darkGray)atinin &(gray)agirligi &(gold)%(weight) &(yellow)(%(horseWeight) + %(armorWeight) + %(passengerWeight))&(gray)!"
+      other: "&(prefix)&(gray)%(player) oyuncusunun agirligi &(gold)%(weight) &(yellow)(%(playerWeight) + %(armorWeight))&(gray)!"
+      otherHorse: "&(prefix)&(gray)%(player) oyuncusunun &(darkGray)atinin &(gray)agirligi &(gold)%(weight) &(yellow)(%(horseWeight) + %(armorWeight) + %(passengerWeight))&(gray)!"
+    help:
+      general: "&(prefix)&(gray)Sizin &(yellow)agirliginiz &(yellow)hizli &(gray)kosmanizi etkiler &(br)Siz ve atiniz ne kadar fazla &(yellow)zirh &(gray)giyerseniz, o kadar agirliginiz artar."
+      get: "Oyuncunun agirligini gosterir"
+    warning: "&(prefix)&(gray)Agir zirh giydigin icin yavas yuruyeceksin"
+  plugin:
+    prefix: "&(gray)[&(darkGray)ArmorWeight&(gray)] "
+    info: "&(prefix)&(gray)Sunucu &(darkGray)ArmorWeight&(gray) v%(version) %(creator) tarafindan yurutuluyor!"
+    website: "&(darkGray)Web sitesi: &(gray)%(website)"
+    reload: "&(prefix)&(white)Yapilandirma dosyasi yenileniyor &(...)"
+    updateAvailable: "&(prefix)&(gray)Bir Guncellestirme mevcut &(white)(%(updateName) icin %(updateGameVersion))&(gray)!&(br)&(white) Yuklemek icin &(gray)%(updateLink)&(white)."
+    help:
+      reload: "Eklenti yapilandirma dosyasini yenile"

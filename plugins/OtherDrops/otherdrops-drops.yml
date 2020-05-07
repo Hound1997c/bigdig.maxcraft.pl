@@ -1,0 +1,423 @@
+include-files: 
+##########
+# The plugin will scan through and load these files after loading the main config below.
+# Note: drops from included files will are inclusive and will all be added to the drop list.
+##########
+#  - includes/od-fix_undroppables.yml    # fix glass, bookshelf, boat and stairs drops
+#  - includes/od-goldtools-basic.yml     # allow gold tools chance to get ice, glowstone and grass
+#  - includes/od-goldtools-smelt.yml     # gold-pickaxe smelts ores to ingots, sand to glass, etc
+#  - includes/od-ore_extraction.yml      # allow ores to be "extracted" - leaving behind the stone
+#  - includes/od-leaf_overhaul.yml       # overhaul leaf drops (apples, cocoa beans, leaves, sticks & a very small chance of golden apple)
+#  - includes/od-playerdeath_zombie.yml  # players drop zombies on death
+#  - includes/od-undead_chaos.yml        # the undead shall rise again! Includes players dropping zombies/skeletons
+#  - includes/od-random_examples.yml     # For crazy testing only :) Read through examples before activating.
+#  - includes/od-dyewool.yml             # Dye wool after placing!
+#  - includes/od-stop_mob_farms.yml      # Stop mob farming!
+
+## Other users overhauls
+#  - includes/overhaul-catballs.yml     # great example/playable config from Catballs (disable "ob" configs before using this one, otherwise you might have too many drops)
+#  - includes/overhaul-zarius.yml       # Zar's messy config (I run this with no other includes, at the moment)
+    
+## Add your files here (alternatively just add your custom drops to the bottom of this file)
+#  - my_custom_file1.yml
+
+
+aliases:
+##########	
+# add custom YAML aliases here (advanced customisation) - see the wiki for more information
+
+defaults:
+##########	
+# add default values for the config below, "include-files" have their own "defaults" sections
+
+
+otherdrops:
+    DIAMOND_ORE:
+        - drop: COBBLESTONE
+          quantity: 1
+          tool: [ANY, EXPLOSION_TNT, EXPLOSION_CREEPER]
+          message: '&2Diamenty dropia ze stone'
+    GOLD_ORE:
+        - drop: COBBLESTONE
+          quantity: 1
+          tool: [ANY, EXPLOSION_TNT, EXPLOSION_CREEPER]
+          message: '&2Zloto dropi ze stone'
+    IRON_ORE:
+        - drop: COBBLESTONE
+          quantity: 1
+          tool: [ANY, EXPLOSION_TNT, EXPLOSION_CREEPER]
+          message: '&2Zelazo dropi ze stone'
+    EMERALD_ORE:
+        - drop: COBBLESTONE
+          quantity: 1
+          tool: [ANY, EXPLOSION_TNT, EXPLOSION_CREEPER]
+          message: '&2Szmaragdy dropia ze stone'
+    COAL_ORE:
+        - drop: COBBLESTONE
+          quantity: 1
+          tool: [ANY, EXPLOSION_TNT, EXPLOSION_CREEPER]
+          message: '&2Wegiel dropi ze stone'
+    LAPIS_ORE:
+        - drop: COBBLESTONE
+          quantity: 1
+          tool: [ANY, EXPLOSION_TNT, EXPLOSION_CREEPER]
+          message: '&2Lapis dropi ze stone'
+    73:
+        - drop: COBBLESTONE
+          quantity: 1
+          tool: [ANY, EXPLOSION_TNT, EXPLOSION_CREEPER]
+          message: '&2Redstone dropi ze stone'
+    74:
+        - drop: COBBLESTONE
+          quantity: 1
+          tool: [ANY, EXPLOSION_TNT, EXPLOSION_CREEPER]
+          message: '&2Redstone dropi ze stone'
+    OBSIDIAN:
+        - drop: xp
+          tool: [ANY_PICKAXE]
+          chance: 100.0
+          quantity: 10-20
+        - drop: default
+    DIRT:
+        - drop: default
+        - drop: 322
+          tool: [Golden_SHOVEL, DIAMOND_SHOVEL]
+          chance: 0.3
+          quantity: 1
+          message: '&3Znalazles &d&lRefila&3!'
+        - drop: 322
+          tool: [Golden_SHOVEL@!LOOT_BONUS_BLOCKS#1, DIAMOND_SHOVEL@!LOOT_BONUS_BLOCKS#1]
+          chance: 0.3
+          quantity: 1-2
+          message: '&3Znalazles &d&lRefila&3!'
+        - drop: 322
+          tool: [Golden_SHOVEL@!LOOT_BONUS_BLOCKS#2, DIAMOND_SHOVEL@!LOOT_BONUS_BLOCKS#2]
+          chance: 0.3
+          quantity: 1-3
+          message: '&3Znalazles &d&lRefila&3!'
+        - drop: 322
+          tool: [Golden_SHOVEL@!LOOT_BONUS_BLOCKS#3, DIAMOND_SHOVEL@!LOOT_BONUS_BLOCKS#3]
+          chance: 0.3
+          quantity: 1-4
+          message: '&3Znalazles &d&lRefila&3!'
+    STONE:
+        - drop: BOOK
+          tool: [STONE_PICKAXE, IRON_PICKAXE, DIAMOND_PICKAXE]
+          chance: 0.5
+          quantity: 1-5
+          permission: othervip #4 vip
+          message: '&3Znalazles &e&lVIP Ksiazke&3!'
+        - drop: 52
+          tool: [STONE_PICKAXE@!SILK_TOUCH#1, IRON_PICKAXE@!SILK_TOUCH#1, DIAMOND_PICKAXE@!SILK_TOUCH#1]
+          chance: 0.01
+          quantity: 1
+          permission: othervip #4 vip
+          message: '&3Znalazles &0&lMonster Spawner&3!'
+        - drop: DIAMOND 
+          tool: [ANY_PICKAXE]
+          chance: 0.3
+          quantity: 1-9
+          permission: othervip #4 VIP
+          message: '&3Znalazles &9&lVip Diaxa&3!'
+        - drop: GOLD_ORE
+          tool: [ANY_PICKAXE]
+          chance: 0.8
+          quantity: 1-9
+          permission: othervip #4 VIP
+          message: '&3Znalazles &6&lVip Golda&3!'
+        - drop: IRON_ORE
+          tool: [IRON_PICKAXE, DIAMOND_PICKAXE]
+          chance: 2.0
+          quantity: 1-9
+          permission: othervip #4 VIP
+          message: '&3Znalazles &7&lVip Irona&3!'
+        - drop: EMERALD
+          tool: [ANY_PICKAXE]
+          chance: 0.4
+          quantity: 1-9
+          permission: othervip #4 VIP
+          message: '&3Znalazles &2&lVip Emeralda&3!'
+        - drop: 322
+          tool: [ANY_PICKAXE]
+          chance: 0.3
+          quantity: 1-4 #4 VIP
+          permission: othervip
+          message: '&3Znalazles &d&lVip Refila&3!'
+        - drop: '322:1'
+          tool: [ANY_PICKAXE]
+          chance: 0.05
+          quantity: 1
+          permission: othervip #4 VIP
+          message: '&3Znalazles &5&lVIP Koxa&3!'
+        - drop: 399
+          tool: [DIAMOND_PICKAXE]  
+          chance: 0.05
+          quantity: 1
+          message: '&3Znalazles &f&lVIP Nether_Star&3!'
+          permission: othervip #4 VIP
+        - drop: OBSIDIAN
+          tool: [DIAMOND_PICKAXE]  
+          chance: 2.0
+          quantity: 1-10
+          permission: othervip #4 VIP
+          message: '&3Znalazles &0&lVIP Obsidian&3!'
+        - drop: TNT
+          tool: [DIAMOND_PICKAXE]  
+          chance: 0.5
+          quantity: 1-4
+          permission: othervip #4 VIP
+          message: '&3Znalazles &c&lVIP TNT&3!'
+        - drop: xp
+          tool: [ANY_PICKAXE]
+          chance: 100.0
+          quantity: 3-8
+          permission: othervip # 4 Vip
+        - drop: xp
+          tool: [ANY_PICKAXE]
+          chance: 100.0
+          quantity: 4-15
+          permission: otherprovip # pro Vip
+        - drop: BOOKSHELF
+          tool: [STONE_PICKAXE@!SILK_TOUCH#1, IRON_PICKAXE@!SILK_TOUCH#1, DIAMOND_PICKAXE@!SILK_TOUCH#1]
+          chance: 0.5
+          quantity: 1
+          message: '&3Znalazles &e&lRegal&3!'
+        # - drop: BOOK
+          # tool: [STONE_PICKAXE, IRON_PICKAXE, DIAMOND_PICKAXE]
+          # chance: 0.3
+          # quantity: 1
+          # message: '&3Znalazles &e&lKsiazke&3!'
+        # - drop: BOOK
+          # tool: [STONE_PICKAXE@!LOOT_BONUS_BLOCKS#1, IRON_PICKAXE@!LOOT_BONUS_BLOCKS#1, DIAMOND_PICKAXE@!LOOT_BONUS_BLOCKS#1]
+          # chance: 0.3
+          # quantity: 1-2
+          # message: '&3Znalazles &e&lKsiazki&3!'
+        # - drop: BOOK
+          # tool: [STONE_PICKAXE@!LOOT_BONUS_BLOCKS#2, IRON_PICKAXE@!LOOT_BONUS_BLOCKS#2, DIAMOND_PICKAXE@!LOOT_BONUS_BLOCKS#2]
+          # chance: 0.3
+          # quantity: 1-3
+          # message: '&3Znalazles &e&lKsiazki&3!'
+        # - drop: BOOK
+          # tool: [STONE_PICKAXE@!LOOT_BONUS_BLOCKS#3, IRON_PICKAXE@!LOOT_BONUS_BLOCKS#3, DIAMOND_PICKAXE@!LOOT_BONUS_BLOCKS#3]
+          # chance: 0.3
+          # quantity: 1-4
+          # message: '&3Znalazles &e&lKsiazki&3!'
+        - drop: 399
+          tool: [DIAMOND_PICKAXE]  
+          chance: 0.01
+          quantity: 1
+          message: '&3Znalazles &f&lNether_Star&3!'
+        - drop: OBSIDIAN
+          tool: [DIAMOND_PICKAXE@!SILK_TOUCH#1]  
+          chance: 2.0
+          quantity: 1-9
+          message: '&3Znalazles &0&lObsidian&3!'
+        - drop: OBSIDIAN
+          tool: [DIAMOND_PICKAXE]  
+          chance: 1.0
+          quantity: 1-7
+          message: '&3Znalazles &0&lObsidian&3!'
+        - drop: OBSIDIAN
+          tool: [DIAMOND_PICKAXE@!LOOT_BONUS_BLOCKS#1]  
+          chance: 1.0
+          quantity: 2-8
+          message: '&3Znalazles &0&lObsidian&3!'
+        - drop: OBSIDIAN
+          tool: [DIAMOND_PICKAXE@!LOOT_BONUS_BLOCKS#2]  
+          chance: 1.0
+          quantity: 3-9
+          message: '&3Znalazles &0&lObsidian&3!'
+        - drop: OBSIDIAN
+          tool: [DIAMOND_PICKAXE@!LOOT_BONUS_BLOCKS#3]  
+          chance: 1.0
+          quantity: 4-10
+          message: '&3Znalazles &0&lObsidian&3!'
+        - drop: DIAMOND
+          tool: [IRON_PICKAXE, DIAMOND_PICKAXE]
+          chance: 0.2
+          quantity: 1-7
+          #height: "<20"
+          message: '&3Znalazles &3&lDiament&3!'
+        - drop: DIAMOND
+          tool: [IRON_PICKAXE@!LOOT_BONUS_BLOCKS#1, DIAMOND_PICKAXE@!LOOT_BONUS_BLOCKS#1]
+          chance: 0.2
+          quantity: 2-9
+          #height: "<20"
+          message: '&3Szczescie ci sprzyja, znalazles wiecej &3&lDiamentow&3!'
+        - drop: DIAMOND
+          tool: [IRON_PICKAXE@!LOOT_BONUS_BLOCKS#2, DIAMOND_PICKAXE@!LOOT_BONUS_BLOCKS#2]
+          chance: 0.2
+          quantity: 3-11
+          #height: "<20"
+          message: '&3Szczescie ci sprzyja, znalazles wiecej &3&lDiamentow&3!'
+        - drop: DIAMOND
+          tool: [IRON_PICKAXE@!LOOT_BONUS_BLOCKS#3, DIAMOND_PICKAXE@!LOOT_BONUS_BLOCKS#3]
+          chance: 0.2
+          quantity: 4-13
+          #height: "<20"
+          message: '&3Szczescie ci sprzyja, znalazles wiecej &3&lDiamentow&3!'
+        - drop: DIAMOND_ORE
+          tool: [IRON_PICKAXE@!SILK_TOUCH#1, DIAMOND_PICKAXE@!SILK_TOUCH#1]
+          chance: 0.2
+          quantity: 1-7
+          #height: "<20"
+          message: '&3Znalazles &3&lRude Diamentu&3!'
+        - drop: 331
+          tool: [IRON_PICKAXE, DIAMOND_PICKAXE]
+          chance: 1.5
+          quantity: 2-10
+          message: '&3Znalazles &c&lRedstone&3!'
+        - drop: 331
+          tool: [IRON_PICKAXE@!LOOT_BONUS_BLOCKS#1, DIAMOND_PICKAXE@!LOOT_BONUS_BLOCKS#1]
+          chance: 1.0
+          quantity: 4-12
+          message: '&3Znalazles &c&lRedstone&3!'
+        - drop: 331
+          tool: [IRON_PICKAXE@!LOOT_BONUS_BLOCKS#2, DIAMOND_PICKAXE@!LOOT_BONUS_BLOCKS#2]
+          chance: 1.0
+          quantity: 6-14
+          message: '&3Znalazles &c&lRedstone&3!'
+        - drop: 331
+          tool: [IRON_PICKAXE@!LOOT_BONUS_BLOCKS#3, DIAMOND_PICKAXE@!LOOT_BONUS_BLOCKS#3]
+          chance: 1.0
+          quantity: 8-16
+          message: '&3Znalazles &c&lRedstone&3!'
+        - drop: REDSTONE_ORE
+          tool: [IRON_PICKAXE@!SILK_TOUCH#1, DIAMOND_PICKAXE@!SILK_TOUCH#1]
+          chance: 2
+          quantity: 1-5
+          message: '&3Znalazles &c&lRude Redstone&3!'
+        - drop: GOLD_ORE
+          tool: [IRON_PICKAXE, DIAMOND_PICKAXE]
+          chance: 0.8
+          quantity: 1-9
+          message: '&3Znalazles &6&lzloto&3!'
+        - drop: GOLD_ORE
+          tool: [IRON_PICKAXE@!SILK_TOUCH#1, DIAMOND_PICKAXE@!SILK_TOUCH#1]
+          chance: 0.8
+          quantity: 1-9
+          message: '&3Znalazles &6&lzloto&3!'
+        - drop: IRON_ORE
+          tool: [STONE_PICKAXE, IRON_PICKAXE, DIAMOND_PICKAXE]
+          chance: 2.0
+          quantity: 1-9
+          message: '&3Znalazles &7&lzelazo&3!'
+        - drop: IRON_ORE
+          tool: [STONE_PICKAXE@!SILK_TOUCH#1, IRON_PICKAXE@!SILK_TOUCH#1, DIAMOND_PICKAXE@!SILK_TOUCH#1]
+          chance: 2.0
+          quantity: 1-9
+          message: '&3Znalazles &7&lzelazo&3!'
+        - drop: EMERALD
+          tool: [IRON_PICKAXE, DIAMOND_PICKAXE]
+          chance: 0.3
+          quantity: 1-7
+          #height: "<30"
+          message: '&3Znazlazles &2&lszmaragdy&3!'
+        - drop: EMERALD
+          tool: [IRON_PICKAXE@!LOOT_BONUS_BLOCKS#1, DIAMOND_PICKAXE@!LOOT_BONUS_BLOCKS#1]
+          chance: 0.3
+          quantity: 2-9
+          #height: "<20"
+          message: '&3Znazlazles &2&lszmaragdy&3!'
+        - drop: EMERALD
+          tool: [IRON_PICKAXE@!LOOT_BONUS_BLOCKS#2, DIAMOND_PICKAXE@!LOOT_BONUS_BLOCKS#2]
+          chance: 0.3
+          quantity: 3-11
+          #height: "<20"
+          message: '&3Znazlazles &2&lszmaragdy&3!'
+        - drop: EMERALD
+          tool: [IRON_PICKAXE@!LOOT_BONUS_BLOCKS#3, DIAMOND_PICKAXE@!LOOT_BONUS_BLOCKS#3]
+          chance: 0.3
+          quantity: 4-13
+          #height: "<20"
+          message: '&3Znazlazles &2&lszmaragdy&3!'
+        - drop: EMERALD_ORE
+          tool: [IRON_PICKAXE@!SILK_TOUCH#1, DIAMOND_PICKAXE@!SILK_TOUCH#1]
+          chance: 0.3
+          quantity: 1-7
+          #height: "<30"
+          message: '&3Znazlazles &2&lRude szmaragdu&3!'
+        - drop: xp
+          tool: [ANY_PICKAXE]
+          chance: 100.0
+          quantity: 1-2
+        - drop: xp
+          tool: [ANY_PICKAXE]
+          chance: 1.0
+          quantity: 5-20
+        - drop: default
+        - drop: COAL
+          tool: [WOODEN_PICKAXE, GOLDEN_PICKAXE, STONE_PICKAXE, IRON_PICKAXE, DIAMOND_PICKAXE]
+          chance: 2.0
+          quantity: 1-10
+          message: '&3Znalazles &8&lwegiel&3!'
+        - drop: COAL
+          tool: [WOODEN_PICKAXE@!LOOT_BONUS_BLOCKS#1, GOLDEN_PICKAXE@!LOOT_BONUS_BLOCKS#1, STONE_PICKAXE@!LOOT_BONUS_BLOCKS#1, IRON_PICKAXE@!LOOT_BONUS_BLOCKS#1, DIAMOND_PICKAXE@!LOOT_BONUS_BLOCKS#1]
+          chance: 1.0
+          quantity: 2-12
+          message: '&3Znalazles &8&lwegiel&3!'
+        - drop: COAL
+          tool: [WOODEN_PICKAXE@!LOOT_BONUS_BLOCKS#2, GOLDEN_PICKAXE@!LOOT_BONUS_BLOCKS#2, STONE_PICKAXE@!LOOT_BONUS_BLOCKS#2, IRON_PICKAXE@!LOOT_BONUS_BLOCKS#2, DIAMOND_PICKAXE@!LOOT_BONUS_BLOCKS#2]
+          chance: 1.0
+          quantity: 3-14
+          message: '&3Znalazles &8&lwegiel&3!'
+        - drop: COAL
+          tool: [WOODEN_PICKAXE@!LOOT_BONUS_BLOCKS#3, GOLDEN_PICKAXE@!LOOT_BONUS_BLOCKS#3, STONE_PICKAXE@!LOOT_BONUS_BLOCKS#3, IRON_PICKAXE@!LOOT_BONUS_BLOCKS#3, DIAMOND_PICKAXE@!LOOT_BONUS_BLOCKS#3]
+          chance: 1.0
+          quantity: 4-16
+          message: '&3Znalazles &8&lwegiel&3!'
+        - drop: COAL_ORE
+          tool: [WOODEN_PICKAXE@!SILK_TOUCH#1, GOLDEN_PICKAXE@!SILK_TOUCH#1, STONE_PICKAXE@!SILK_TOUCH#1, IRON_PICKAXE@!SILK_TOUCH#1, DIAMOND_PICKAXE@!SILK_TOUCH#1]
+          chance: 1.0
+          quantity: 1-10
+          message: '&3Znalazles &8&lRude wegla&3!'
+        - drop: lapis_lazuli
+          tool: [STONE_PICKAXE, IRON_PICKAXE, DIAMOND_PICKAXE]
+          chance: 1.0
+          quantity: 1-10
+          message: '&3Znalazles &9&lLapis&3!'
+        - drop: lapis_lazuli
+          tool: [STONE_PICKAXE@!LOOT_BONUS_BLOCKS#1, IRON_PICKAXE@!LOOT_BONUS_BLOCKS#1, DIAMOND_PICKAXE@!LOOT_BONUS_BLOCKS#1]
+          chance: 1.0
+          quantity: 2-12
+          message: '&3Znalazles &9&lLapis&3!'
+        - drop: lapis_lazuli
+          tool: [STONE_PICKAXE@!LOOT_BONUS_BLOCKS#2, IRON_PICKAXE@!LOOT_BONUS_BLOCKS#2, DIAMOND_PICKAXE@!LOOT_BONUS_BLOCKS#2]
+          chance: 1.0
+          quantity: 3-14
+          message: '&3Znalazles &9&lLapis&3!'
+        - drop: lapis_lazuli
+          tool: [STONE_PICKAXE@!LOOT_BONUS_BLOCKS#3, IRON_PICKAXE@!LOOT_BONUS_BLOCKS#3, DIAMOND_PICKAXE@!LOOT_BONUS_BLOCKS#3]
+          chance: 1.0
+          quantity: 4-16
+          message: '&3Znalazles &9&lLapis&3!'
+        - drop: lapis_ore
+          tool: [STONE_PICKAXE@!SILK_TOUCH#1, IRON_PICKAXE@!SILK_TOUCH#1, DIAMOND_PICKAXE@!SILK_TOUCH#1]
+          chance: 1.0
+          quantity: 1-7
+          message: '&3Znalazles &9&lRude Lapisu&3!'
+        - drop: 384
+          tool: [WOODEN_PICKAXE@!SILK_TOUCH#1, GOLDEN_PICKAXE@!SILK_TOUCH#1, STONE_PICKAXE@!SILK_TOUCH#1, IRON_PICKAXE@!SILK_TOUCH#1, DIAMOND_PICKAXE@!SILK_TOUCH#1]
+          chance: 3.0
+          quantity: 1-9
+          message: '&3Znalazles &aButelki expa&3!'
+        - drop: TNT
+          tool: [WOODEN_PICKAXE@!SILK_TOUCH#1, GOLDEN_PICKAXE@!SILK_TOUCH#1, STONE_PICKAXE@!SILK_TOUCH#1, IRON_PICKAXE@!SILK_TOUCH#1, DIAMOND_PICKAXE@!SILK_TOUCH#1]
+          chance: 1.0
+          quantity: 1
+          message: '&3Znalazles &fT&0N&fT&3!'
+        
+
+##########	
+# Your changes here, or create a new .yml file and include it above in the "include-files" section
+# Explore the included config files for many more examples
+#
+# If make a interesting or crazy config let me know on the forum and I might include it in the next release.
+#
+# Example:
+#    GLASS:
+#        - drop: GLASS
+#          
+#        - drop: MONEY
+#          quantity: 3-15
+#          message: You recycled the glass for %q dollars.

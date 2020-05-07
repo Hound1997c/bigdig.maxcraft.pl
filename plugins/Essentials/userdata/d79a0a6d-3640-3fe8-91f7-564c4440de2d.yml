@@ -1,0 +1,33 @@
+socialspy: false
+lastAccountName: kostek123465676
+timestamps:
+  login: 1588752754580
+  kits:
+    starter: 1588703982822
+    narzedzia: 1588704024320
+    jedzenie: 1588704008719
+  lastteleport: 1588712736902
+  logout: 1588752906777
+ipAddress: 178.37.161.5
+lastlocation:
+  world: world
+  x: -38.67621170978396
+  y: 9.0
+  z: 294.69999998807907
+  yaw: 87.10824
+  pitch: -66.426735
+homes:
+  home:
+    world: world
+    x: -73.96233492308092
+    y: 63.0
+    z: 293.7719037635977
+    yaw: -259.415
+    pitch: 23.684858
+logoutlocation:
+  world: world
+  x: 5.551753738826874
+  y: 64.0
+  z: 528.2869661929418
+  yaw: -4.573626
+  pitch: 11.153173

@@ -1,0 +1,163 @@
+# Put here all the commands you want to
+# disable in creative! If you want to
+# enable these commands for specific players
+# give them permission cc.cmd./command_here
+# (e.g. cc.cmd./command1)
+disabled-commands:
+- /command1
+- /command2
+
+# Here you can define which gamemodes you
+# want to disable!
+# You can also create node disabled-gamemodes-worldname
+# and specify disabled gamemodes for each world.
+disabled-gamemodes:
+- ADVENTURE
+- SPECTATOR
+
+# Here you can put blocks or items which you
+# want to disable in creative.
+# List of blocks you can disable can be
+# found on this website
+# https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+# Please pay attention to put the values
+# correctly with uppercase letters.
+# otherwise this feature won''t work
+# and may cause errors!
+disabled-items:
+- TNT
+- BEDROCK
+- skull
+- 441
+
+# Here you can define worlds in which should
+# be the functions of this plugin disabled!
+disabled-worlds:
+- world1
+- world2
+
+# Set to true if you want to prevent
+# creative placed spawners from spawning mobs.
+disable-creative-spawners: true
+
+# Here you can define which permissions wil be'
+# taken when switched to creative mode. e.g essentials.tpa'
+remove-permissions:
+- permissionnode1
+- permission.node.2
+- cc.allow.potion
+- allow.potion
+- essentials.tpa
+
+# Here you can define which permissions wil be'
+# added when switched to creative mode. e.g essentials.tpa'
+add-permissions:
+- permissionnode1
+- permission.node.2
+
+# Here you can set if you want to use
+# sqlite DB or mysql DB
+db-type: sqlite
+
+# Set MySQL address here
+# (only when db type set to mysql)
+db-host: localhost
+
+# Set MySQL server port here
+# (only when db type set to mysql)
+db-port: '3306'
+
+# Set the user login for mysql database
+# (only when db type set to mysql
+db-user: user
+
+# Set user password
+# (only when db type set to mysql)
+db-password: password
+
+# Set MySQL database name
+# (only when db type set to mysql)
+db-database: database
+
+# Set tables prefix here
+# (only when db type set to mysql)
+db-prefix: cc_
+
+# Set message prefix here (supports colors)
+message-prefix: '&4[CC]&c'
+
+# Set to true if you want to enable inventor switching'
+# Set to false to disable it
+inventory-switching: true
+
+# Set to true to enable automatic update checking
+# Set to false to disable it
+check-for-updates: false
+
+# Here you can define after how many creative
+# placed blocks should they be written to database.
+# If this limit is not reached they
+# will be logged after 5 minutes.
+logging-interval: 10
+
+# Here you can define time in seconds for
+# which will be all messages in cooldown
+# before sending them again to the player.
+message-cooldown: 2
+
+# Place here blocks you want to be
+# excluded from being tracked when
+# placed in creative.
+excluded-blocks:
+- DIRT
+- SAND
+
+# Set how many blocks can be stored
+# in memory and the others will
+# be stored in database.
+# set to 0 to disable this memory
+# set to -1 to use only memory.
+block-memory-limit: 10000
+
+# Set how many vehicles can be stored
+# in memory and the others will
+# be stored in database.
+# set to 0 to disable this memory
+# set to -1 to use only memory.
+vehicle-memory-limit: 10000
+
+# Set how many hangings can be stored
+# in memory and the others will
+# be stored in database.
+# set to 0 to disable this memory
+# set to -1 to use only memory.
+hanging-memory-limit: 10000
+
+# Remove or comment out specific
+# features to disable them.
+enabled-features:
+- BlockBreak
+- BlockFall
+- BlockPlace
+- BlockExplode
+- BedrockBreak
+- HangingBreak
+- HangingPlace
+- VehicleCreate
+- VehicleDestroy
+- VehicleMove
+- PlayerArmorStandManipulate
+- PlayerCommandRestrict
+- PlayerBannedItemFromInventory
+- PlayerDamageEntity
+- PlayerDeathNoDrop
+- PlayerDropItem
+- PlayerGamemodeChange
+- PlayerJoin
+- PlayerOpenRestrictedInventory
+- PlayerPickupItem
+- PlayerQuit
+- SpawnerSpawnEntity
+- CreatureSpawn
+- PistonExtend
+- PistonRetract

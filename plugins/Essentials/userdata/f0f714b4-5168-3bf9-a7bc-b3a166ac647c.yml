@@ -1,0 +1,29 @@
+socialspy: false
+lastAccountName: XxOliwiereqxX
+timestamps:
+  login: 1588789509759
+  lastteleport: 1588790662698
+  logout: 1588790786153
+ipAddress: 91.146.227.93
+lastlocation:
+  world: world
+  x: 5.551753738826874
+  y: 64.0
+  z: 528.2869661929418
+  yaw: -2.3931007
+  pitch: 76.04978
+logoutlocation:
+  world: world
+  x: -2879.757156707956
+  y: 77.0
+  z: 3588.774126889774
+  yaw: -112.651
+  pitch: 19.499979
+homes:
+  home:
+    world: world
+    x: -3456.193275815876
+    y: 67.0
+    z: 178.65366886808948
+    yaw: 12.299568
+    pitch: 17.85003
